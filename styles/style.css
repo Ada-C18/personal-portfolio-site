@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-family: poppins;
+    color: #D62900;
+}
+
+
+li {
+    display: inline;
+    margin: 1em;
+}
+
+ul {
+    text-align: center;
+}
+
+body {
+    font-family: poppins;
+    background-color: white;
+}
+
+main {
+    color: #FF9B55;
+}
