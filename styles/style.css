@@ -1,0 +1,55 @@
+
+
+ h1 {
+    color:purple;
+    text-align: center;
+    font:bolder;
+    color:rgb(47, 60, 107);
+    margin-top: 2em;
+    border-style: dashed;
+    border-color: rgb(47, 220, 255);
+    border-width: 10pt;
+
+
+}
+
+body {
+    background-color: orchid;
+}
+
+#links {
+    color:aliceblue;
+    text-align: left;
+}
+em {
+    font-weight:900;
+    font-size: larger;
+}
+
+h2 {
+    text-align: left;
+    font-family:cursive;
+    font-size: larger;
+    
+}
+
+nav {
+    
+    border-width: 3pt;
+    padding: 1pt;
+    text-align: left;
+    
+}
+
+
+li {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+footer {
+    padding: 20pt;
+    text-align: left;
+    
+}
