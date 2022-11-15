@@ -38,6 +38,12 @@ li {
     display: inline;
     margin: 1em;
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
 
 section {
     text-align: center;
@@ -45,6 +51,19 @@ section {
 }
 
 a {
-    color: hotpink;
+    color: lavenderblush;
+    background-color: hotpink;
     font-family: Trattatello, fantasy;
+}
+
+.nav-bar {
+    font-family: cursive;
+    text-align: center;
+    color: lavenderblush;
+    background-color: hotpink;
+    margin: 2em 20em
+}
+
+.home-page {
+    font-size: 75px;
 }
