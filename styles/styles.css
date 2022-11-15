@@ -1,0 +1,28 @@
+header {
+    background-color: #ADD8E6;
+}
+
+h1, nav { 
+    text-align: center; 
+}
+
+body {
+    background-color: rgb(156,175,136);
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #ADD8E6;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+}
+
+h3 {
+    color: purple;
+}
