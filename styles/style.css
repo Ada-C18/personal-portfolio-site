@@ -17,5 +17,8 @@ h1 {
     letter-spacing: -0.3px;
     line-height: 70.4px;
     text-transform: uppercase;
+}
+
+.title {
     color: #8a0616;
 }
