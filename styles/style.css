@@ -5,13 +5,14 @@ h1 {
 }
 
 
-li {
+.main-li {
     display: inline;
     margin: 1em;
 }
 
-ul {
+#main-ul {
     text-align: center;
+    justify-content: space-evenly;
 }
 
 body {
@@ -20,5 +21,48 @@ body {
 }
 
 main {
-    color: #FF9B55;
+    color: #ff6a00;
+    text-align: center;
+
+}
+
+#percy-time {
+    color: #D461A6;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+img{
+    height: 400px;
+    width: 300px;
+    padding: 0 20px;
+    margin-bottom: 50px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+
+}
+
+#percula{
+    background-color: #D62900;
+}
+
+#cardboard{
+    background-color: #FF9B55;
+}
+
+#hanbok{
+    background-color: #D461A6;
+}
+
+#laundry{
+    background-color: #A50062;
+}
+
+footer {
+    color: #A50062
 }
