@@ -1,22 +1,37 @@
+body {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)
+}
+
 h1 {
-    font-family: avenir;
+    font-family: Trattatello, fantasy;
     text-align: center;
-    color: blue;
+    color: ghostwhite;
+}
+
+h2 {
+    font-family: Trattatello, fantasy;
+    text-align: center;
+    color: ghostwhite;
 }
 
 nav {
     width: 100%;
+    text-align: center;
 }
 
 main {
+    font-family: cursive;
     text-align: center;
+    color: lavenderblush;
+    background-color: hotpink;
+    margin: 2em 20em;
 }
 
 footer {
     text-align: center;
     position: absolute;
     bottom: 0;
-    width: 100%
+    width: 100%;
 }
 
 li {
@@ -27,4 +42,9 @@ li {
 section {
     text-align: center;
     margin: 2em 10em;
+}
+
+a {
+    color: hotpink;
+    font-family: Trattatello, fantasy;
 }
