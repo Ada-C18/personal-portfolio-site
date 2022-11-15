@@ -48,7 +48,7 @@ Each page in this project must comply with the following layout requirements:
 - Has the following tags: `<header>`, `<footer>`, and `<nav>`
 - Inside of the `<nav>`, there are links to all of the other pages
 
-## TODO Wave 2 - Styling
+## DONE Wave 2 - Styling
 
 ### Required Content
 

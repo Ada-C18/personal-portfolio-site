@@ -1,0 +1,39 @@
+body {
+    max-width: 60em;
+}
+
+@font-face {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://mdn.github.io/web-fonts/LatoReg.ttf");
+}
+
+header {
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: 2px 2px darkslategrey;
+    background-image: url(/assets/images/juno-jupiter3.jpg);
+    background-size: 60em;
+    color: whitesmoke;
+    padding: 3em 3em 1em 0.5em;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a:link {
+    color: aliceblue;
+}
+
+header ul li a:visited {
+    color: aliceblue;
+}
+
+.content {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+footer {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
