@@ -1,0 +1,34 @@
+.skills-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.skills-assessed-list li {
+    display: list-item;
+}
+
+p {
+    text-align: center;
+}
+
+.project-names {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.project-navigation {
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #2aecbf;
+}
+
+section {
+    background-color: ghostwhite;
+}
