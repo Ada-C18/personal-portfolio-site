@@ -1,0 +1,14 @@
+img {height: 300 px;
+    width: 350 px;}
+
+.projectcontainer {display: grid;
+    grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;}
+
+.projects {
+
+    text-align: center;
+}
+
+.projects:hover {
+    box-shadow: 0 0 2px 1px rgba(50, 51, 52, 0.5);
+}
