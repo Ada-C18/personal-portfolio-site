@@ -6,11 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
+  <link href="/styles/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <h1>Kat's Portfolio</h1>
+    <h2>Kat's Portfolio</h2>
   </header>
   <main>
     <nav>
@@ -23,37 +24,46 @@
         </li>
       </ul>
     </nav>
-    <p>
-      Since beginning my coding journey at Ada, I have completed a number of coding projects to develop my full-stack
-      web development skills.<br><br>
-      I am building expertise in:
-      <ul>
-        <li>Python</li>
-        <li>CS Fundamentals including Big O & Recursion</li>
-        <li>Flask</li>
-        <li>SQL</li>
-        <li>Web APIs</li>
-        <li>HTML & CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-      </ul>
-      I am familiar with software development tools, including:
-      <ul>
-        <li>Git</li>
-        <li>Github</li>
-        <li>VS Code</li>
-        <li>Postman</li>
-      </ul>
-      Project repos where I have practiced with these skills and tools can be found here:
-      <ul>
-        <li><a href = 'https://github.com/kathawkins/viewing-party'>Viewing Party</a></li>
-        <li><a href = 'https://github.com/mell2022/adagrams-py'>Adagrams</a></li>
-        <li><a href = 'https://github.com/kathawkins/swap-meet'>Swap Meet</a></li>
-        <li><a href = 'https://github.com/kathawkins/task-list-api'>Task List API</a></li>
-      </ul>
-    </p>
+    <section id="portfolio">
+      <p>Since beginning my coding journey at Ada, I have completed a number of coding projects to develop my full-stack
+        web development skills. <br></p>
+      <section class = "columns">
+        <div class = "column">
+          <h3>Currently building expertise in:</h3>
+          <ul class = "col_list">
+            <li>Python</li>
+            <li>CS Fundamentals including Big O & Recursion</li>
+            <li>Flask</li>
+            <li>SQL</li>
+            <li>Web APIs</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div class = "column">
+          <h3>Familiar with software development tools, including: </h3>
+          <ul class = "col_list">
+            <li>Git</li>
+            <li>Github</li>
+            <li>VS Code</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+        <div class = "column">
+          <h3>Representative project repos:</h3>
+          <ul class = "col_list">
+            <li><a href = 'https://github.com/kathawkins/viewing-party'>Viewing Party</a></li>
+            <li><a href = 'https://github.com/mell2022/adagrams-py'>Adagrams</a></li>
+            <li><a href = 'https://github.com/kathawkins/swap-meet'>Swap Meet</a></li>
+            <li><a href = 'https://github.com/kathawkins/task-list-api'>Task List API</a></li>
+          </ul>
+        </div>
+      </section>
+      <img class = "foot_me" src = "/images/AI_kat.jpeg">
+    </section>
   </main>
   <footer>
-    <h4> &copy; 2022 Hawkins Inc.</h4>
+    <h4> &copy; 2022</h4>
   </footer>
 </body>
