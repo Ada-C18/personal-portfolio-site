@@ -1,6 +1,6 @@
 .container {
    
-    width: 950x;
+    width: 1900px;
     height: 900px;
     display: grid; 
     grid-template-columns: 1fr 1fr ;
@@ -8,6 +8,17 @@
     
 }
 
+.flex-container {
+   
+    width: 1900x;
+    height: 900px;
+    display: flex; 
+    flex-wrap:nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
  h1{
 
     background-color: pink;
