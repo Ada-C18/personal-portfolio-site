@@ -1,0 +1,68 @@
+h1 {
+    font-family: "sans-serif";
+    text-align: center;
+    color: salmon;
+    margin: 20px;
+}
+
+nav {
+    width: 100%
+}
+
+main, ul {
+    text-align: center;
+}
+
+.unordered-list {
+    display: inline;
+    margin: 1em;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    text-align: center;
+    margin: 2em 10em 2em 10em 
+}
+
+.copy-right {
+    color: grey;
+}
+
+.photo {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.main {
+    /* border: 1px salmon; */
+    color: grey;
+}
+
+.ordered-list {
+    text-align: center;
+    display: inline;
+    margin: 1em;
+}
+
+.border {
+    border-style: dotted;
+    border-color: salmon;
+}
+
+button {
+    background: grey;
+    color: white;
+    font-family: "sans-serif";
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 20px;
+}
