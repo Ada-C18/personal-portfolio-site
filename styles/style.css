@@ -1,0 +1,71 @@
+img {
+    max-width: 40%;
+    height: auto;
+    border: 5px solid #555;
+}
+
+h1 {
+    color:purple;
+    text-align: center;
+}
+
+h2 {
+    color:black;
+    text-align: center;
+}
+
+.intro-para {
+    text-indent: 50px;
+    line-height: 1.5;
+    
+}
+
+
+.hyperlink-github {
+    text-align: center;
+    display: block;
+}
+body {
+    font-family: sans-serif;
+    background-color: #009e9e;
+}
+
+.footer li {
+    display: inline;
+    margin: 1em ;
+
+
+}
+
+
+
+header {
+    text-align: center;
+}
+
+
+
+.header li {
+    display: inline;
+    margin: 1em ;
+
+}
+.centered-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.center{
+    text-align: center;
+}
+
+.projects li {
+    display: inline-block;
+    margin: 1em ;
+
+
+}
+
