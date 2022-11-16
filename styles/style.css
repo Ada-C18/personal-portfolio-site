@@ -17,7 +17,7 @@ footer {
 
 section {
     text-align: center;
-    padding: 1em 10em 1em 10em;
+    padding: 1em 2em 1em 2em;
 }
 
 h1 {
@@ -89,6 +89,8 @@ img {
     line-height: 150%;
     color: rgb(210, 120, 120);
     text-align: justify;
+    margin-left: auto;
+    width: 100%;
 }
 
 .foot_me {
