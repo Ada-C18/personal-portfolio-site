@@ -1,4 +1,30 @@
-h1 {
-    color: orange;
-    font-family: Arial, Helvetica, sans-serif
+html {
+    background-color: lightgoldenrodyellow;
 }
+
+h2 {
+    color: lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: gray;
+    text-align: justify;
+}
+section { 
+    background-color: rgb(244, 243, 251);
+}
+
+.page-title{
+    color: lightcoral;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.links-size{
+    font-size: 1.2em;
+}
+
+#front-page-title {
+  color: teal;
+}
+
+
