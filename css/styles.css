@@ -2,11 +2,9 @@ body {
     max-width: 60em;
 }
 
-@font-face {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 400;
-    src: url("https://mdn.github.io/web-fonts/LatoReg.ttf");
+div.outer {
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -16,6 +14,7 @@ header {
     background-size: 60em;
     color: whitesmoke;
     padding: 3em 3em 1em 0.5em;
+    background-color: black;
 }
 
 header ul li {
@@ -31,9 +30,26 @@ header ul li a:visited {
 }
 
 .content {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: baseline; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(206, 214, 216);
+    padding: 1em 1em 1em 1em;
 }
 
 footer {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.card {
+    background-color: aliceblue;
+    padding: 1em;
+    width: 20%;
+    border: 2px solid rgb(53, 55, 56);
+    border-radius: 3px;
+    min-width: 12em;
+    margin: 1em;
+
 }
