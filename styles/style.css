@@ -4,17 +4,6 @@ html {
     background-color: rgb(153, 60, 60);
 }
 
-header{
-    margin-top: 5em;
-    text-transform: uppercase;
-}
-
-h1 {
-    text-align: center;
-    color: rgb(67, 30, 36);
-    font-size: 60px;
-}
-
 h2 {
     text-align: center;
     color: rgb(67, 30, 36);
@@ -31,9 +20,49 @@ section {
     padding: 1em 10em 1em 10em;
 }
 
+h1 {
+    transform: rotate(-90deg);
+    text-align: center;
+    color: rgb(67, 30, 36);
+    font-size: 80px;
+    margin-left: 5%;
+}
+
+header{
+    text-transform: uppercase;   
+}
 
 /* Home */
-#home {
+#homepage_grid {
+    display:grid;
+    grid-template-areas:
+    "head nav"
+    "head main"
+    "head foot";
+    grid-template-rows: 100px 2fr 100px;
+    grid-template-columns: 200px 3fr;
+    align-items:center;
+    justify-items:center;
+}
+
+#homepage_grid > nav {
+    margin-top: 1em;
+    grid-area: nav;
+}
+
+#homepage_grid > header {
+    grid-area: head;
+}
+
+#homepage_grid > main {
+    grid-area: main;
+}
+
+#homepage_grid > footer {
+    grid-area: foot;
+}
+
+#home_text {
     line-height: 150%;
     color:  rgb(210, 120, 120);
     text-align: center;
@@ -41,10 +70,10 @@ section {
 
 #me {
     display: block;
-    margin: 1em;
+    margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 20em;
     border-radius: 70px;
 }
 
@@ -52,7 +81,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 2%;
+    width: 1em;
 }
 
 /* About Me */
@@ -67,17 +96,15 @@ img {
     margin: 2em;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
-    border-radius: 30px;
+    width: 5em;
+    border-radius: 25px;
     opacity: 0.5;
 }
 
 /* Portfolio */
 .columns {
     display: flex;
-    margin-left: -0.75rem;
-    margin-right: -0.75rem;
-    margin-top: -0.75rem;
+    align-items:flex-start;
 }
 
 .column{
@@ -120,7 +147,7 @@ a:hover {
 
 /* Navigation bar */
 nav {
-    width: 40%;
+    width: 80%;
     margin: 0 auto;
     background: #fff;
     padding: 2px 0;
