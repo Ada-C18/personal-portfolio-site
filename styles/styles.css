@@ -8,15 +8,15 @@ h1 {
 }
 
 
-nav {
+.footer-navigation {
     width: 100%;
 }
 
-ul {
+.footer-navigation ul {
     text-align: center
 }
 
-li {
+.footer-navigation li {
     display: inline;
     margin: 1em;
 }
