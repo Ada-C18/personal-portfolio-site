@@ -35,24 +35,24 @@ We should only use static HTML and CSS for this project. Preprocessors (haml, er
 
 This portfolio site must have the following HTML files:
 
-- `index.html` must include your name somewhere.
+x `index.html` must include your name somewhere.
 
 - `about.html` should include some information about you, your interests, background or similar. Only post what you are comfortable sharing.
 
-- `portfolio.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
+x `portfolio.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
 
 ### Layout
 
 Each page in this project must comply with the following layout requirements:
 
-- Has the following tags: `<header>`, `<footer>`, and `<nav>`
-- Inside of the `<nav>`, there are links to all of the other pages
+x Has the following tags: `<header>`, `<footer>`, and `<nav>`
+x Inside of the `<nav>`, there are links to all of the other pages
 
 ## Wave 2 - Styling
 
 ### Required Content
 
-- Uses at least one CSS file (likely named `style.css`)
+x Uses at least one CSS file (likely named `style.css`)
 
 ## Wave 3 - Layout
 
