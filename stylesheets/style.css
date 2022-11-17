@@ -4,8 +4,11 @@
     
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
-    border-bottom: 1px solid;
     background: #cdfeaa;
     font-style: italic;
 }
@@ -19,12 +22,21 @@ body {
 
 
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: lighter;
     background-color: teal;
     color: white;
     text-align: center;
     text-shadow: darkblue;
+}
+
+img {
+    height: auto;
+    width: 3em
 }
 
 nav {
@@ -71,6 +83,26 @@ nav {
     
 }
 
-.portfolio-box:hover {
+/* .portfolio-box:hover {
     flex-grow: 1;
+} */
+
+.nav-link {
+    color: darkblue;
 }
+
+.nav-link:hover {
+    background-color: gray;
+    color: white;
+}
+
+.nav-icon {
+    height: auto;
+    width: 1em;
+}
+
+.small-nav {
+    display: inline-block;
+    font-size: 1em;
+}
+
