@@ -1,0 +1,4 @@
+
+Software Engineer StudentSoftware Engineer Student
+
+The Core program curriculum teaches full-stack web development allowing students to choose what specialty of software development they want to pursue in their post-Ada careers. The complete curriculum is online and open-source. The front-end and back-end technologies covered include Python, SQL, Flask, HTML/CSS, JavaScript, and Computer Science fundamentals.
