@@ -5,44 +5,83 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/styles/portfolio-style.css" rel="stylesheet">
-  <link href="/images/favicon.ico" rel="icon" type="image/x-icon" />
-  <title>Document</title>
+  <link href="/images/favicon.ico" rel="icon" type="image/x-icon">
+  <title>Portfolio</title>
 </head>
 <body>
-  <header>
-    <h1>Dainiz's Portfolio Page</h1>
-    <nav>
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/pages/about.html">About</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <p>Click on the pictures to go to the project repo!</p>
-    <h2>Solo Projects</h2>
-      <h3>Viewing Party</h3>
-        <p>Image goes here</p>
-        <p>Lorem ipsum</p>
-      <h3>Task List</h3>
-        <p>Image goes here</p>
-        <p>Lorem ipsum</p>
-    <h2>Collaborative Projects</h2>
-      <h3>Adagrams</h3>
-        <p>Image goes here</p>
-        <p>Lorem ipsum</p>
-      <h3>Swap Meet</h3>
-        <p>Image goes here</p>
-        <p>Lorem ipsum</p>
-  </main>
-  <footer>
-    <h2>&copy; 2022</h2>
-    <nav>
-      <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </footer>
+  <div class="container">
+    <header>
+      <h1>Portfolio</h1>
+      <nav>
+        <a href="/index.html" class="button">Home</a>
+        <a href="/pages/about.html" class="button">About</a>
+      </nav>
+    </header>
+    <main>
+      <h2 class="project-heading">Solo Projects</h2>
+        <h3>Viewing Party</h3>
+          <section class="project-info">
+            <img src="/images/viewing-party.png" alt="Green movie tickets">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Eget duis at tellus at urna condimentum mattis pellentesque. At 
+              elementum eu facilisis sed odio morbi quis commodo. Cras ornare arcu 
+              dui vivamus arcu felis bibendum ut. Varius sit amet mattis vulputate 
+              enim. 
+            </p>
+            <a href="#">Check out the repo</a>
+          </section>
+        <h3>Task List</h3>
+          <section class="project-info">
+            <img src="/images/task-list.png" alt="A notebook with a to-do list on it">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Eget duis at tellus at urna condimentum mattis pellentesque. At 
+              elementum eu facilisis sed odio morbi quis commodo. Cras ornare arcu 
+              dui vivamus arcu felis bibendum ut. Varius sit amet mattis vulputate 
+              enim. 
+            </p>
+            <a href="#">Check out the repo</a>          
+          </section>
+      <h2 class="project-heading">Collaborative Projects</h2>
+        <h3>Adagrams</h3>
+          <section class="project-info">
+            <img src="/images/adagrams.png" alt="Green letter tiles">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Eget duis at tellus at urna condimentum mattis pellentesque. At 
+              elementum eu facilisis sed odio morbi quis commodo. Cras ornare arcu 
+              dui vivamus arcu felis bibendum ut. Varius sit amet mattis vulputate 
+              enim. 
+            </p>
+            <a href="#">Check out the repo</a>
+          </section>
+        <h3>Swap Meet</h3>
+          <section class="project-info">
+            <img src="/images/swap-meet.png" alt="A rack of green shirts with pink boxes below">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Eget duis at tellus at urna condimentum mattis pellentesque. At 
+              elementum eu facilisis sed odio morbi quis commodo. Cras ornare arcu 
+              dui vivamus arcu felis bibendum ut. Varius sit amet mattis vulputate 
+              enim. 
+            </p>
+            <a href="#">Check out the repo</a>       
+          </section>
+    </main>
+    <footer class="footer">
+      <h2>&copy; 2022</h2>
+      <nav>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </div>
 </body>
 </html>
