@@ -1,7 +1,12 @@
 /* universal styles */
 * {
-    border: red 1px solid;
+    /* border: red 1px solid; */
     font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
 }
 
 /* Header */
@@ -9,12 +14,6 @@ header {
     /* position: fixed; */
     background-color: white;
     width: 100%;
-}
-
-.header-content {
-    display: flex;
-    align-items: center;
-    /* padding: 1rem; */
 }
 
 header .navbar {
@@ -31,10 +30,6 @@ header .logo {
     font-style: ;
 } */
 
-/* ul, li {
-    list-style: none;
-} */
-
 nav a {
     color: black;
     text-decoration: none;
@@ -42,20 +37,20 @@ nav a {
 
 /* Main */
 .banner {
-    background-image: url(../assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    /* background-image: url(../assets/andrej-lisakov-fGZ2x8wFxC0-unsplash.jpg); */
+    background: #b1cbb3;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 500px;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 main .description {
-    /* display: flex;
+    display: flex;
     flex: 1;
-    flex-direction: column; */
+    flex-direction: column;
     text-align: center;
 }
 
