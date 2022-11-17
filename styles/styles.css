@@ -2,27 +2,37 @@ header {
     background-color: #ADD8E6;
 }
 
-h1, nav { 
-    text-align: center; 
-}
-
 body {
     background-color: rgb(156,175,136);
-}
+    text-align: center; 
 
-ul {
-    list-style: none;
 }
 
 footer {
     background-color: #ADD8E6;
 }
 
-li {
-    display: inline;
-    margin: 10px;
-}
-
 h3 {
     color: purple;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.nav-flex-link{
+    display: flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 20px;
+}
+
+.grid-element {
+    background-color: pink;
 }
