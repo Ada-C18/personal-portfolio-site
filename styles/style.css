@@ -2,11 +2,17 @@ body {
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)
 }
 
+header {
+    background-color: black;
+    height: 100vh;
+}
+
 h1 {
     font-family: Trattatello, fantasy;
     text-align: center;
     color: ghostwhite;
-    font-size: 20em;
+    font-size: 15em;
+    font-size: 15vw;
 }
 
 h2 {
