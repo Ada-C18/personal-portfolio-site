@@ -54,7 +54,7 @@ Each page in this project must comply with the following layout requirements:
 
 - Uses at least one CSS file (likely named `style.css`)
 
-## TODO Wave 3 - Layout
+## DONE Wave 3 - Layout
 
 ### Required Content
 
