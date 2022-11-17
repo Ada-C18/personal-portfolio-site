@@ -94,6 +94,8 @@ a:hover {
     border-radius: 5%;
 }
 
+
+/* Rainbow text animation courtesy Sarah L Fossheim: https://fossheim.io/writing/posts/css-text-gradient/ */
 .gradient-text {
     /* Fallback: Set a background color. */
     background-color: #CA4246;
