@@ -1,7 +1,48 @@
+/* universal styles */
 * {
     border: red 1px solid;
+    font-family: "Open Sans", sans-serif;
 }
 
+/* Header */
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    /* padding: 1rem; */
+}
+
+header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+header .logo {
+    flex: 1;
+}
+/* .logo h3 {
+    font-style: ;
+} */
+
+/* ul, li {
+    list-style: none;
+} */
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Main */
 .banner {
     background-image: url(../assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
 }
+
+/* footer */
