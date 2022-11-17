@@ -1,0 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #00230d;
+    background-color: #cff1c5;
+    background-image: url("/images/noisy-grid.png");
+}
