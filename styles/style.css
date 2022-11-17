@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 400px;
+}
+nav{
+    width: auto;
+    height: auto;
+    background-color: lavenderblush;
+}
+nav > ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavenderblush;
+
+}
+nav > ul > li{
+    border: 2px solid pink;
+}
+nav > ul > li > a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
