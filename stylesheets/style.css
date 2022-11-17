@@ -4,8 +4,6 @@
     
 }
 
-
-
 a:hover {
     border-bottom: 1px solid;
     background: #cdfeaa;
@@ -38,6 +36,7 @@ nav {
 }
 
 
+
 .footer {
     font: small-caps;
     font-size: x-small;
@@ -50,4 +49,28 @@ nav {
 .page-layout {
     display: grid;
     justify-content: space-evenly;
+}
+
+.portfolio-container {
+    display: flex;
+    background-color: teal;
+    height: 75vh;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.portfolio-box {
+    display: flex;
+    /* flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center; */
+    background-color: whitesmoke;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.portfolio-box:hover {
+    flex-grow: 1;
 }
