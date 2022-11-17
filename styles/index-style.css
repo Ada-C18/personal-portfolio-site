@@ -18,10 +18,10 @@ body {
     height: 90vh;
     border-radius: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
     overflow-y: auto;
 }
 
@@ -48,7 +48,7 @@ a {
 }
 
 img {
-    max-width: 40%;
+    max-width: 35%;
     height: auto;
     width: auto;
 }
