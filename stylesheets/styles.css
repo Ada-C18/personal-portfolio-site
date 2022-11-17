@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #F3F2EE;
+}
+  
+/* Header */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+}
+  
+#header-title {
+    margin-right: auto;
+    font-size: 1.5em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+  
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+  
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: .3s all ease-in-out;
+}
+  
+header a:hover, footer a:hover {
+    opacity: .5;
+    border-bottom: solid 2px grey;
+}
+
+header a.active {
+    color: #b2604b;
+    border-bottom: solid 2px #b2604b;
+}
+  
+/* Main */
+main {
+    background-color: light-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+}
+  
+.main-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    position: relative;
+}
+  
+.square {
+    height: 50vh;
+    width: 20vw;
+    border: 1px solid red;
+}
+  
+.square:after {
+    display: block;
+    padding-bottom: 100%;
+}
+  
+/* Footer */
+footer {
+    background-color: grey;
+    color: white;
+    padding: 85px 0 100px 0;
+}
+  
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    position: relative;
+}
+
+#footer-about {
+    max-width: 35%;
+    word-wrap: break-word;
+}
+  
+.footer-content {
+    margin: 10 7.2% 0 0;
+    font-size: .9em;
+}
+  
+.footer-title {
+    font-size: 1.2em;
+    padding-bottom: 10px; 
+}
+  
+ul {
+    list-style-type: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: .3s all ease-in-out;
+}
