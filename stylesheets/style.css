@@ -8,11 +8,13 @@ a {
 }
 
 a:hover {
-    background: #cdfeaa;
+    background:grey;
     font-style: italic;
+    color: white;
 }
 
 body {
+    /* background-size: 100vw; */
     font-family: monospace;
     font-stretch: condensed;
     margin: 5em 5em 5em 5em;
@@ -21,16 +23,14 @@ body {
 
 
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1 {
     font-weight: lighter;
     background-color: teal;
     color: white;
     text-align: center;
     text-shadow: darkblue;
+    border-radius: 10em;
+    padding: 1em;
 }
 
 img {
@@ -41,11 +41,11 @@ img {
 nav {
     width: 100%;
     text-align: center;
-    display: block;
+    padding: 3%;
+    display: inline-block;
     font: small-caps;
     font-size: medium;
 }
-
 
 
 footer {
@@ -57,10 +57,35 @@ footer {
     align-content: center;
 }
 
+section {
+    align-content: center;
+    justify-content: center;
+}
+
+#index-photo {
+    width:100%;
+    height: auto;
+}
+
+#index-page {
+    /* background: linear-gradient(90deg, hsla(219, 100%, 50%, 1) 0%, hsla(228, 100%, 48%, 1) 25%, hsla(229, 100%, 47%, 1) 50%, hsla(232, 100%, 43%, 1) 75%, hsla(234, 100%, 38%, 1) 100%); */
+
+}
+
+
 .page-layout {
     display: grid;
     justify-content: space-evenly;
 }
+
+#aboutme-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    align-items: center;
+}
+
+
 
 .portfolio-container {
     display: flex;
@@ -69,6 +94,7 @@ footer {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 7em;
 }
 
 .portfolio-box {
@@ -89,11 +115,6 @@ footer {
 } */
 
 
-.nav-link:hover {
-    background-color: gray;
-    color: white;
-}
-
 .nav-icon {
     font-size: 2em;
 }
@@ -103,7 +124,6 @@ footer {
 }
 
 .small-nav {
-    display: inline-block;
     font-size: 1em;
 }
 
