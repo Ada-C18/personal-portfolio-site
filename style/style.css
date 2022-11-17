@@ -1,0 +1,131 @@
+html {
+    font-family: "Georgia", serif;
+    font-size: 36px;
+    background-color: #F5F5EF;
+}
+
+title {
+    display: none;
+}
+
+header, footer {
+    font-family: "Palatino", serif;
+    height: 110px;
+    justify-content: space-between;
+    background-color: #FDFDFD;
+    padding: 2.5em;
+    margin: auto;
+}
+
+#logo {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 80px;
+    background-color: #b76e79;
+    color: #0f3b53;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+section {
+    height: 660px;
+    color: #323334;
+    font-size: 38px;
+}
+
+nav {
+    font-size: 34px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    color: #0f3b53;
+    margin: 0 10px;
+}
+
+nav li {
+    width: 250px;
+    text-align: right;
+    text-decoration: none;
+    margin: 3%;
+    float: right;
+    display: inline-block;
+}
+
+a:hover {
+    color: #eadfc1;
+}
+
+.hero-text {
+    font-family: "Palatino", serif;
+    text-align: left;
+    color: #0f3b53;
+    margin-left: 160px;
+    margin-bottom: 200px;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 92px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 66px;
+    font-style: italic;
+}
+
+p {
+    margin: 20px;
+    font-weight:400
+}
+
+.home-sub {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot {
+    width: 500px;
+    height: 500px;
+    border-radius: 10%;
+    margin: 0 20px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 10px;
+    padding: 40px;
+}
+
+.social-footer {
+    color: #0f3b53;
+    display: table;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto
+}
+
+footer ul, footer li {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+    margin: 0 45px;
+}
