@@ -5,10 +5,7 @@ h1 {
 }
 
 
-img {
-    height: 300 px;
-    width: 350 px;
-}
+img:hover {box-shadow: 0 0 2px 1px rgba(50, 51, 52, 0.5);}
 
 nav {
     display:flex;
@@ -18,36 +15,31 @@ nav {
     box-shadow: 0 5px 6px -6px rgb(71, 69, 69);
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
-    /* @media (min-width: 600px){
-        padding: 20px;
-    } */
-    
+    padding: 10px 
 }
 
-
-ul li {
+p.title {text-align: center;}
+ul.topnav li {
     margin-right: 20px;
 }
 
-ul {display:flex;
+ul.topnav {display:flex;
     align-items: center;
     }
 
-
-.projectcontainer {
+ul.projects {
     display: flex;
-    flex-direction: row;
+    min-height: 200px;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    /* text-align:justify; */
 }
 
-.projects {
-    text-align: center;
-}
+ul.projects li {flex:0 0 400px;}
 
-.projects:hover {
-    box-shadow: 0 0 2px 1px rgba(50, 51, 52, 0.5);
-}
-
+#linkedin {
+    color: rgb(159, 121, 121);
+font-weight: bold;}
 
 
 @media (max-width: 700px){
