@@ -36,7 +36,6 @@ footer {
 .Menu li{
     font-size: 2em;
     list-style: none;
-    font-display: inline;
 }
 
 .port-art {
@@ -70,7 +69,7 @@ footer {
     border-radius: 3%;
 }
 
-.button-page button {
+.button-page div {
     background-color: #476098;
     padding: 10px;
     width: 45%;
@@ -78,14 +77,13 @@ footer {
     font-size: 3em;
     border:none;
     display: block;
-    align-items: center;
+    text-align: center;
     font-family: 'Lexend';
 }
 
 .button-page a {
     color:white;
     text-decoration: none;
-    align-self: center;
 }
 
 a:hover {
