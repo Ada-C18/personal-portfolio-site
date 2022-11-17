@@ -16,10 +16,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-button {
-    text-decoration: none;
-}
-
 h1 {
     text-align: center;
 }
@@ -70,7 +66,7 @@ nav {
     color: rgb(95, 75, 75);
     grid-column: 3/5;
     grid-row: 3/4;
-    padding-left:10% ;
+    padding-left: 10%;
     padding-right: 10%;
 }
 
