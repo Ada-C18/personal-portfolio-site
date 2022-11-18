@@ -11,7 +11,6 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-color: #eaffe8;
   width: 90vw;
@@ -32,10 +31,29 @@ header {
   align-self: start;
 }
 
-footer {
-  grid-area: 6 / 1 / 7 / 5;
-  align-self: end;
-  justify-self: stretch;
+h1 {
+  font-size: 24px;
+  margin-top: 2em;
+}
+
+.button {
+  background-color: #91c190;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 20px;
+  color: #002d17;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.button:hover {
+  background-color: #cff1c5;
+  color: #002311;
 }
 
 #profile-pic {
@@ -69,6 +87,15 @@ img {
 
 .bio p:nth-child(3) {
   margin: 1em;
+}
+
+h4 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.styled {
+  margin-top: -1px;
 }
 
 .personality {
@@ -105,18 +132,14 @@ img {
   content: "🌸 ";
 }
 
-h1 {
-  font-size: 24px;
-  margin-top: 2em;
+footer {
+  grid-area: 6 / 1 / 7 / 5;
+  align-self: end;
+  justify-self: stretch;
 }
 
-a {
-  color: #005802;
-  text-transform: uppercase;
-}
-
-a:hover {
-  color: #91c190;
+#copy-right-info {
+  font-size: 100%;
 }
 
 nav ul li {
@@ -126,35 +149,11 @@ nav ul li {
   text-align: right;
 }
 
-.button {
-  background-color: #91c190;
-  padding: 10px 32px;
-  border: none;
-  border-radius: 20px;
-  color: #002d17;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  text-transform: lowercase;
-  display: inline-block;
-  margin: 0.5em;
-}
-
-.button:hover {
-  background-color: #cff1c5;
-  color: #002311;
-}
-
-#copy-right-info {
-  font-size: 100%;
-}
-
-h4 {
+a {
+  color: #005802;
   text-transform: uppercase;
-  margin-bottom: 0;
 }
 
-.specific {
-  margin-top: -1px;
+a:hover {
+  color: #91c190;
 }
