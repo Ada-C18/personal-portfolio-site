@@ -259,8 +259,8 @@ p {
 /* Portfolio Page Main */
 .project-description {
   margin-bottom: 20px;
-  margin-top: 0px;
-  font-size: 0.8em;
+  margin-top: 5px;
+  font-size: 0.7em;
 }
 
 .project-technologies {
