@@ -21,3 +21,11 @@ body {
 ul {
     list-style: none;
 }
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: white;
+}

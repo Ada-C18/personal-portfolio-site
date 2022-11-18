@@ -1,0 +1,35 @@
+img {
+    width: 4in;
+    height: 3in;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#intro {
+    font-size: x-large;
+    font-weight: bold;
+    color: coral;
+}
+
+.pic-intro {
+    font-size: larger;
+    font-weight: bolder;
+    color:darkred;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+ul li {
+grid-column-start: 1fr;
+}
+
+header {
+    text-align: center;
+}
