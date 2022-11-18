@@ -8,10 +8,8 @@ nav {
     background-color: bisque;
     font-size: 120%;
     font-style:oblique;
-}
-
-img {
-    width: 24%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #course-list li {
