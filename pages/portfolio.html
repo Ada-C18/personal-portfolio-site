@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../stylesheets/styles.css">
   <title>Document</title>
 </head>
-<body>
-  
+
+<body id="portfolio-body">
+  <div class="container">
+  <!--Navigation Bar-->
+  <nav class="nav-bar">
+    <ul>
+      <li class="logo">RL</li>
+      <li>
+        <a href="./index.html">Back to Main Page</a>
+      </li>
+      <li>
+        <a href="./about.html">About Me</a>
+      </li>
+      <li>
+        <a href="https://github.com/rose-codes">GitHub</a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/rhle">LinkedIn</a>
+      </li>
+    </ul>
+  </nav>
+  <!--Navigation Bar Ends-->
+  <!--Portfolio Body Starts-->
+  <section class="portfolio-container">
+    <!--Portfolio Top Start-->
+    <section id="portfolio-header-section">
+      <header class="portfolio-header">
+        <h1 class="portfolio-header" id="portfolio-title">Rose's Portfolio</h1>
+        <h2 class="portfolio-header" id="portfolio-featured-projects">Featured Projects</h2>
+        <p class="portfolio-header" id="portfolio-description">A collection of my projects from Ada Developers Academy
+        </p>
+      </header>
+    </section>
+    <!--Portfolio Top End-->
+    <!--Projects Section-->
+    <section class="projects" id="projects-section">
+      <div class="project" id="task-list-project">
+        <h3 class="project-text">Task List</h3>
+        <h4 class="project-text">Technologies: Python3, Flask, SQLAlchemy, Heroku</h4>
+        <p class="project-text">Task List API was a project where I created a Flask backend and connected it to a
+          PostgreSQL database.
+          The app was deployed with Heroku </p>
+        <a class="project-text btn" href="https://github.com/rose-codes/task-list-api">Task List Repo</a>
+      </div>
+      <div class="project" id="solar-system-project">
+        <h3 class="project-text">Solar System</h3>
+        <h4 class="project-text">Technologies: Python3, Flask, PostgreSQL, SQLAlchmey, Heroku</h4>
+        <p class="project-text">Adagrams was a project where I utilized Python3 to create functions to handle anagrams.
+        </p>
+        <a class="project-text btn" href="https://github.com/rose-codes/solar-system-api">Solar System Repo</a>
+      </div>
+      <div class="project" id="adagrams-project">
+        <h3 class="project-text">Adagrams</h3>
+        <h4 class="project-text">Technologies: Python3</h4>
+        <p class="project-text">Adagrams was a project where I utilized Python3 to create functions to handle anagrams.
+        </p>
+        <a class="project-text btn" href="https://github.com/rose-codes/adagrams-py">Adagrams Repo</a>
+      </div>
+      <div class="project" id="viewing-party-project">
+        <h3 class="project-text">Viewing Party</h3>
+        <h4 class="project-text">Technologies: Python3</h4>
+        <p class="project-text">Viewing Party was a project where I utilized Python3 to create functions to modify data,
+          addinga and removing data from lists, and make recommendations for movies.</p>
+        <a class="project-text btn" href="https://github.com/rose-codes/viewing-party">Adagrams Repo</a>
+      </div>
+    </section>
+  </section>
+  <!--Projects Section End-->
+  <!--Portfolio Body End-->
+  <!--Footer-->
+  <footer class="footer">
+    <p>If you're reading this, hey! I'm not quite sure what to put in the footer. I think this is fine for now!</p>
+  </footer>
+  </div>
 </body>
+
 </html>
