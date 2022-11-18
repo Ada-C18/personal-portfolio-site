@@ -148,7 +148,7 @@ footer {
     }
 }
 
-@media(max-width: 1440px) {
+/* @media(max-width: 1440px) {
     p {
         display: block;
         text-align: center;
@@ -161,4 +161,4 @@ footer {
         margin: 0px 0px 0px 0px;
         padding: 0px;
     }
-}
+} */
