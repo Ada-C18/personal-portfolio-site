@@ -109,8 +109,6 @@ div {
   padding:15px;
   width: 605px;
   justify-content: space-between;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 /* IMAGE ON RIGHT */
