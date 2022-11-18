@@ -26,10 +26,3 @@ footer a {
     grid-template: 1fr 1fr / 1fr 1fr;
 }
 
-ul li {
-grid-column-start: 1fr;
-}
-
-header {
-    text-align: center;
-}

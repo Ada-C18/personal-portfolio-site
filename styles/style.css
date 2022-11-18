@@ -1,8 +1,13 @@
+a {
+    color: blue;
+}
 
-header {
-    border:2pt black;
-    background-color:cornsilk;
-    color: chocolate;
+a:hover {
+    color: white;
+}
+
+body {
+    font-family: Arial;
 }
 
 footer {
@@ -10,22 +15,21 @@ footer {
     background-color:burlywood;
 }
 
+footer h2 {
+    font-size: medium;
+}
+
+header {
+    border:2pt black;
+    background-color:cornsilk;
+    color: chocolate;
+    text-align: center;
+}
+
 main {
     background-color:blanchedalmond;
 }
 
-body {
-    font-family: Arial;
-}
-
 ul {
     list-style: none;
-}
-
-a {
-    color: blue;
-}
-
-a:hover {
-    color: white;
 }

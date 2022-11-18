@@ -1,0 +1,26 @@
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main p {
+    font-weight: bolder;
+    color: darkred;
+}
+
+img {
+    width: 3in;
+    height: 2in;
+    }
+
+.pic-intro {
+    font-size: medium;
+    font-weight: bolder;
+    color:coral;
+}
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
