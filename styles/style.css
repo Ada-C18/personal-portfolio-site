@@ -9,6 +9,23 @@
     justify-content: space-evenly;
 }
 
+.container-c {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: bisque;
+    font-size: 120%;
+    font-style:oblique;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 footer {
     background-color: antiquewhite;
+}
+
+img {
+    width: 20%;
 }
