@@ -1,0 +1,148 @@
+a{
+    color: bisque;
+    font-size: 2rem;
+}
+
+.about{
+    position: absolute;
+    color: bisque;
+    font-size: 1.4rem;
+    background-color:rgb(21, 11, 128);
+    border-radius: 25px;
+    text-align: center;
+    top: 350px;
+    left: 40px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.about-2{
+    position: absolute;
+    color: bisque;
+    font-size: 1.4rem;
+    background-color:rgb(21, 11, 128);
+    border-radius: 25px;
+    top: 350px;
+    text-align: center;
+    left: 1220px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.about:hover {
+    background-color: rgb(0,1,33)
+}
+
+.about-2:hover {
+    background-color: rgb(0,1,33)
+}
+
+body {
+    font-family: Garamond;
+    background-color: bisque;
+}
+
+.container{ 
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color: bisque;
+    width: 250px;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer{
+    text-align: center;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-auto-rows: minmax(250px,auto); 
+    border-radius: 20px;
+    padding: 20px;
+    grid-row-gap: 40px;
+    grid-column-gap: 30px;
+    position: absolute;
+    top: 350px;
+    left: 175px; 
+}
+
+.grid-item{
+    color: bisque;
+    border: 5px solid;
+    border-color: bisque;
+    font-size: 1.42rem;
+    text-align: left;
+    text-shadow: 2px 2px 2px black;
+    padding: 2.5px;
+    padding-right: 12px;
+
+}
+
+.grid-item:hover {
+    background-color: rgb(158, 86, 168);
+}
+
+h1 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 5rem;
+    color: bisque
+}
+
+
+
+
+header {
+    font-family: Lucida Bright;
+    text-decoration: none;
+    position: absolute;
+    top: 40px;
+    left: 615px;
+}
+
+
+header a{
+    font-size: 2.2rem;
+    text-decoration: none;
+    padding: 8px;
+    display: inline;
+    color:bisque;
+    position: relative;
+    top: -25px;
+    left: 65px;
+    font-weight: bolder;
+    background-color: rgb(93, 103, 109);
+    border-radius: 3px;
+    text-align: center;
+}
+
+header a:hover{
+    border: 3px solid;
+    border-color: rgb(65, 60, 80);
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+
+p {
+    line-height: 155%;
+}
+
+.page-titles {
+    text-shadow: 2px 2px 2px black;
+}
+
+ul {
+    list-style: none;
+}
+
