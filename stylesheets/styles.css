@@ -187,30 +187,7 @@ h1 {
   color: #b2604b;
 }
 
-.project-description {
-  margin-bottom: 20px;
-  margin-top: 0px;
-  font-size: 0.8em;
-}
-
-.project-technologies {
-  display: flex;
-  padding-right: 20px;
-  column-gap: 15px;
-  font-size: 0.8em;
-  list-style-type: none;
-  margin-top: auto;
-}
-
-/* .main-content {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  max-width: 1000px;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: center;
-} */
+/* About Page Main */
 
 .about-sidebar img {
   padding-bottom: 20px;
@@ -270,6 +247,25 @@ p {
   padding-left: 20px;
   color: #a5a5a5;
 }
+
+/* Portfolio Page Main */
+
+.project-description {
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 0.8em;
+}
+
+.project-technologies {
+  display: flex;
+  padding-right: 20px;
+  column-gap: 15px;
+  font-size: 0.8em;
+  list-style-type: none;
+  margin-top: auto;
+}
+
+/* Contact Page Main */
 
 .contact-form {
   display: grid;
