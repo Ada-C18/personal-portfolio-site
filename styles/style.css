@@ -37,11 +37,30 @@ li {
     margin: 1em 3em;
 }
 
+h4 {
+    color: cadetblue;
+    font-family: Palatino;
+}
+
+img {
+    width: 300px;
+    border-radius: 25px;
+}
+
+img:hover {
+    border: 3px dashed cadetblue;
+}
+
 .welcome-message {
     text-align: center;
     font-family: Big Caslon;
     color: darkslategray;
     margin: 5em 15em;
+}
+
+.gif {
+    width: 480px;
+    height: 270px;
 }
 
 .container {
@@ -96,12 +115,6 @@ li {
     width: 90%;
 }
 
-
-h4 {
-    color: cadetblue;
-    font-family: Palatino;
-}
-
 .bio {
     text-align: center;
     font-family:Big Caslon;
@@ -112,16 +125,7 @@ h4 {
     color: darkslategray;
 }
 
-img {
-    width: 300px;
-    border-radius: 25px;
-}
-
-img:hover {
-    border: 3px dashed cadetblue;
-}
-
-.responsive-gallery {
+.image-gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -135,4 +139,9 @@ img:hover {
     text-align: center;
     font-family: Didot;
     color: seagreen;
+}
+
+iframe + p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
 }
