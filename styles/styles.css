@@ -19,6 +19,11 @@ h1 {
 .footer-navigation li {
     display: inline;
     margin: 1em;
+    font-family: Tahoma;
+}
+
+.footer-navigation li:hover {
+    background-color: rgb(241, 75, 130);
 }
 
 .container {
@@ -48,6 +53,10 @@ h1 {
     font-family: Brush Script MT;
 }
 
+.navigation-links li:hover {
+    background-color: yellow;
+    width: 25%
+}
 
 .main-body {
     grid-column: 2 / 4;
