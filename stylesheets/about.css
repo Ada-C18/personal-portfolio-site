@@ -4,14 +4,26 @@
 
 .aboutme-container {
     display: grid;
-    grid-template: 1px 1fr 1fr / 1fr 2fr 1fr;
+    grid-template: 1px 1fr 1fr 1fr/ 1fr 2fr 1fr;
     grid-template-areas: 
         ". pc ."
-        "tb pc bb"
-        ". pc .";
-    column-gap: 10px;
-    border: 2px dashed red;
-    /* justify-content: space-evenly; */
+        "lb pc rb"
+        "lb pc rb"
+        "lb pc ft";
+}
+
+.contentbox {
+    align-self: top;
+}
+
+.footerbox {
+    grid-area: ft;
+    text-align: end;
+}
+
+.leftbox {
+    grid-area: lb;
+    margin-left: 10%;
 }
 
 .pic-box {
@@ -19,16 +31,8 @@
     align-self: end;
 }
 
-.topbox {
-    grid-area: tb;
-    text-justify: right;
-}
-
-.bottombox {
-    grid-area: bb;
-}
-
-.contentbox, main div{
-    border: 5px dotted rgb(0,0,205);
-    align-self: center
+.rightbox {
+    grid-area: rb;
+    text-align: right;
+    margin-right: 10%;
 }

@@ -14,20 +14,24 @@ a:hover {
 }
 
 body {
-    /* background-size: 100vw; */
-    font-family: monospace;
+    font-family: "Veranda" sans-serif;
     font-stretch: condensed;
-    margin: 5em 5em 5em 5em;
-    /* background: linear-gradient(90deg, rgb(8, 48, 94), rgb(120, 104, 110), rgb(94, 154, 164), rgb(226, 186, 120)); */
+    margin: 0 2em;
+}
+
+footer {
+    font-family: Noto Sans;
+    font-size: xx-small;
+    padding: 2em;
 }
 
 h1 {
-    font-weight: lighter;
+    font-family: Oswald, sans-serif;
     background-color: rgb(0,0,205);
     color: white;
     text-align: center;
     border-radius: 10em;
-    padding: 1em;
+    padding: .5em;
 }
 
 img {
@@ -36,6 +40,7 @@ img {
 }
 
 nav {
+    font-family: Noto Sans;
     width: 100%;
     text-align: start;
     padding: 3%;
@@ -44,25 +49,14 @@ nav {
     font-size: small;
 }
 
-
-footer {
-    font-size: x-small;
-    padding: 2em;
-    /* border: 1em dotted rgb(0,0,205);
-    border-radius: 10em;
-    display: inline-block; */
-}
-
 section {
     align-content: center;
     justify-content: center;
 }
 
-.page-layout {
-    display: grid;
-    justify-content: space-evenly;
+ul {
+    list-style: none;
 }
-
 
 .nav-icon {
     font-size: 2em;
