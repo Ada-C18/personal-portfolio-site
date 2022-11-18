@@ -137,24 +137,26 @@ section{
   column-gap: 100px;
   padding-bottom:40px;
   padding-right: 10px;
-  padding-left:300px;
+  padding-left:150px;
+  color: yellowgreen;
+  font-size: 1.5rem;
 }
 .text1{
-  height: 500px;
+  height: 380px;
   width: 800px;
-  padding-bottom: 50px;
   /* border: 1px red solid; */
   text-align: left;
 }
 .text2{
   height: 400px;
   width: 800px;
-  padding-bottom: 50px;
   /* border: 1px red solid; */
 }
 .text3{
   height: 400px;
   width: 800px;
-  padding-bottom: 50px;
   /* border: 1px red solid; */
+}
+article embed{
+  color: chocolate;
 }
