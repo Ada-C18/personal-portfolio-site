@@ -23,34 +23,17 @@ body {
 .container {
     max-width: 850px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    /* background-color: rgb(228, 39, 200); */
 }
 
 /* Header */
 
-/* header{
-    color: darkslategrey;
-    padding: 20px 0;
-    margin-bottom: 40px;
-    text-transform: uppercase;
-    border-bottom: 2px solid #b0e0ea;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 250px;
-    font-family: Montserrat,Helvetica,Arial,sans-serif;
-    font-weight: 500;
-} */
-
 header{
     color: black;
-    padding: 15px 0;
+    padding: 10px 0;
     text-transform: uppercase;
     border-bottom: 1px solid #cfd2d2;
     display: flex;
@@ -59,7 +42,6 @@ header{
 
 header nav ul {
     display: flex;
-    /* align-items: baseline; */
     justify-content: center;
     list-style-type: none;
     
@@ -75,44 +57,29 @@ header nav li {
 
 .name {
     border: none;
-    /* background-color: #693f7e; */
-    /* padding: 8px 25px; */
     text-transform: uppercase;
     font-weight: 800;
     cursor: pointer;
-    /* border-radius: 1.25rem; */
-    /* background-color: #51bb7b; */
 }
 
 
 
-/* Main photo + name */
+/* Main */
 .main_header {
     color: #9f9c9c;
-    padding: 20px 0;
-    margin-bottom: 40px;
+    padding: 10px 0;
+    margin-bottom: 30px;
     border-bottom: 1px solid #cfd2d2;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(238, 238, 238, 0.5);
-    /* justify-content: space-between; */
 }
 
 .main_header_img {
-    /* display: flex; */
-    
     width: 100px;
-    height: 120px;
-    
+    height: 120px;  
 }
-/* .main_header_text { 
-    display: flex;
-    justify-content: center;
-    width: 800px;
-    height: 100px;
-    background-color: rgb(238, 238, 238, 0.5);
-} */
 
 .main_header_text p {
     text-align: center;
@@ -132,7 +99,6 @@ header nav li {
 
 }
 
-
 /* Main Section */
 
 .wrapper {
@@ -143,22 +109,16 @@ header nav li {
     flex: 3;
 }
 
-.main h2 {
-    font-size: 32px;
-    margin: 1rem 0;
-    color: #50c6db;
-}
-
 .main p {
-    font-size: 0.92rem;
-    margin-bottom: .75rem;
+    font-size: 0.90rem;
+    margin-bottom: .05rem;
     margin-left: 5px;
 }
 
 /* Sidebar */
 
 .sidebar {
-    padding: 20px;
+    padding: 5px;
     flex: 1;
     margin-left: 60px;
     border-top: 1px solid #cfd2d2;
@@ -168,7 +128,6 @@ header nav li {
 .sidebar_contacts, #skills {
     padding: 20px;
     flex: 1;
-    /* margin-right: 10px; */
     border-top: 1px solid #cfd2d2;
     background-color: #fbfbfb;
 }
@@ -196,7 +155,6 @@ footer {
     padding: 20px 0;
     margin-top: 60px;
     padding: 20px 0;
-    /* background-color: #9f9c9c; */
     border-top: 1px solid #cfd2d2;
 }
 
