@@ -115,7 +115,7 @@ a:hover p {
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgb(34, 21, 12);
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 35px;
+    font-size: 2.5vw;
     margin: 0px 0px 0px 0px;
     padding: 0px;
 
@@ -144,5 +144,12 @@ footer {
         grid-template-columns: 1fr;
         width: 75%;
         margin: 0px 0px 0px 100px;
+        float: center;
+    }
+}
+
+@media(max-width: 1440px) {
+    p {
+        display: block;
     }
 }

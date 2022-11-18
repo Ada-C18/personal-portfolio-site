@@ -102,13 +102,15 @@ div {
 }
 
 
-/* MAKING TWO SEPEARTE BOXES WITHING FLEX BOX */
+/* MAKING TWO SEPEARTE BOXES WITHIN FLEX BOX */
 .box {
   border: 5px solid rgb(5, 53, 27);
   background-color: rgb(55, 93, 72);
   padding:15px;
   width: 605px;
   justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* IMAGE ON RIGHT */
@@ -129,4 +131,18 @@ footer {
 .copyrighttext {
   float: right;
   padding-right: 15px;
+}
+
+@media (max-width: 1024px) {
+  img{
+    float: center;
+    position: relative;
+  }
+}
+
+@media (max-width: 1024px) {
+  .box {
+    float: center;
+    position: relative;
+  }
 }
