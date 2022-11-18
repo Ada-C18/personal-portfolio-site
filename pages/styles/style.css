@@ -1,0 +1,124 @@
+a:link {
+    text-align: center;
+    color:darkorange;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:darkorange;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+nav.git a:visited {
+    color: black;
+}
+
+body {
+    line-height: 150%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    background-color:antiquewhite;  
+}
+
+.contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    color:black;
+}
+
+.contact_home {
+    margin-top: 19%;
+}
+
+.container {
+    text-align: center;
+    color: black;
+}
+
+header {
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 81, 103)
+}
+
+h3 {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+h5 {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(1, 81, 103);
+}
+
+.links {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+nav {
+    text-align: center;
+    color:black; 
+}
+
+
+li {
+    text-align: left;
+    color: black;
+    list-style-position:initial;
+}
+
+#welcome {
+    margin-top: 50px;
+    margin-bottom: 350px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(1, 81, 103);
+}
+
+.home {
+    margin-top: 5%;
+}
+
+.return_home {
+    margin-top: 9%;
+}
+
+.nav_home {
+    margin-top: 25%;
+}
+
+.table { 
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-wrap:wrap;
+    flex: 3;
+    justify-content:space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    align-items: center;
+    overflow: scroll;
+    outline-color: black;
+}

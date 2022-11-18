@@ -1,0 +1,8 @@
+function doGet() {
+    return HtmlService.createHtmlOutputFromFile('index');
+}
+
+function saveData(data) {
+    var sheet = SpreadsheetApp.getActiveSheet();
+    sheet.appendRow(data);
+}

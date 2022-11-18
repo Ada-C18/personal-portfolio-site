@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <base target="_top">
+    <?!= include("JavaScript"); ?>
+</head>
+<body>
+    <header>
+    <h1>
+        Contact Information
+    </h1>
+    </header>
+    <main>
+    <h3 class="contact">
+        Email: cadette.tanil@gmail.com<br>
+        Phone: 646-713-5210
+    </h3>
+    <div class="container">
+        <br>
+        <h2>Comments</h1>
+        <br>
+        <div id="form">
+          <form>
+            <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control form-data" id="Name">
+            </div>
+            <div class="form-group">
+              <label for="Email">Email</label>
+              <input type="text" class="form-control form-data" id="Email">
+            </div>
+            <div class="form-group">
+              <label for="Response">Response</label>
+              <input type="text" class="form-control form-data" id="Response">
+            </div>
+            <button type="button" class="btn btn-primary" onclick="send_data()">Submit</button>
+          </form>
+        </div>
+        <div id="completion-msg" style="display: none;">
+            Thank you for completing this form!
+        </div>
+
+        <script>
+            function send_data(){
+            var form_data = document.getElementsByClassName("form-data");
+            var i;
+            var data = [];
+            for(i=0; i<form_data.length; i++){
+                data.push(form_data[i].value);
+            }
+            google.script.run.saveData(data); 
+            document.getElementById("form").style.display = "none"; 
+            document.getElementById("completion-msg").style.display = "block"; 
+            }
+        </script>
+    </main>
+    <footer class="contact_home">
+    <nav>
+        <a href = "index.html">Home</a>
+    </nav>
+    </footer>
+</body>
+</html>
