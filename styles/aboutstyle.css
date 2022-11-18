@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-container {
+display: flex;
+color: rgb(255, 250, 223);
+gap: 720px;
+align-items: center;
+padding: 20px;
+}
+#back a {
+color:rgb(255, 250, 223);
+font-size: 1em;
+text-decoration: none;
+}
+
+#back a:hover {
+color: rgb(188, 188, 235);
+}
+
+#back a:visited {
+color: brown;
+
+}
+
+#contact a {
+color:rgb(255, 250, 223);
+font-size: 1em;
+text-decoration: none;
+}
+
+#contact a:hover {
+color: rgb(188, 188, 235);
+}
+
+#contact a:visited {
+color: brown;
+}
+
+img {
+border-radius: 8px;
+max-height: 250px;
+max-width: 250px;
+width: 400px;
+height: 400px;
+display: flex;
+padding: 50x;
+margin: auto;
+width: 640px;
+padding: 0.5in;
+}
+
+h2 {
+color: rgb(255, 250, 223);
+text-align: center;
+font-size: 2em;
+}
+
+
+#page h4 {
+color: rgb(255, 250, 223);
+align-items: left;
+}
+
+.main-body {
+display: grid;
+margin: auto;
+/* margin-top: calc(20-vh - 80px); */
+width: 500px; height: 200px;
+/* grid-template-columns: 1fr; */
+}
+p {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(255, 250, 223);
+text-align: center;
+font-size: 1em;
+}
+
+.skills {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(255, 250, 223);
+text-align: center;
+}
+
+.skill-list-flex {
+display: flex;
+color: rgb(255, 250, 223);
+justify-content: center;
+align-items: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+list-style: none;
+align-items: center;
+gap: 20%;
+}
+
+.foot-container {
+text-align: center;
+padding: 20px;
+}
+.foot-container a {
+color: rgb(255, 250, 223);
+color:rgb(255, 250, 223);
+font-size: 1em;
+text-decoration: none;
+
+}
+
+.foot-container a:hover {
+color:rgb(188, 188, 235)
+}
+
+.foot-container a:visited {
+color: brown;
+}
