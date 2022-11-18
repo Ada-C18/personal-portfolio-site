@@ -68,18 +68,18 @@ h1 {
 }
 
 /* Main */
-main {
+/* main {
     background: #d2e6d4;
-    /* background-image: url(../assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg); */
-    /* background-repeat: no-repeat;
+    background-image: url(../assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;  */
-    /* display: flex; */
-}
+    background-size: cover; 
+} */
 
 .banner {
-    /* background: #d2e6d4; */
+    background: #62A8AC;
     min-height: 500px;
+    /* min-height: 50vh; */
     /* flex: 1; */
     justify-content: center;
     text-align: center;
@@ -100,6 +100,58 @@ main .description {
     color:rgba(51, 51, 51, 0.783);
 }
 
+/* Projects Section */
+/*  info section  */
+.info {
+    background: #d2e6d4;
+}
+
+.info .container {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 200px;
+}
+
+.project-img {
+    height: 150px;
+    width: 150px;
+    border: thick solid #3882f6;
+    border-radius: 8px;
+}
+
+.info h2 {
+    color: #1F2937;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.project p {
+    color: rgba(51, 51, 51, 0.783);
+    font-size: 14px;
+    text-align: center;
+}
+
 /* Contact Section */
 #contact {
     /* background: #b1cbb3; */
@@ -107,6 +159,7 @@ main .description {
     background-color: #020402;
     color: #E5E7EB;
     display: flex;
+    min-height: 150px;
     justify-content: space-between;
     padding: 10px 80px;
 }
@@ -144,7 +197,7 @@ i:hover {
     /* background-color: rgba(13, 27, 46, 0.94); */
     background-color: #020402;
     display: block;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
