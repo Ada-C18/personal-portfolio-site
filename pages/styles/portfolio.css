@@ -3,14 +3,9 @@
     grid-template-columns: repeat(4, 300px);
     grid-template-rows:  250px 250px;
     justify-items: center;
-    /* justify-content: stretch; */
-    /* align-items: start; */
     grid-template-areas:
     "header header header header"
     "content content1 content2 content3"
-    /* grid-auto-rows: minmax(150px, auto); */
-    /* grid-gap: 20px;
-    align-items: stretch; */
 }
 
 #grid-container {
@@ -19,8 +14,6 @@
     background-color: white;
 }
 
-/* makes grid item 1 take up header space */
-/* spans 2 columns */
 #item1 {
     grid-column: span 3;
     grid-area: header;
@@ -66,9 +59,6 @@
 }
 
 header {
-    /* position: static; */
-    /* left: 700px;  */
-    /* width: 80%; */
     height: 18vh;
     background: white;
     margin-top: -5%;
@@ -77,14 +67,7 @@ header {
 .links {
     font-size: 25px;
 }
-/* nav {
-    display: flex;
-    width: 70%;
-    margin: auto;
-    padding: 30px 0;
-    align-items: center;
-    justify-content: space-between;
-}  */
+
 
 /* home/contact buttons */
 nav ul li {
@@ -110,11 +93,6 @@ h4 {
     text-align: right;
 }
 
-/* nav a {
-    font-weight: bold;
-    font-size: 25px;
-    text-align: center;
-} */
 
 #item2 a {
     background: #c6fbf9;

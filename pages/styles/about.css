@@ -1,7 +1,5 @@
 
 * {
-    margin: 10px;
-    padding: 10px;
     font-family: sans-serif;
 }
 
@@ -12,55 +10,36 @@ header {
     order: 2;
     flex-direction: column;
     flex-shrink: 0;
-
     width: 200px; 
-    /* height: 300px; */
     align-self: flex-start;
-
-    /* align-content: center; */
     margin: 40px;
-    /* margin-top: 5px; */
 }
 
 
 h3 {
     justify-content: center;
     display: flex;
-    /* height: 300px; */
-    flex-shrink: 0;
     order: 3;
     flex-direction: column;
     flex-shrink: 0;
-    /* width: 100%; */
     width: 600px; 
     flex-grow: 2;
     flex-wrap: wrap;
-    height: 400px;
-
+    height: 80px;
     align-content: space-between;
-
-    margin: 40px;
-    /* margin-top: 5px; */
+    margin: 50px 50px 50px 250px;  
 }
 
 nav {
+    bottom: 250px;
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 150px;
-    height: 650px;
     font-size: 25px;
     position: relative;
-    left: 700px;
+    left: 740px;
     width: 500px;
-    margin: 10px 10px;
     margin: auto; 
-    justify-content: space-between;
-    /* padding: 30px 0; */
-    flex-grow: 1;
-    align-self: flex-end;
-    flex-wrap: wrap;
     order: 1;
-
 }
 
 
@@ -81,24 +60,20 @@ nav a:hover{
 }
 
 h1 {
-    margin-left: 6%;
+    font-size: 100px;
+    color: #c6d0fb;
+    margin-bottom: 10px;
+    color: #ffebe0;
+    margin-left: 5%;
     margin-top: 13%;
 }
 
-h1 {
-    font-size: 90px;
-    color: #c6d0fb;
-    margin-bottom: 10px;
-}
-
-h1{
-    color: #ffebe0;
-}
 
 h3 {
     color: rgb(188, 206, 251);
     font-weight: bold;
-    text-align: right;
+    text-align: center;
+    font-size: 20px; 
 }
 
 h4 {
