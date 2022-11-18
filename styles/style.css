@@ -1,0 +1,23 @@
+
+header {
+    border:2pt black;
+    background-color:cornsilk;
+    color: chocolate;
+}
+
+footer {
+    border:2pt black;
+    background-color:burlywood;
+}
+
+main {
+    background-color:blanchedalmond;
+}
+
+body {
+    font-family: Arial;
+}
+
+ul {
+    list-style: none;
+}

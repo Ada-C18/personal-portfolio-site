@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+}
+
+#my-pic {
+    border-radius: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+.logos {
+    width: .3in;
+    height: .3in;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#outro {
+    font-weight: bold;
+    color: brown;
+    font-size: x-large;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: burlywood;
+}
