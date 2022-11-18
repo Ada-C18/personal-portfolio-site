@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 
 * {
   margin: 0;
@@ -27,7 +26,6 @@ header {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: 900;
-  /* font-family: "Merriweather Sans", sans-serif; */
 }
 
 header li {
