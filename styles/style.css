@@ -1,47 +1,107 @@
-body {
-    background-image: url('/images/background_main.png');
+a {
+    color: rgb(41, 74, 156);
+    text-decoration: none;
 }
 
-footer {
-    width: 100%;
-    height: 2.5rem;
-    position: absolute;
-    bottom: 0;
+a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url('/images/background_main.png');
+    min-height: 100px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 h1 {
     font-family: Luminari, sans-serif;
-    color: rgb(199, 4, 199);
+    font-size: 40px;;
+    color: aliceblue;
     text-align: center;
+    margin: 20px 0px 5px 0px;
+}
+
+h2 {
+    font-family: Georgia, sans-serif;
 }
 
 li {
     display: inline;
     margin: 1em;
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
 }
 
-main, ul {
-    text-align: center;
-}
-
-nav {
-    width: 100%;
-}
-
-p, h2, h3 {
+p {
     font-family: Georgia, sans-serif;
     font-size: 18px;
 }
 
-section {
-    margin: 4em 10em;
-    border: 1px solid black;
-    background-color: aliceblue;
-    height: 25em;
+ul {
+    padding: 0px;
 }
 
+header nav,
+footer nav {
+    /* display: flex;
+    justify-content: space-around; */
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: aliceblue;
+    /* min-width: 400px;
+    width: 70vw; */
+    padding: 1em;
+}
+
+/* footer nav {
+    display: flex;
+    justify-content: space-around;
+} */
+
+/* 
+.container-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.container-index>div {
+    border: 1px solid black;
+    background-color: aliceblue;
+    min-width: 400px;
+    width: 70vw;
+    padding: 1em;
+    text-align: center;
+} */
+
 .copyright-info {
-    color: rgb(199, 4, 199);
+    color: aliceblue;
     font-family: Luminari, sans-serif;
     text-align: center;
+} 
+
+.flex-grow-1 {
+    flex-grow: 1;
 }
