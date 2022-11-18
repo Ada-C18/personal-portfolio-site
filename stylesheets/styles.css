@@ -54,18 +54,17 @@ ul {
 
 }
 
-.profile_image {
-    width: 10em;
-}
 
 .side_bar_items p {
     margin: 0;
     padding: 2px;
     padding-top: 7px;
     font-size: larger;
-    padding-left: 10px;
 }
 
+.profile_image {
+    width: 10em;
+}
 
 address {
     padding: 2px;
