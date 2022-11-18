@@ -1,0 +1,95 @@
+html {
+    animation-play-state: paused;
+}
+
+.site {
+    
+    display: grid;
+    height: 100%;
+    grid-template-columns: 2fr 1fr;
+    margin: 15% 5% 5% 0%
+
+}
+
+#page-title {
+    line-height: 160%;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: -.3em;
+    position: relative;
+    top: -80px;
+    font-size: 9em;
+    border-right: 55%;
+    margin-left: 15%;
+    margin-right: -120px;
+    animation-duration: 2s;
+    /* margin-right: 10%; */
+    justify-content: center;
+    font-family: 'Sono', sans-serif;
+    /* border:20pt solid black; */   
+    /* background-color: red; */
+    
+
+}
+
+/* hover to change page-title letter color */
+.red:hover {
+    color: rgb(255, 112, 112);
+    position: relative;
+    
+
+}
+
+
+.orange:hover {
+    color: rgb(255, 171, 68);
+}
+.blue:hover {
+    color: rgb(25, 218, 227);
+}
+.profession {
+    position: relative;
+    display: inline-block;
+    font-size: .2em;
+    margin-right: 100%;
+    letter-spacing: normal;
+}
+.nav:hover {
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+.nav {
+    animation-play-state: paused;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    position: relative;
+    display: grid;
+    width: max-content;
+    top: -100px;
+    text-align: center;
+    padding: 20px;
+    grid-template-rows: 1f, 1f, 1f;
+    grid-area: 2 3 4;
+    box-shadow: inset 0 -1em 1em rgba(0, 0, 0, 0.1), 0 0 0 1px rgb(255, 255, 255),
+    0.1em 0.1em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 100%
+;
+
+    /*border: 10pt 20pt; */
+    /* border: 10pt solid black; */  
+    /* background-color: yellow; */
+}
+#a2 {
+    display: none;
+}
+btn2:active {
+    background-color: blue;
+}
+#a2:checked + label{
+    display:contents;
+    background-color: blue;
+
+}
+
