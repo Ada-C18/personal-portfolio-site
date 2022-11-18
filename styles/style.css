@@ -8,10 +8,7 @@ h2 {
 }
 p {
     color: gray;
-    text-align: justify;
-}
-section { 
-    background-color: rgb(244, 243, 251);
+    text-align: right-justify;
 }
 
 .page-title{
@@ -23,8 +20,39 @@ section {
     font-size: 1.2em;
 }
 
-#front-page-title {
-  color: teal;
+.container-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
+
+
+#section-flex {
+    width: 250px;
+    height: 400px;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    
+   
+  }
+  
+#navigation-flex {
+    width: 758px;
+    height: 50px;
+    background-color: lightpink;
+  } 
+
+#footer {
+    width: 758px;
+    height: 50px;
+    background-color: lightpink;
+    font-size: 1em;
+    align-items: flex-end;
+    
+}
+
 
 

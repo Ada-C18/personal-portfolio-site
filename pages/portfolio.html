@@ -4,42 +4,57 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Liat's Portfolio Page</title>
+  <title class = "container">Liat's Portfolio Page</title>
   <link href="/styles/style.css" rel="stylesheet"/>
 </head>
-  <h1 class = "page-title"> Personal Portfolio </h1>
+  <h1> Personal Portfolio </h1>
 
-  <header>
-    <nav>
-        <a class = "links-size" href="about.html"> About </a> <br>
-        <a class = "links-size" href="index.html"> Welcome Page</a> 
+  <header >
+    <nav id = navigation-flex class =  "container-flex">
+        <a class = "links-size" href="about.html"> About </a><br>
+        <a class = "links-size" href="index.html"> Welcome Page</a>
     </nav>
 
   </header>
 
   <body>
-  <section>
+  <section id = "section-flex" class = "container-flex">
     <h2> Task List API </h2>
+    <a href = "https://github.com/Ada-C18/task-list-api/pull/16"> Github Link </a>
 
-    <p> This project builds an API </p>
-  </section>
+    <a href="/assests/python.png"> Python</a>
+
+    <p> This project builds an API. Using Postgres to create a SQL database filled with goals and tasks, 
+      this API even sends a message to a Slack workspace letting your team know that you got the job done!  </p>
   
-  <section> 
-    <h2> Adagrams </h2>
-
-    <p> Like Scrabble? Well, this is Adagrams</p>
+    
 
     </section>
+  
+  <section id = "section-flex" class = "container-flex"> 
+    <h2> Adagrams </h2>
+    <br>
+    <a href = "https://github.com/Ada-C18/adagrams-py/pull/16"> Github Link </a>
+      <p> Like Anagrams? Well, this is Adagrams! 
+        In this project, my partner and I created a game where a player is given a
+         random set of letters and must make an anagram using those letters. 
+         Each submitted word scores points. </p>
 
-  <section>
+  </section>
+
+  <section id = "section-flex" class = "container-flex">
     <h2> Swap Meet </h2>
+    <a href = "https://github.com/Ada-C18/swap-meet/pull/33"> Github Link</a> 
 
-    <p> Love swapping items? This is swap meet, a way to swap your items at a meetup</p>
+    <p> Love swapping items? This is swap meet, a way to swap your items at a meetup.
+      Each person registers as a vendor and swaps items with different inventories. 
+      This project uses classes to create the backend of this project. 
+    </p>
   </section>
 
   
 </body>
-<footer>
+<footer id = "footer">
   Copyright 2022 <br>
   Site made by Liat <br>
   
