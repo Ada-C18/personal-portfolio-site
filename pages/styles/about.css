@@ -1,42 +1,82 @@
 
 * {
-    margin: 10;
-    padding: 10;
+    margin: 10px;
+    padding: 10px;
     font-family: sans-serif;
 }
 
-nav {
-    position: relative;
-    left: 700px; 
-    width: 80%;
-    height: 40vh;
-    background: white;
-    font-size: 25px;
-} 
+header {
+    justify-content: left;
+    display: flex;
+    height: 300px;
+    order: 2;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    width: 200px; 
+    /* height: 300px; */
+    align-self: flex-start;
+
+    /* align-content: center; */
+    margin: 40px;
+    /* margin-top: 5px; */
+}
+
+
+h3 {
+    justify-content: center;
+    display: flex;
+    /* height: 300px; */
+    flex-shrink: 0;
+    order: 3;
+    flex-direction: column;
+    flex-shrink: 0;
+    /* width: 100%; */
+    width: 600px; 
+    flex-grow: 2;
+    flex-wrap: wrap;
+    height: 400px;
+
+    align-content: space-between;
+
+    margin: 40px;
+    /* margin-top: 5px; */
+}
 
 nav {
     display: flex;
-    width: 70%;
-    margin: auto;
-    padding: 30px 0;
-    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 150px;
+    height: 650px;
+    font-size: 25px;
+    position: relative;
+    left: 700px;
+    width: 500px;
+    margin: 10px 10px;
+    margin: auto; 
     justify-content: space-between;
-} 
+    /* padding: 30px 0; */
+    flex-grow: 1;
+    align-self: flex-end;
+    flex-wrap: wrap;
+    order: 1;
 
-/* removes bullets, displays all on 1 line */
-ul li {
+}
+
+
+li {
     display: inline-block;
     list-style: none;
     margin: 10px 10px; 
 }
 
-ul, li, a {
+nav a {
     text-decoration: none;
     color: #c6fbf9;
     font-weight: bold;
 }  
 
-ul, li, a:hover{
+nav a:hover{
     color: #fbd7c6;
 }
 
@@ -51,34 +91,23 @@ h1 {
     margin-bottom: 10px;
 }
 
-span {
-    color: #c6fbce;
-    line-height: 22px;
-}
-
-p {
-    color: #f7c6fb;
-    font-size: 20px;
-}
-/* PORTFOLIO BUTTON
-{
-    background: #c6fbf9;
-    padding: 15px 15px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-    color: #faffdb;
-    display: inline-block;
-    margin: 10px 5;
-    border-radius: 3px;
-} */
-
 h1{
     color: #ffebe0;
+}
+
+h3 {
+    color: rgb(188, 206, 251);
+    font-weight: bold;
+    text-align: right;
 }
 
 h4 {
     color: rgb(188, 206, 251);
     font-weight: bold;
     text-align: right;
+    position:fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
 }
