@@ -6,28 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reyna Diaz</title>
     <link href=styles/style.css rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a4c365b1d.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header>
+        <div class="personal_logo">Reyna Diaz</div>
+    </header>
     <section id="about-me">
         <nav>
-            <div class="personal_logo">Reyna Diaz</div>
             <ul class="nav__link--list">
                 <li>
-                    <a href="" class="
-                    nav__link--anchor
-                    link__hover--effect
-                    link__hover--effect--black
-                    ">Languages</a>
-                </li>
-                <li>
-                    <a href="" class="
+                    <a href="#portfolio" class="
                     nav__link--anchor
                     link__hover--effect
                     link__hover--effect--black
                     ">Portfolio</a>
                 </li>
                 <li>
-                    <a href="" class="
+                    <a href="mailto:reynamdiazz@gmail.com" class="
                     nav__link--anchor
                     nac__link--anchor-primary
                     ">Contact</a>
@@ -45,10 +41,108 @@
                     </h1>
                     <p class="about-me__info--para">
                     I am a <strong class="text--purple">student at Ada Developers Academy</strong> who is expected to graduate in <strong class="text--purple">July 2023!</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis enim a error dolore nihil autem! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis quis tempora reprehenderit modi placeat praesentium.
-                    </p>
+                </p>
+                <div class="about-me__links">
+                    <a href="https://github.com/reynamdiaz" target="_blank" class="about-me__link">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    <a href="mailto:reynamdiazz@gmail.com" target="_blank" class="about-me__link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
                 </div>
             </div>
         </div>
+            <figure class="about-me__img--container">
+                <img alt="picture of development team working together" class="about-me__img" src="icons/undraw_engineering_team_a7n2.svg">
+            </figure>
+        </div>
     </section>
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">Here is my <span class="text--purple">portfolio!</span></h1>
+                <ul class="portfolio_list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="character standing beside large to do list" class="project__img" src="icons/undraw_to_do_list_re_9nt7.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Task List API</h3>
+                                <p class="project__description--para">
+                                    An API that allows users to create, read, update, and delete tasks and goals. When a task is completed, a message will be posted to a #task-notifications channel on Slack to notify all members of finished tasks via Slack Bot.
+                                </p>
+                                <div class="project__description--links">
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/task-list-api">Link</a>
+                                    <i class="fa-brands fa-square-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="rocket in outer space" class="project__img" src="icons/undraw_outer_space_re_u9vd.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Solar System API</h3>
+                                <p class="project__description--para">
+                                    An API that allows users to create, read, update, and delete planets. Each planet has a name, id, description, and number of moons. A user can search for one planet by id or name, or even display all planets at once.
+                                </p>
+                                <div class="project__description--links">
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/solar-system-api">Link</a>
+                                    <i class="fa-brands fa-square-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="two characters with double sided arrow between them" class="project__img" src="icons/undraw_code_typing_re_p8b9.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Swap Meet</h3>
+                                <p class="project__description--para">
+                                    This App makes bargaining easy! A vendor can swap items based on category and condition to find the perfect item quickly. It even considers other vendor's priorities so that both vendors swap for only the items they truly want!
+                                </p>
+                                <div class="project__description--links">
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/swap-meet">Link</a>
+                                    <i class="fa-brands fa-square-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="character sitting in chair with notebook in lap and pen in hand" class="project__img" src="icons/undraw_exams_re_4ios.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">ADAGRAMS</h3>
+                                <p class="project__description--para">
+                                    ADAGRAMS is a fun game that gives the player a random set of letters from the English alphabet with which they must create an anagram. Each letter has an associated point value, which this game recognizes and keeps score of.
+                                </p>
+                                <div class="project__description--links">
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/adagrams-py">Link</a>
+                                    <i class="fa-brands fa-square-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="two characters sitting on couch under a blanket watching a movie" class="project__img" src="icons/undraw_horror_movie_3988.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Viewing Party</h3>
+                                <p class="project__description--para">
+                                    Viewing Party is a project that compares your watched, favorited, and not-yet-watched movies with your friends' watched, favorited, and not-yet-watched movies. Spend less time endlessly scrolling for a movie to watch and more time watching!
+                                </p>
+                                <div class="project__description--links">
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/viewing-party">Link</a>
+                                    <i class="fa-brands fa-square-github"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__copyright">&copy; 2022</div>
+    </footer>
 </body>
 </html>
