@@ -1,0 +1,146 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(49,26,79);
+    font-size: 1.5rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media (min-width: 0px) and (max-width: 700px) {
+    #aboutSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right:10%;
+    }
+    #headshot {
+        width: 60%;
+        margin: auto;
+    }
+
+    #aboutText {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    body {
+        background-color: orange;
+    }
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+main {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    color: white;
+}
+
+#aboutSection {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(218,116,122);
+    text-align: center;
+}
+
+#footer img {
+    width: 3%;
+}
+
+#portfolioSection img {
+    width: 40%;
+}
+
+#menuBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    /* list-style: none; */
+    justify-content: space-evenly;
+    background-color: rgb(218,116,122);
+    margin: 0px;
+    /* padding: 10px; */
+    width: 100%;
+}
+
+#menuBar a {
+    padding: 2%;
+    color: rgb(49,26,79);
+    font-size: 1.75rem;
+}
+
+#menuBar a:hover {
+    background-color: rgb(49,26,79);
+    color: white;
+}
+
+
+.buttonLink {
+    padding: 0.9rem;
+    background-color: rgb(49,26,79);
+    color: white;
+    border: 2px solid rgb(218,116,122);
+    border-radius: 10%;
+}
+
+.buttonLink:hover {
+    background-color: rgb(218,116,122);
+    color: rgb(49,26,79);;
+    transition: 0.5s;
+}
+
+#headshot {
+    width: 20%;
+    border-radius: 50%;
+    /* border: 2px solid black; */
+    /* margin-left: 5%; */
+    /* margin-top: 2%; */
+}
+
+/* #aboutSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+
+} */
+
+/* #aboutText {
+    width: 50%;
+} */
+
+/* @media (min-width: 701px) {
+    main {
+        background-color: rgb(49,26,79);
+    }
+
+} */
+
+
+
