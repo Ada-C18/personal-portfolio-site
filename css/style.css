@@ -74,11 +74,13 @@ main {
     /* background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  */
+    /* display: flex; */
 }
 
 .banner {
     /* background: #d2e6d4; */
-    height: 500px;
+    min-height: 500px;
+    /* flex: 1; */
     justify-content: center;
     text-align: center;
 }
@@ -138,10 +140,13 @@ i:hover {
 }
 
 /* Footer */
-footer {
+#footer {
     /* background-color: rgba(13, 27, 46, 0.94); */
     background-color: #020402;
     display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer .container {
