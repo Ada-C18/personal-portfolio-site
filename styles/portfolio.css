@@ -1,11 +1,7 @@
 body{
     background-color:honeydew;
 }
-header{
-    text-align: center;
-}
 main > ul{
-    width: auto;
     margin: 50px 30px;
     padding: 20px;
     display: flex;

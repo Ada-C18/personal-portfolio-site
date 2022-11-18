@@ -2,10 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: Helvetica, sans-serif;
-}
-img{
-    width: 400px;
+    font-family: 'Arima Madurai', cursive;
 }
 nav{
     width: auto;
@@ -28,6 +25,10 @@ nav > ul > li > a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+header{
+    text-align: center;
+    text-decoration: 2px underline rgb(151, 101, 128);
 }
 li{
     list-style: none;
