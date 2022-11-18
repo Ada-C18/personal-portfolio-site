@@ -26,75 +26,49 @@ h1 {
     margin: 20px 0px 5px 0px;
 }
 
-h2 {
+h2,
+p,
+li {
     font-family: Georgia, sans-serif;
 }
 
 li {
     display: inline;
     margin: 1em;
-    font-family: Georgia, sans-serif;
     font-size: 20px;
 }
 
 p {
-    font-family: Georgia, sans-serif;
     font-size: 18px;
+    line-height: 150%
 }
 
 ul {
     padding: 0px;
 }
 
+.text-align-ctr {
+    text-align: center;
+}
+
+
 header nav,
 footer nav {
-    /* display: flex;
-    justify-content: space-around; */
     text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-section div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px solid black;
+    border: 1px solid rgb(41, 74, 156);
     background-color: aliceblue;
-    /* min-width: 400px;
-    width: 70vw; */
+    max-width: 60vw;
     padding: 1em;
 }
-
-/* footer nav {
-    display: flex;
-    justify-content: space-around;
-} */
-
-/* 
-.container-index {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 100vh;
-}
-
-.container-index>div {
-    border: 1px solid black;
-    background-color: aliceblue;
-    min-width: 400px;
-    width: 70vw;
-    padding: 1em;
-    text-align: center;
-} */
 
 .copyright-info {
     color: aliceblue;
@@ -104,4 +78,37 @@ section div {
 
 .flex-grow-1 {
     flex-grow: 1;
+}
+
+.container-about div p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.container-about section a:hover {
+    color: rgb(12, 127, 227);
+    text-decoration: underline;
+}
+
+.grid-portfolio {
+    display: grid;
+    grid-template: 150px 500px 100px / 100%;
+}
+
+.grid-portfolio section {
+    min-width: 40vw;
+}
+
+.grid-portfolio main section h2 {
+    text-align: center;
+}
+.grid-portfolio section li {
+    display: block;
+    margin: 1em;
+    font-size: 20px;
+}
+
+.grid-portfolio section a:hover {
+    color: rgb(12, 127, 227);
+    text-decoration: underline;
 }
