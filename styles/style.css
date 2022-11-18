@@ -51,7 +51,6 @@ section {
 }
 
 .main {
-    /* border: 1px salmon; */
     color: grey;
 }
 
@@ -67,13 +66,13 @@ section {
     border-style: dotted;
     border-color: rgb(70, 74, 78);
     font-size: 1.5em;
+    line-height: 100%;
 }
 
 .button {
     background: grey;
     color: white;
     font-family: "sans-serif";
-    border: 1px solid rgb(182, 101, 114);
     border-radius: 20px;
     font-size: 14px;
     padding: 10px 20px;
