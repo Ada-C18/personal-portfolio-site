@@ -1,3 +1,367 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    border: 2px;
+    background-image: url(/images/cracked.jpg);
+}
+
+.flex-container {
+    display: flex;
+    -ms-display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(/images/sailor_moon_season_iii.webp);
+}
+
+.container {
+    background-color: wheat;
+    min-width: min-content;
+}
+
+.page-3-container {
+    width: 100%;
+    display: flex;
+    -ms-display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: beige;
+}
+
+.project-container {
+    width: 100%;
+    display: flex;
+    -ms-display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: baseline;
+}
+
+.project {
+    border: thick ridge;
+    padding: 5px;
+    margin: 5px;
+    background-color: darkgreen;
+}
+
+.project img{
+    float: left;
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
+    border: 2px solid chartreuse;
+}
+
+.project :link {
+    color: #EB39C4;
+}
+
+.project :visited {
+    color: #800040;
+    text-shadow: 2px 2px 1px #EB39C4;
+}
+
+.saber {
+    width: 60vw;
+    align-self: center;
+    margin: auto;
+}
+
 h1 {
-    color: hotpink;
+    color: #EB39C4;
+    text-align: center;
+    font-size: 5vh;
+}
+
+header.page-1 {
+    grid-area: 1 / 1 / 2 / 13;
+    order: -2;
+    margin: auto;
+    border: 2px;
+}
+
+div.planets {
+    grid-area: 2 / 1 / 4 / 13;
+    order: -1;
+    margin: auto;
+}
+
+img.planet {
+    max-width: 20%;
+    height: auto;
+}
+
+.nav {
+    grid-column: 10 / 13;
+    grid-row: 5 / 12;
+    order: 2;
+    padding-right: 2vh;
+    margin: auto 10px auto auto;
+    background-color: #A6A4A5;
+}
+
+.page-1 .subnav {
+    float: right;
+}
+
+.page-2 .subnav {
+    float: inherit;
+    margin-bottom: 0px;
+}
+
+.page-3 .subnav {
+    float: initial;
+    display: inline;
+}
+
+.subnav {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.subnav-content {
+    display: none;
+    position: relative;
+    left: 0;
+    background-color: inherit;
+    width: 100%;
+    z-index: 1;
+    text-align: inherit;
+    font-size: medium;
+}
+
+.page-2 .subnav-content {
+    position: absolute;
+    background-color: lightpink;
+    width: 16%;
+    margin-left: 49%;
+    margin-right: 35%;
+}
+
+.page-2 .subnav-content a { 
+    margin: 1vh;
+    color: darkblue;
+}
+
+.subnav-content a {
+    float: right;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.subnav-content a::before {
+    content: "✯ ";
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+    grid-column: 10 / 13;
+    grid-row: 5 / 12;
+}
+
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+li.page-1 {
+    text-shadow: 1.8px 1.8px 1px lightslategray;
+    text-align: right;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 4vh;
+}
+
+li.page-1:not(:last-child) { 
+    margin-bottom: 4vh;  
+}
+
+li.page-1:any-link {
+    color: #2C04BF;
+}
+
+nav :any-link:hover {
+    background-color: black;
+    color: #EB39C4;
+    font-weight: bold;
+}
+
+div.alien {
+    grid-area: 5 / 1 / 12 / 4;
+    order: 0;
+    margin: auto;
+}
+
+img.alien {
+    max-width: 90%;
+}
+
+div.statement {
+    grid-area: 5 / 5 / 12 / 9;
+    order: 1;
+}
+
+div p.page-1 {
+    font-family: 'Imprint', 'Times New Roman', Impact, serif, monospace, sans-serif;
+    font-size: 7vh;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px rgba(255,255,255,0.8);
+}
+
+footer.page-1 {
+    grid-column: 1 / 13;
+    grid-row: 12 / span 1;
+    order: 3;
+    vertical-align: center;
+}
+
+footer p.page-1 {
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: 2.5vh;
+    text-align: center;
+    color: orangered;
+}
+
+nav.page-2 {
+    font-size: 2.2vh;
+    background-color: lightpink;
+    text-transform: uppercase;
+    list-style-type: none;
+    text-align: center;
+    padding: 2px;
+}
+
+nav.page-2 li {
+    display: inline
+}
+
+nav.page-2 li:not(:last-child) { 
+    margin-right: 6vh;  
+}
+
+.disclaimer {
+    font-size: 3.5vh;
+    margin: 4vh 4vh;
+    align-items: center;
+    display: inline;
+    text-align: center;
+}
+
+.disclaimer img {
+    max-height: 3.5vh;
+    padding-inline: 3px;
+    vertical-align: text-bottom;
+    margin-top: 4vh;
+}
+
+.facts {
+    padding: 2vh
+}
+
+.facts li {
+    font-size: 2vh;
+    margin-bottom: .7vh;
+}
+
+#dancers {
+    align-items: center;
+    margin: auto;
+}
+
+footer.page-2 p{
+    font-family: sans-serif;
+    text-align: center;
+    color: #135EF2;
+}
+
+header.page-3 {
+    margin: 0 30px 0 10px;
+}
+
+footer.page-3 {
+    width: 100%;
+    text-align: center;
+}
+
+nav.page-3 {
+    display: flex;
+    -ms-display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+    float: right;
+    background-color: lightgrey;
+    border: 2px outset black;
+    padding: 15px 15px 0px 0px;
+    vertical-align: bottom;
+}
+
+nav.page-3 a {
+    padding-inline-end: 15px;
+    padding-inline-start: 10px;
+}
+
+#sc3 {
+    display: none;
+    position: relative; 
+    background-color: lightgrey;
+    z-index: 1;
+    text-align: center;
+    font-size: medium;
+    align-self: flex-end;
+    float: inline-end;
+}
+
+.subnav:hover #sc3 {
+    display:inline-block;
+}
+
+#sc3 a {
+    color: purple;
+    text-decoration: none;
+}
+
+#sc3 a:hover {
+    color: #EB39C4;
+}
+
+.page-4 .flex-container {
+    background-image:none;
+    background-color: #CC919A;
+}
+
+.entry {
+    font-size: larger;
+}
+
+iframe {
+    background-color: whitesmoke;
+}
+
+footer.page-4 {
+    text-align: center;
+    font-family: Palatino, fantasy;
+}
+
+footer.page-4 .quote {
+    font-style: italic;
+}
+
+.entry:not(:last-of-type) {
+    border-bottom: 2px dotted black;
+    padding-bottom: 15px;
+}
+
+.entry-frame iframe{
+    border: none;
+    background-color:white;
+    overflow:visible;
+    width: 80vw;
+    height: 25vw;
+    max-height: fit-content;
 }
