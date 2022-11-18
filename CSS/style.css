@@ -6,6 +6,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(49,26,79);
     font-size: 1.5rem;
+    margin: 0px;
 }
 
 html {
@@ -17,30 +18,13 @@ a {
 }
 
 /******************************************
-/* MEDIA QUERIES
+/* MEDIA QUERIES - just for fun
 /*******************************************/
 
 @media (min-width: 0px) and (max-width: 700px) {
-    #aboutSection {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        margin-left: 10%;
-        margin-right:10%;
-    }
-    #headshot {
-        width: 60%;
-        margin: auto;
-    }
-
-    #aboutText {
-        width: 80%;
-        margin: auto;
-        text-align: center;
-    }
 
     body {
-        background-color: orange;
+        background-color: black;
     }
 }
 
@@ -56,27 +40,54 @@ main {
 }
 
 #aboutSection {
-    margin-top: 5%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 5%;
+    margin-top: 5%;
 }
 
-#footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+#homepagePortfolioSection {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#homepagePortfolioSection a {
+    color: white;
+}
+
+#homepagePortfolioSection img {
+    width: 80%;
+    border: rgb(218,116,122) solid 0.7rem;
+}
+
+#homepage-footer {
+    /* position: fixed; */
+    /* left: 0;
+    bottom: 0; */
     width: 100%;
     background-color: rgb(218,116,122);
     text-align: center;
 }
 
-#footer img {
+#homepage-footer img, #footer img {
     width: 3%;
 }
 
-#portfolioSection img {
-    width: 40%;
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    width: 100%;
+    background-color: rgb(218,116,122);
+    text-align: center;
 }
 
+/******************************************
+/* MENU BAR
+/*******************************************/
 #menuBar {
     position: fixed;
     top: 0;
@@ -101,7 +112,9 @@ main {
     color: white;
 }
 
-
+/******************************************
+/* BUTTONS
+/*******************************************/
 .buttonLink {
     padding: 0.9rem;
     background-color: rgb(49,26,79);
@@ -115,32 +128,13 @@ main {
     color: rgb(49,26,79);;
     transition: 0.5s;
 }
-
-#headshot {
+/******************************************
+/* HEADSHOT
+/*******************************************/
+.headshot {
     width: 20%;
     border-radius: 50%;
-    /* border: 2px solid black; */
-    /* margin-left: 5%; */
-    /* margin-top: 2%; */
 }
-
-/* #aboutSection {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2%;
-
-} */
-
-/* #aboutText {
-    width: 50%;
-} */
-
-/* @media (min-width: 701px) {
-    main {
-        background-color: rgb(49,26,79);
-    }
-
-} */
 
 
 
