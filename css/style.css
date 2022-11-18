@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Header */
 header {
     /* position: fixed; */
@@ -32,13 +36,12 @@ header .logo {
 
 nav a {
     color: black;
-    text-decoration: none;
 }
 
 /* Main */
 .banner {
     /* background-image: url(../assets/andrej-lisakov-fGZ2x8wFxC0-unsplash.jpg); */
-    background: #b1cbb3;
+    background: #d2e6d4;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -54,4 +57,53 @@ main .description {
     text-align: center;
 }
 
-/* footer */
+/* Contact Section */
+#contact {
+    /* background: #b1cbb3; */
+    background-color: rgba(13, 27, 46, 0.94);
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+
+#contact .container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 60px;
+    width: 100%;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-content {
+    flex: 2;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(13, 27, 46, 0.94);
+    display: block;
+}
+
+footer .container {
+    height: 60px;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+footer a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #3882F6;
+}
