@@ -1,16 +1,12 @@
-/* universal */
-* {
-    font-family: 'Lato', sans-serif;
-    max-width: 100%;
-}
-
+/* all pages */
 body {
     background-color: #FEFDF8;
+    font-family: 'Lato', sans-serif;
 }
 
 a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 a:hover {
@@ -22,15 +18,12 @@ li {
     list-style-type: none;
 }
 
-main {
-    width: 75%;
-    display: block;
-    margin: auto;
+main h1 {
     text-align: center;
 }
 
 /* header */
-header{
+header nav{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -39,7 +32,7 @@ header{
 header ul {
     display: flex;
     justify-content: center;
-}
+} 
 
 header a {
     padding: 10px 15px;
@@ -53,19 +46,9 @@ footer {
     align-items: center;
 }
 
-footer h2 {
+footer h3 {
     font-size: 12px;
-} 
-
-/* about */
-.pippa {
-    width: 25%;
-    border-radius: 25px;
-    filter: grayscale(100%);
-}
-
-.pippa:hover {
-    filter: grayscale(0%);
+    padding: 1% 0;
 }
 
 /* index */
@@ -76,14 +59,55 @@ footer h2 {
     font-weight: bold;
 }
 
+.index-main {
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/* about */
+.container {
+    display:grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.pippa {
+    width: 65%;
+    grid-column: 2 / 3;
+    justify-self: center;
+    border-radius: 25px;
+    filter: grayscale(100%);
+}
+
+.pippa:hover {
+    filter: grayscale(0%);
+}
+
+.container p {
+    align-self: center;
+    grid-column: 3 / 4;
+}
+
+/* portfolio */
+.portfolio-main {
+    margin: 0 3%;
+}
+
 .portfolio-sections {
     display: flex;
+    text-align: center;
 }
 
 .portfolio-sections section {
     display: flex;
     flex-direction: column;
     padding: 0 1%;
+}
+
+.portfolio-sections a {
+    padding: 1% 0;
 }
 
 
