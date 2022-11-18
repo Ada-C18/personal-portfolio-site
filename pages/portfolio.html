@@ -4,9 +4,76 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Katherine's Portfolio</title>
+  <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
-  
+  <section class="page-3-container">
+    <header class="page-3">
+      <h1>Project Portfolio</h1>
+    </header>
+    <nav class="page-3">
+      <a href="/pages/index.html">Home</a>
+      <a href="/pages/about.html">About</a>
+      <div class="subnav">
+        <a href="/pages/blog/mainpage.html">Blog</a>
+        <div class="subnav-content" id="sc3">
+          <a href="/pages/blog/entry_221117.html">November 17, 2022</a> 
+          <a href="/pages/blog/entry_221116.html">November 16, 2022</a> 
+          <a href="/pages/blog/entry_221115.html">November 15, 2022</a> 
+          <a href="/pages/blog/entry_221114.html">November 14, 2022</a>
+        </div>
+      </div>
+    </nav>
+    <main class="project-container">
+      <section class="project">
+        <h2 class="project-title">
+          <a href="https://github.com/kalawac/task-list-api">
+            Task List
+          </a>
+        </h2>
+        <p class="description">Includes two APIs that allow for the creation, reading, 
+          updating and deletion of tasks and goals, which may be associated with each other.
+          Tasks may be marked complete or unmarked complete (marked incomplete);
+          the act of marking a task complete triggers the posting of an automated message
+          to a slack channel. Goals can be queried to find the associated tasks.
+        </p>
+        <img src="/images/task-list-api-2.png" 
+        alt="Screenshot from Slack showing bot sharing messages indicating that two tasks have been completed">
+      </section>
+      <img class="saber" src="/images/blusaber.gif" alt="lightsaber being used as a divider">
+      <section class="project">
+        <h2 class="project-title">
+          <a href="">
+            Adagrams
+          </a>
+        </h2>
+        <p class="description">A game in which the user is asked to make a simple 
+          anagram using a subset of letters from a ten-letter hand that is drawn automatically.
+          Project completed in collaboration with @arettab.
+        </p>
+        <img src="/images/adagrams.png" alt="Screenshot of terminal running adagrams program">
+      </section>
+      <img class="saber" src="/images/blusaber.gif" alt="lightsaber being used as a divider">
+      <section class="project">
+        <h2 class="project-title">
+          <a href="https://github.com/kalawac/viewing-party">
+            Viewing Party
+          </a>
+        </h2>
+        <p class="description">Uses various python data structures to mimic simple
+          functionality associated with a theoretical movie streaming service where 
+          a user can keep track of movies that have been watched, movies the user 
+          wants to watch, and recommendations from friends.
+        </p>
+        <img src="/images/viewing-party.png" alt="screenshot of code from Viewing Party">
+      </section>
+    </main>
+    <footer class="page-3">
+      <p class="page-3">You are the 
+      <img src="/images/counter.gif" alt="fake site visit counter with rapidly turning numbers"> 
+      visitor to come to my site! Thank you for visiting!</p>
+    </footer>
+  </section>
 </body>
 </html>
