@@ -1,0 +1,132 @@
+/* DEFAULT PAGE STYLING */
+body{
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  margin: 8px 15px 0px 15px;
+  font-family: 'Times New Roman', serif
+}
+
+/* BACKGROUND IMAGE */
+body, html {
+  height: 100%;
+}
+
+.bg {
+/* The image used */
+background-image: url("../images/image (1).jpg");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-color: rgb(99, 115, 141);
+}
+
+/* NAVIGATION BAR */
+.navlinksmain {
+  font-size: 20px;
+  list-style-type: none;
+  float: left;
+  width: 100%;
+  border-bottom: 2px solid rgb(173, 169, 170);
+  margin-bottom: 50px;
+}
+
+header h3 {
+  float: left;
+}
+
+.navlinks {
+  float: right;
+}
+
+.navlinks ul {
+  list-style-type: none;
+
+}
+
+.navlinks ul li {
+  display: inline-block;
+}
+
+.navlinks ul li a{
+  font-family: 'Times New Roman', serif;
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+}
+
+.navlinks ul li a:visited{
+  color: rgb(255, 255, 255);
+}
+
+.navlinks ul li a:hover{
+  color:rgb(173, 169, 170);
+}
+
+/* FLEXBOX FOR BOXES ON LEFT*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  float: right;
+  width: 605px;
+  justify-content: space-between;
+  font-family: 'Times New Roman', serif;
+  font-size: 23px;
+  font-weight: 100;
+  margin-top: 0px;
+  padding-top: 0%;
+  margin: 0px 170px 0px 0px;
+  height: 585px;
+}
+
+/* TITLES ABOVE PARAGRAPHS */
+.paragraphtitle {
+  width: 100%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 0;
+  font-size: 40px;
+  margin: 0 0 10px 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(34, 21, 12);
+}
+
+div {
+ text-align: center;
+}
+
+
+/* MAKING TWO SEPEARTE BOXES WITHING FLEX BOX */
+.box {
+  border: 5px solid rgb(5, 53, 27);
+  background-color: rgb(55, 93, 72);
+  padding:15px;
+  width: 605px;
+  justify-content: space-between;
+}
+
+/* IMAGE ON RIGHT */
+img {
+  border: 5px solid rgb(5, 53, 27);
+  margin: 0px 0px 0px 130px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  left:0;
+}
+
+.copyrighttext {
+  float: right;
+  padding-right: 15px;
+}
