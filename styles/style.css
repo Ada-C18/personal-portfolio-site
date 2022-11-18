@@ -1,20 +1,11 @@
-/* * {
-    border: #4756df solid;
-} */
+* {
+    border: #4756df 1px solid;
+}
 
 .container {
     display: grid;
-    grid-template-rows: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 10vw 15vw auto 10vw;
     grid-template-columns: 20vw 30vw 30vw 20vw;
-}
-
-header {
-    position: sticky;
-    grid-row: 1;
-    grid-column: 1/ span 4;
-    top: 0;
-    background-color: rgb(0, 0, 0);
-    opacity: 0.9;
 }
 
 nav {
@@ -36,10 +27,10 @@ nav li {
     padding: 0 1rem;
 }
 
-main {
-    grid-row: 2/ span 4;
+/* main {
+    grid-row: 3/ span 4;
     grid-column: 2 / span 2;
-}
+} */
 
 footer {
     text-align: center;
