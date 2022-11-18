@@ -24,12 +24,12 @@ main {
 }
 
 h1 {
-    font-size: 26px;
+    font-size: 24px;
+    margin-top: 2em;
 }
 
 h3 {
     font-size: 20;
-    /* font-style: italic; */
     margin-top: 2em;
 }
 
@@ -51,14 +51,12 @@ p {
     min-width: 0;
     grid-area: 1 / 2 / 3 / 6;
     align-self: start;
-    /* border: 1px solid red; */
 }
 
 section a {
     grid-area: 3 / 3 / 4 / 6;
     justify-self: start;
     align-self: start;
-    /* border: 1px solid red; */
     margin-left: 2em;
 }
 
@@ -67,7 +65,6 @@ img {
     height: auto;
     grid-area: 1 / 1 / 4 / 2;
     justify-self: center;
-    /* border: 1px solid red; */
 }
 
 li {
