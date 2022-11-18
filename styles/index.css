@@ -1,0 +1,19 @@
+header {
+    background-color: antiquewhite;
+    font-family: fantasy;
+    font-size: 150%;
+}
+
+nav {
+    background-color: bisque;
+    font-size: 120%;
+    font-style:oblique;
+}
+
+img {
+    width: 24%;
+}
+
+#course-list li {
+    margin: 2%;
+}
