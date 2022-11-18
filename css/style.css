@@ -1,7 +1,10 @@
 /* universal styles */
 body {
     /* border: red 1px solid; */
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: 'Cabin', Sans-Serif;
+    /* font-size: 16px; */
+    color: #020402;
     margin: 0;
     padding:0;
 }
@@ -42,6 +45,11 @@ header .logo {
     flex: 1;
 }
 
+.logo h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
 /* .logo h3 {
     font-style: ;
 } */
@@ -50,6 +58,14 @@ nav a {
     color: black;
 }
 
+h1 {
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-size: 32px; */
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
 
 /* Main */
 main {
@@ -77,10 +93,16 @@ main .description {
     text-align: center; */
 }
 
+.description p {
+    font-size: 18px;
+    color:rgba(51, 51, 51, 0.783);
+}
+
 /* Contact Section */
 #contact {
     /* background: #b1cbb3; */
-    background-color: rgba(13, 27, 46, 0.94);
+    /* background-color: rgba(13, 27, 46, 0.94); */
+    background-color: #020402;
     color: #E5E7EB;
     display: flex;
     justify-content: space-between;
@@ -117,7 +139,8 @@ i:hover {
 
 /* Footer */
 footer {
-    background-color: rgba(13, 27, 46, 0.94);
+    /* background-color: rgba(13, 27, 46, 0.94); */
+    background-color: #020402;
     display: block;
 }
 
