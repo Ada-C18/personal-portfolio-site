@@ -4,10 +4,10 @@ Congratulations! You're submitting your assignment!
 ## Comprehension Questions
 Question | Answer
 :------------- | :-------------
-Did you have to resolve any issues when running the HTML Validator? If so, what were they? |
-Why is it important to consider and use semantic HTML? |
-How did you decide to structure your CSS? |
-What was the most challenging piece of this assignment? |
-Describe one area that you gained more clarity on when completing this assignment |
+Did you have to resolve any issues when running the HTML Validator? If so, what were they? | Yes, When I want to import my photos in to my index HTML file it is not work. After I built new content director into pages director the problems figure out.
+Why is it important to consider and use semantic HTML? |These are the most important: advantages that semantic markup give us: 1. Clearer code and easier to maintain 2. Help your site be accessible
+How did you decide to structure your CSS? | I have read some examples and find clearly structure. 
+What was the most challenging piece of this assignment? |I need to constantly adjust the css based on what's added.
+Describe one area that you gained more clarity on when completing this assignment |I clearly how to utilize flexbox and grid.
 **Optional** |
 Did you deploy to GitHub Pages? If so, what is the URL to your website? |
