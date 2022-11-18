@@ -18,6 +18,11 @@ a {
     text-decoration: none;
 }
 
+i {
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
 /* Header */
 header {
     display: block;
@@ -51,12 +56,16 @@ a:hover {
 }
 
 /* Main */
-.banner {
-    /* background-image: url(../assets/andrej-lisakov-fGZ2x8wFxC0-unsplash.jpg); */
+main {
     background: #d2e6d4;
-    background-repeat: no-repeat;
+    /* background-image: url(../assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg); */
+    /* background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;  */
+}
+
+.banner {
+    /* background: #d2e6d4; */
     height: 500px;
     justify-content: center;
     text-align: center;
