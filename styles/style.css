@@ -1,7 +1,11 @@
-img {
-    max-width: 40%;
-    height: auto;
-    border: 5px solid #555;
+
+body {
+    font-family: sans-serif;
+    background-color: #009e9e;
+}
+
+.center{
+    text-align: center;
 }
 
 h1 {
@@ -17,55 +21,27 @@ h2 {
 .intro-para {
     text-indent: 50px;
     line-height: 1.5;
-    
-}
-
-
-.hyperlink-github {
-    text-align: center;
-    display: block;
-}
-body {
-    font-family: sans-serif;
-    background-color: #009e9e;
-}
-
-.footer li {
-    display: inline;
-    margin: 1em ;
-
-
-}
-
-
-
-header {
-    text-align: center;
-}
-
-
-
-.header li {
-    display: inline;
-    margin: 1em ;
-
-}
-.centered-image{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-}
-
-.center{
-    text-align: center;
 }
 
 .projects li {
     display: inline-block;
     margin: 1em ;
-
-
 }
 
+img {
+    max-width: 40%;
+    height: auto;
+    border: 5px solid #555;
+}
+
+.centered-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.footer li {
+    display: inline;
+    margin: 1em ;
+}

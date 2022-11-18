@@ -1,14 +1,11 @@
 body {
     margin:0;
-
 }
 
 .header{
     display: grid;
     grid-template-rows: 33% 33% 33%;
-
 }
-
 
 #name {
     background-color: paleturquoise; 
@@ -17,7 +14,6 @@ body {
     width: auto;
     height: 140px;
     padding-top: 20px;
-
 }
 
 #bar{
@@ -28,8 +24,6 @@ body {
     word-spacing: 20px;
     padding-top: 15px ;
 }
-
-
 
 .links {
     display: inline-block;
@@ -50,21 +44,10 @@ main {
     margin:0;
 }
 
-footer{
-    background-color: paleturquoise;
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    /* bottom: 0; */
-    text-align: center;
-}
-
 img {
     max-width: 40%;
     height: auto;
     border: 2px solid #555;
-    
-
 }
 
 .centered-image{
@@ -72,5 +55,12 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
 
+footer{
+    background-color: paleturquoise;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
 }
