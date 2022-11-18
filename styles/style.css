@@ -8,11 +8,13 @@ h1 {
 .main-li {
     display: inline;
     margin: 1em;
+    
 }
 
 #main-ul {
     text-align: center;
     justify-content: space-evenly;
+    padding: 0;
 }
 
 body {
@@ -59,10 +61,75 @@ img{
     background-color: #D461A6;
 }
 
-#laundry{
+#rawr{
     background-color: #A50062;
 }
 
 footer {
     color: #A50062
+}
+
+#git {
+    display: grid;
+    margin: auto;
+    width: 80%;
+    grid-template-columns: 80px 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr;
+    align-self: stretch;
+    border: 1px solid white;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+}
+
+#task-list a:hover {
+    color:white;
+}
+
+#task-list{
+    /* grid-column: 1/2;
+    grid-row: 1/2; */
+    align-items: center;
+    text-align:center;
+    padding: 50px;
+    /* grid-row: 1/2; */
+    background-color: #D62900;
+}
+
+#swap-meet a:hover {
+    color:white;
+}
+
+#swap-meet{
+    /* grid-column: 2/3;
+    grid-row: 1/2; */
+    align-items: center;
+    text-align:center;
+    padding: 50px;
+    background-color: #FF9B55;
+}
+
+#adagrams a:hover {
+    color:white;
+}
+
+#adagrams{
+    /* grid-column: 1/2;
+    grid-row: 2/3; */
+    align-items: center;
+    text-align:center;
+    padding: 50px;
+    background-color: #D461A6;
+
+}
+
+#viewing-party a:hover {
+    color:white;
+}
+
+#viewing-party{
+    /* grid-column: 2/3;
+    grid-row: 2/3; */
+    align-items: center;
+    text-align:center;
+    padding: 50px;
+    background-color: #A50062;
 }
