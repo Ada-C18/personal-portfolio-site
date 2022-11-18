@@ -4,14 +4,6 @@ header {
     font-size: 150%;
 }
 
-nav {
-    background-color: bisque;
-    font-size: 120%;
-    font-style:oblique;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
 #course-list li {
     margin: 2%;
 }
