@@ -266,6 +266,11 @@ p {
   font-size: 1em;
 }
 
+.about-skills {
+  text-align: center;
+  padding-top: 20px;
+}
+
 .about-skills ul {
   display: grid;
   grid-template-columns: auto auto;
