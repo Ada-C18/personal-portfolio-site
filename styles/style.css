@@ -105,3 +105,116 @@ nav ul li a:hover:after{
     text-transform: inherit;
     width: 70%;
 }
+
+.contentP h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 100%; 
+    margin: auto; 
+    text-align: center;
+    background: linear-gradient(120deg, cyan 20.69%, rgb(88, 133, 88) 50.19%, rgb(138, 116, 116) 79.69%);
+}
+.contentA h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 100%; 
+    margin: auto; 
+    text-align: center;
+    background: linear-gradient(120deg, cyan 20.69%, rgb(88, 133, 88) 50.19%, rgb(138, 116, 116) 79.69%);
+}
+.content h1 span{
+    color: purple;
+}
+h2{
+    color: black;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 100%; 
+    margin: auto; 
+    text-align: center;
+}
+.content p{
+    width: 55%;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(85, 102, 73, 40%);
+}
+  
+.flex-container > div {
+    background-color:#c59b9bf1;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 25%;
+    height: 10rem;
+}
+.grid-container {
+    margin: 90px auto;
+    height: auto; 
+    width: 85%;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    padding: 20px;
+    grid-template-columns: minmax(0, 1fr) 300px;
+}
+.grid-container p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.box3{
+    height:350px;
+    background-color: yellow;
+    background: url("/images/laptop_desk_small.jpg");
+    background-size: cover;
+    grid-area: 1 / 2 / span 2 / span 2;
+}
+.box1{
+    height: 100px;
+
+}
+.box2{
+    height: 230px;
+    color: black;
+    text-align: justify;
+    background-color:rgba(144, 88, 100, 0.1)
+
+}
+footer {
+    text-align: center;
+    font-weight: bolder;
+    background: #D0D8DB;
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+textarea {
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
