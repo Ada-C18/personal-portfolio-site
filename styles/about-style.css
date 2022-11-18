@@ -2,10 +2,19 @@
     border: red 1px solid;
 } */
 
+.container-right {
+    /* border: red 1px solid; */
+    color: #FFD124;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
+
 img {
-    width: 25em;
-    height: 25em;
-    border-radius: 50%;
-    object-fit: contain;
+    width: 22em;
+    height: auto;
+    border-radius: 12%;
+    /* object-fit: contain; */
     align-self: center;
+
 }

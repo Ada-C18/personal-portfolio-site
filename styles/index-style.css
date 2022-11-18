@@ -64,9 +64,10 @@ a:hover {
 
 /* Middle Container  */
 section {
-    grid-row: 2 / 10;
+    grid-row: 2 / 11;
     grid-column: 1/ 13;
     display: flex;
+    justify-content: space-around;
     background-color:#A7D2CB;
     /* background-color: beige; */
 }
@@ -74,11 +75,12 @@ section {
 .container-left{
     /* border: red 1px solid;  */
     display: flex;
-    justify-content: flex-start;
-    align-content: center;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
     flex-wrap: wrap;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 h2 {
     font-size: 4em;
@@ -114,7 +116,7 @@ i {
 
 /* Footer */
 footer {
-    grid-row: 10 / 13;
+    grid-row: 11 / 13;
     grid-column: 1 / 13;
     /* background-color: #CCB0AB; */
     background-color: #C98474;
@@ -127,7 +129,6 @@ footer {
     gap: 5em;
     justify-content: space-between;
     align-content: center;
-    /* padding: 5em 10em; */
     /* border: red 1px solid; */
 }
 
