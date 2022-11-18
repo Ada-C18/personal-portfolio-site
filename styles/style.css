@@ -63,7 +63,6 @@ a {
 }
 
 /* About page specific */
-
 h2 {
     text-decoration: underline;
 }
@@ -118,7 +117,6 @@ grid-item {
     font-weight: bold;
     text-decoration: none;
 }
-/* I can't get the annoying nav to center */
 
 #pokemon-team {
     display: flex;
