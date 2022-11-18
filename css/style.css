@@ -68,16 +68,17 @@ h1 {
 }
 
 /* Main */
-/* main {
+main {
     background: #d2e6d4;
-    background-image: url(../assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    /* background-image: url(../assets/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; 
-} */
+    background-size: cover;  */
+} 
 
 .banner {
-    background: #62A8AC;
+    /* background: #62A8AC; */
+    /* background: #d2e6d4; */
     min-height: 500px;
     /* min-height: 50vh; */
     /* flex: 1; */
@@ -103,7 +104,9 @@ main .description {
 /* Projects Section */
 /*  info section  */
 .info {
-    background: #d2e6d4;
+    /* background: #3C6669; */
+    /* background: #264142; */
+    background: #477A7D;
 }
 
 .info .container {
@@ -118,7 +121,7 @@ main .description {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -128,14 +131,27 @@ main .description {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex: 1 1 200px;
+    flex: 1 1 100px;
+}
+
+.projects-title {
+    margin: 30px auto;
+}
+
+.projects-title a {
+    color: #1F2937;
+    text-decoration: none;
 }
 
 .project-img {
-    height: 150px;
-    width: 150px;
-    border: thick solid #3882f6;
-    border-radius: 8px;
+    height: 200px;
+    width: 180px;
+    /* border: thick solid #3882f6; */
+    /* background: #477A7D; */
+    /* background: #5C9DA1; */
+    background:#3C6669;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 .info h2 {
@@ -146,10 +162,15 @@ main .description {
     letter-spacing: 2px;
 }
 
-.project p {
-    color: rgba(51, 51, 51, 0.783);
+.project-img p {
+    /* color: #E5E7EB; */
+    color: #b4d3d5;
     font-size: 14px;
     text-align: center;
+}
+
+.project-img .name {
+    font-weight: bolder;
 }
 
 /* Contact Section */
