@@ -43,7 +43,7 @@ ul {
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-image: url("/images/pinkandblue.jpg");
+    background-image: url("../images/pinkandblue.jpg");
 }
 
 #index-header {
