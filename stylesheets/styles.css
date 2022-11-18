@@ -12,22 +12,26 @@
 }
 
 .header{
+  text-align: justify;
   grid-area: head;
-  background-color: #8ca0ff;
+  background-color: #b8c0e8;
 }
 
 .nav {
   grid-area: nav;
-  background-color: #ffa08c;
+  background-color: #f8b8ab;
 }
 
 .main {
   grid-area: main;
   background-color: #ffff64;
+
 }
 
 /* #page > footer */
 .footer{
   grid-area: foot;
-  background-color: #8cffa0;
+  text-align: justify;
 }
+
+
