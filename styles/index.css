@@ -1,32 +1,7 @@
 
-
-body {
-    font-family:'Courier New', Courier, monospace;
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    border: 2px solid pink;
-} 
-
-h1 {
-    font-size: 45px;
-}
-
-a{
-    text-decoration: none;
-    margin: 10px;
-}
-
-a:hover {
-    color: aquamarine;
-}
-
-
 .main {
     size: 100%;
 }
-
 
 .logo {
     width: 2%;
