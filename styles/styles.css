@@ -1,7 +1,26 @@
-h1 {
+.welcome {
     color: blue;
+    text-align: center;
+    font-size:large;
 }
 
 footer {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.homepage {
+    background-color: rgb(197, 161, 231);
+    grid-column: 1, -1;
+}
+
+.navigation {
+    color: black;
+    font-family: cursive;
+    font-size: medium;
+    justify-content: center;
+    /* grid-column: 1 / span -1;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; */
 }
