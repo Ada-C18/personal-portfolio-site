@@ -3,13 +3,6 @@
   top: 0;
 }
 
-
-
-/* .header li{
-display: inline;
-padding: 0 1em 0 0;
-}  */
-
 * {
   padding: 0;
   margin: 0;
@@ -70,14 +63,15 @@ header nav .button:hover {
   color: #FFF
 }
 
-.spacing {
+/* .spacing {
   line-height: 1.6;
-}
-
+} */
+/* 
 a:visited{
   color: rgb(239, 167, 95);
 }
 
 a:link {
   color: rgb(147, 5, 114);
-}
+} */
+
