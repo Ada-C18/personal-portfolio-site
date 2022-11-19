@@ -75,7 +75,7 @@ footer {
     }
 }
 
-.port-art img, .port-art article{
+.port-art img, .port-art div{
     width: 90%;
     height: auto;
     align-self: center;
@@ -97,7 +97,7 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
-    .button-page article {
+    .button-page div {
         width: 90%;
         height: 90%;
         margin: 10px;
@@ -105,13 +105,13 @@ footer {
 }
 
 @media screen and (min-width:720px) {
-    .button-page article {
+    .button-page div {
         width: 45%;
     }
 }
 
 
-.button-page article {
+.button-page div {
     background-color: #476098;
     justify-content: space-evenly;
     padding: 10px;
