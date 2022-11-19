@@ -1,5 +1,5 @@
 a {
-    color: blue;
+    color: green;
 }
 
 a:hover {
@@ -7,11 +7,12 @@ a:hover {
 }
 
 body {
-    font-family: Arial;
+    font-family:monospace;
+    border-style:inset;
+    border-color: brown;
 }
 
 footer {
-    border:2pt black;
     background-color:burlywood;
 }
 
@@ -19,8 +20,13 @@ footer h2 {
     font-size: medium;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 header {
-    border:2pt black;
     background-color:cornsilk;
     color: chocolate;
     text-align: center;
@@ -32,4 +38,10 @@ main {
 
 ul {
     list-style: none;
+}
+
+main p {
+    font-weight: bolder;
+    color: darkred;
+    text-align: center;
 }
