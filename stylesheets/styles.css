@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Great+Vibes&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    width: 100%;
+    color: #fff;
+    background-color: #456d96;
+    height: 70px;
+}
+
+.navbar .container {
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px; 
+}
+.logo h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: x-large;
+}
+nav{
+    display: flex;
+
+}
+
+nav ul {
+    display: flex;
+    margin-right: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li  a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 17px;
+    margin:0px 10px;
+}
+
+.navbar .button a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #456d96;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.navbar .button a:hover {
+    background-color: #ddd;
+    transition: 2s ease;
+}
