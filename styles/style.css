@@ -57,22 +57,22 @@ main {
 
 footer {
     position: sticky;
+    bottom: 0;
     grid-row: 6;
     grid-column: 1/ span 4;
-    bottom: 0;
     background-color: #006666;
 }
 
 section.flex-container {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    
     bottom: 0;
-    /* align-items: center; */
     position: fixed;
     width: 100%;
     color: #dfdce3;
     background-color: #006666;
-    padding: 10px;
 }
 
 .icon {
@@ -82,8 +82,5 @@ section.flex-container {
     height: 3vh;  */
     margin: auto;
     align-self: flex-start;
-}
-
-.copyright {
-    display: flex;
+    padding: 10px;
 }

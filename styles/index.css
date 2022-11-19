@@ -1,13 +1,30 @@
+* {
+    border: #4756df 1px solid;
+}
+
+.body-index{
+    display: grid;
+    grid-template-rows: 10vw auto 10vw;
+    grid-template-columns: 20vw 30vw 30vw 20vw;
+}
+
 .header-index {
     position: sticky;
-    grid-row: 1 / 2;
+    grid-row: 1;
     grid-column: 1/ span 4;
     top: 0;
 }
 
 .main-index {
-    grid-row: 2/ span 4;
+    grid-row: 2/ span 3;
     grid-column: 1 / span 4;
+}
+
+.main-index-h1 {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif !important;
+    font-weight: bold;
+    font-size: 500%;
+    margin-bottom: 0;
 }
 
 .section {
