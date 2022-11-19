@@ -1,0 +1,39 @@
+* {
+    /* border: 1px solid black; */
+    color: #2F3C7E;  
+}
+
+::selection {
+    background-color: #2F3C7E;
+    color: #f6edee;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6edee;
+}
+
+h2 {
+    background-color: #aec3ba;
+}
+
+a:hover {
+    color: #aec3ba;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+ul {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    display: inline;
+}
+
+p {
+    text-indent: 2em;
+}
+
