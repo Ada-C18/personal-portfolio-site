@@ -1,0 +1,151 @@
+body {
+  /* background-color:aqua; */
+  background-image: url("/images/4853433.jpg");
+}
+
+div {
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
+  grid-template-rows: repeat(5,20); 
+}
+
+article {
+  background-color: white;
+  align-items:baseline;
+  grid-column: 1 / 2 ;
+}
+
+#as {
+  width: 250;
+  height: 215;
+}
+
+header {
+  /* background-color: pink; */
+  grid-column: 2 / -1;
+  border: 5px dotted gainsboro;
+  padding: 15px;
+  /* background: lightblue; */
+  background-clip: content-box;
+}
+
+h1 {
+  color: orangered;
+  font-family:cursive;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+  font-size: 1.2cm;
+} 
+
+aside {
+  /* background-color:; */
+  grid-row: 2 / 6;
+}
+
+nav {
+  text-align: center;
+  align-items:stretch;
+}
+
+a {
+  color: gray;
+  font-family:fantasy;
+  font-size: 1cm;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+main {
+  /* background-color: white; */
+  grid-column: 2 / span 4;
+  /* grid-column: 2 / -1; */
+  grid-row:  2 / span 4;
+  color: gray;
+  font-family:fantasy;
+  font-size: .8cm;
+  text-align: center;
+}
+
+footer {
+  /* background-color: blue; */
+  grid-column: 1 / -1;  
+  font-family:fantasy;
+  font-size: .8cm;
+  text-align:left;
+  color: gray
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
