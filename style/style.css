@@ -1,6 +1,7 @@
 html {
     font-family: "Georgia", serif;
     font-size: 36px;
+    color: #323334;
     background-color: #F5F5EF;
 }
 
@@ -24,7 +25,7 @@ header, footer {
     align-items: center;
     width: 150px;
     height: 80px;
-    background-color: #b76e79;
+    background-color: #EEE3DE;
     color: #0f3b53;
     border-radius: 8px;
     padding: 5px;
@@ -58,10 +59,15 @@ nav li {
     margin: 3%;
     float: right;
     display: inline-block;
+    justify-content: space-evenly;
 }
 
 a:hover {
     color: #eadfc1;
+}
+
+a:visited {
+    color: #323334;
 }
 
 .hero-text {
@@ -80,27 +86,30 @@ a:hover {
 h1 {
     font-size: 92px;
     margin: 0;
+    padding: 0;
 }
 
 h2 {
     font-size: 66px;
     font-style: italic;
+    padding: 0;
 }
 
 p {
-    margin: 20px;
+    margin: 35px;
     font-weight:400
 }
 
 .home-sub {
     display: flex;
     justify-content: space-around;
+    margin: 0;
     padding: 80px;
 }
 
 .headshot {
-    width: 500px;
-    height: 500px;
+    width: 460px;
+    height: 460px;
     border-radius: 10%;
     margin: 0 20px;
 }
@@ -111,6 +120,14 @@ p {
     margin-left: 60px;
     margin-right: 10px;
     padding: 40px;
+}
+
+.intro {
+    justify-content: center;
+    align-items: center;
+    display: flexbox;
+    padding: 0;
+    margin: auto;
 }
 
 .social-footer {
@@ -128,4 +145,9 @@ footer ul, footer li {
     text-align: left;
     display: inline-block;
     margin: 0 45px;
+}
+
+.content {
+    display: inline;
+    justify-content: space-between;
 }
