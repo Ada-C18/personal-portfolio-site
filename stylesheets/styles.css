@@ -120,6 +120,7 @@ main {
   opacity: 0.3;
   -webkit-filter: blur(2px) grayscale(100%);
   filter: blur(2px) grayscale(100%);
+  transition: 0.3s all ease-in-out;
 }
 
 .right {
@@ -189,6 +190,7 @@ main {
 
 .card:hover {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.3s all ease-in-out;
 }
 
 .project-name a {
