@@ -18,10 +18,12 @@ body {
 
 h1 {
     color: white;
+    font-size: 150 rem;
 }
 
 h2 {
-    color: white
+    color: white;
+    font-size: xx-large;
 }
 
 h3 {
@@ -32,12 +34,22 @@ h4 {
     color: white;
 }
 p {
-    color: rgb(8, 92, 95);;
+    color: rgb(8, 92, 95);
+    font-size: x-large;
 }
+
 a:hover {
-    color: rgb(231, 174, 216) ;
+    color: rgb(242, 244, 138);
     background-color: rgb(123, 30, 87) ;
   }
+a:visited {
+    color: rgb(231, 174, 216);
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
 
 li {
     list-style: none;
