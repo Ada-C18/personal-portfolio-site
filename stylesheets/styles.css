@@ -207,6 +207,10 @@ main {
   opacity: 0.6;
 }
 
+.about-sidebar p {
+  padding-top: 10px;
+}
+
 .about-sidebar h3 {
   padding-top: 5px;
   font-size: 1em;
