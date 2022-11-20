@@ -6,21 +6,35 @@ html {
 
 body {
     font-family: 'Nunito';
+    margin: 0;
 }
 
 /* Page layout */
 .page_grid {
     display: grid;
     margin: auto;
-    width: 100vw;
+    width: 100%;
     grid-template: 75px auto auto / 100%
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    border: 0;
+    min-height: 100px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #494e52;
+}
+
+ul a:hover {
+    color: black;
 }
 
 /* Header - Grid Row 1 */
 .header {
-    width:100%;
-    grid-column: 1;
-    grid-row: 1;
     border-bottom: 1px solid #bdc1c4;
     background-color: #EAF4F4;
 }
@@ -39,22 +53,12 @@ body {
     height: auto;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    border: 0;
-    font-size: large;
-    min-height: 100px;
+.menu_bar ul {
+    font-size: 1.15em;
 }
 
-ul a {
-    text-decoration: none;
-    color: #494e52;
-}
-
-/* Header and Portfolio links */
-ul a:hover {
-    color: black;
+.menu_bar a.active {
+    text-decoration: underline;
 }
 
 
@@ -74,17 +78,15 @@ ul a:hover {
     grid-row: 2;
 }
 
-.side_bar_items {
+.side_bar {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
     padding-top: 35px;
     text-align: center;
     align-items: center;
 }
 
-.side_bar_items p {
+.side_bar p {
     margin: 0;
     padding: 2px;
     padding-top: 7px;
@@ -99,17 +101,12 @@ ul a:hover {
     background-color: black;
 }
 
-
-address {
+address a {
     padding: 2px;
     font-style: normal;
     color: #9ba1a6;
     font-size: 16px;
-}
-
-address a {
     text-decoration: none;
-    color: #9ba1a6;
 }
 
 address img {
@@ -118,39 +115,76 @@ address img {
 }
 
 .content {
-    text-align: center;
-    font-size: 3em;
+    font-size: 1em;
     margin-top: 1em;
     padding-top: 20px;
-    padding-left: 15px;
+    padding-left: 3%;
     color: #9ba1a6;
     margin: 0;
+    max-width: 33em;
+}
+
+.content ul {
+    padding: 0;
 }
 
 .content p {
-    font-size: 0.4em;
-    max-width: 30em;
+    font-size: 1em;
+    margin-top: 0.05em;
 }
 
 .content h1, .content h2 {
     margin: 0;
+    color: #777;
+    /* text-align: center; */
 }
 
 .content h1 {
-    font-size: 2em;
+    font-size: 35px;
+}
+
+/* Menu bar images */
+.contact {
+    padding-top: 2px;
+}
+
+
+/* Home page unique styles */
+.home .content h1 {
     font-family: 'Rancho';
-    font-size: 2.5em;
+    font-size: 7.5em;
+    color:#9ba1a6;
 }   
 
-.content h2 {
-    font-size: 1.25em;
+.home .content h2 {
+    font-size: 3.8em;
     color: #777;
     line-height: 1em;
 }
 
+@media screen and (max-width: 600px) {
+    .home .content {
+        text-align: center;/* Apply some styles */
+        line-height: .9;
+    }
+    .home .content h2 {
+        font-size: 3em;
+        margin-top: 1em;
+    }
+}
+
+/* Portfolio page unique styles */
+ul.portfolio {
+    padding-top: 10px;
+}
+
+ul.portfolio a {
+    font-size: 18px;
+}
+
+
+/* Footer - Grid row 3 */
 footer {
-    grid-column: 1;
-    grid-row: 3;
     text-align: left;
     border-top: 1px solid #bdc1c4;
     font-size: 1em;
@@ -160,6 +194,6 @@ footer {
     min-height: 6em;
 }
 
-body {
-    margin: 0;
-}
+
+
+
