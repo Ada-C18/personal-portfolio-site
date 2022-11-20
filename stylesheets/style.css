@@ -1,0 +1,45 @@
+header {
+    background-color: rgb(8, 92, 95);
+}
+
+footer {
+    background-color: rgb(8, 92, 95);
+
+}
+
+body {
+    background-color: rgb(249, 198, 234);
+}
+
+* {
+    font: helvetica;
+    /* border: 2px solid red; */
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white
+}
+
+h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+p {
+    color: rgb(8, 92, 95);;
+}
+a:hover {
+    color: rgb(231, 174, 216) ;
+    background-color: rgb(123, 30, 87) ;
+  }
+
+li {
+    list-style: none;
+}
+
