@@ -8,14 +8,15 @@ body {
     font-family: 'Nunito';
 }
 
-
+/* Page layout */
 .page_grid {
     display: grid;
     margin: auto;
     width: 100vw;
-    grid-template: 10% 80% 10% / 100%
+    grid-template: 75px auto auto / 100%
 }
 
+/* Header - Grid Row 1 */
 .header {
     width:100%;
     grid-column: 1;
@@ -23,18 +24,19 @@ body {
     border-bottom: 1px solid #bdc1c4;
     background-color: #EAF4F4;
 }
-.middle_content {
+
+.menu_bar ul {
     display: flex;
-    justify-content: center;
-    gap: 1em;
-    margin: 0 auto;
     flex-wrap: wrap;
-    grid-row: 2;
+    gap: 25px;
+    padding-top: 30px;
+    padding-right: 30px;
+    justify-content: right;
 }
 
-.middle_row {
-    background-color: #fff;
-    padding-top: 2.5em;
+.menu_bar img {
+    width: 1em;
+    height: auto;
 }
 
 ul {
@@ -50,22 +52,26 @@ ul a {
     color: #494e52;
 }
 
+/* Header and Portfolio links */
 ul a:hover {
     color: black;
 }
 
-.menu_bar ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    padding-top: 30px;
-    padding-right: 30px;
-    justify-content: right;
+
+/* Main Content - Grid Row 2 */
+.middle_row {
+    background-color: #fff;
+    padding-top: 2.5em;
+    padding-bottom: 3em;
 }
 
-.menu_bar img {
-    width: 1em;
-    height: auto;
+.middle_content {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    grid-row: 2;
 }
 
 .side_bar_items {
@@ -119,6 +125,11 @@ address img {
     padding-left: 15px;
     color: #9ba1a6;
     margin: 0;
+}
+
+.content p {
+    font-size: 0.4em;
+    max-width: 30em;
 }
 
 .content h1, .content h2 {

@@ -12,3 +12,14 @@
 .content h2 {
     font-size: 0.7em;
 }
+
+.portfolio {
+    padding-left: 0;
+    color: #777;
+}
+
+.portfolio p {
+    font-size: 1em;
+    color: #9ba1a6;
+    margin-top: .05em;
+}
