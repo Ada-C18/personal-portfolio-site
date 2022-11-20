@@ -67,7 +67,7 @@ nav ul li  a:hover { /*added later */
 .navbar .button a {
     text-decoration: none;
     background-color: #fff;
-    color: #5EBEC4;/* original:#456d96; */
+    color: #F92C85;/* original:#456d96; */
     padding: 6px 12px;
     border-radius: 5px;
     font-size: 17px;
@@ -76,7 +76,8 @@ nav ul li  a:hover { /*added later */
 .navbar .button a:hover {
     background-color: #ddd;
     transition: 0.4s ease;
-    color: #F92C85; /*added later */
+     /*added later */
+    color: #5EBEC4;
 }
 /*double check content section below*/
 .content{
