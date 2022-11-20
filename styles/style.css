@@ -5,7 +5,7 @@
 body {
     display: grid;
     grid-template-rows: 10vw 15vw auto 10vw;
-    grid-template-columns: 20vw 30vw 30vw 20vw;
+    grid-template-columns: 15vw 35vw 35vw 15vw;
 }
 
 header {

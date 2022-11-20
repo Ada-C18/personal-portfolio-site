@@ -1,0 +1,36 @@
+* {
+    border: #4756df 1px solid;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1em 1em 100px 1em;
+    max-width: 60em;
+    justify-content: center;
+}
+
+.project-grid {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 2em;
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+.project-img {
+    grid-column-start: 1;
+}
+
+.text {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1em 1em;
+    grid-column-start: 2;
+}
+
+.images {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
