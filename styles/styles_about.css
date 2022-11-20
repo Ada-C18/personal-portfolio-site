@@ -1,6 +1,73 @@
 body {
-    /* background-color:aqua; */
     background-image: url("/images/4853433.jpg");
 }
 
+header a {
+    color: gray;
+    font-family:fantasy;
+    font-size: .8cm;
+    text-align:left;
+    text-shadow: 2in;
+    font-weight: bolder;
+    font-style: normal;
+    }
 
+
+header p {
+    color: gray;
+    font-family:fantasy;
+    font-size: .8cm;
+    text-align: center;
+    text-shadow: 2in;
+}
+
+section {
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+
+section p {
+    align-items: center;
+    color: gray;
+    font-family:fantasy;
+    font-size: .6cm;
+    text-align: center;
+}
+
+.picture-text { 
+    position: relative;
+    /* text-align: center;
+    color: white; */
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-family:fantasy;
+    font-size: .6cm;
+    font-weight: bold;
+}
+
+section img {
+    width: 9cm;
+    height: 8cm;
+}
+
+footer {
+    font-family:fantasy;
+    font-size: .5cm;
+    text-align:left;
+    font-weight: bolder;
+    color: gray;
+
+    align-items: flex-start;
+    justify-items: left;
+}
+
+a img {
+    width: 1.5cm;
+    height: 1cm;
+}
