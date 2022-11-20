@@ -82,7 +82,7 @@ nav ul li  a:hover { /*added later */
 .content{
     display: flexbox;
     width: 80%;
-    align-items: center;
+    align-items:center;
     position: absolute; 
     top: 50%;
     left: 8%;
@@ -109,3 +109,47 @@ nav ul li  a:hover { /*added later */
     letter-spacing: 2px;
     font-size: 20 px;
 }
+/* About page */
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #dae1e7;
+    color:#00909e
+}
+.about img {
+    height: auto;
+    width: 200px;
+    border-radius: 20%;
+    border-style: double;
+    color: #fff;
+}
+.about-text{
+    max-width: 550px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2 {
+    padding-top: 10%;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5 span {
+    color:#F92C85
+}
+.about-text h5 {
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+
