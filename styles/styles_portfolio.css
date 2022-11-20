@@ -7,7 +7,6 @@ header a {
     font-family:fantasy;
     font-size: .8cm;
     text-align:left;
-    text-shadow: 2in;
     font-weight: bolder;
     font-style: normal;
     }
@@ -25,22 +24,4 @@ h1 {
     font-size: .8cm;
     text-align: center;
     text-shadow: 2in;
-}
-
-/* header {
-    /* background-color: pink; */
-    grid-column: 2 / -1;
-    border: 5px dotted gainsboro;
-    padding: 15px;
-    /* background: lightblue; */
-    background-clip: content-box;
-} 
-
-h1 {
-    color: orangered;
-    font-family:cursive;
-    font-weight: bolder;
-    font-style: normal;
-    text-align: center;
-    font-size: 1.2cm; 
-} */
+    }
