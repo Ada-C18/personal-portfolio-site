@@ -78,6 +78,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-left: 100px;
 }
 
 .homepage-wrapper {
