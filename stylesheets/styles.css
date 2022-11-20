@@ -221,6 +221,7 @@ img:hover {
   opacity: 0.5;
   -webkit-filter: blur(2px) grayscale(100%);
   filter: blur(2px) grayscale(100%);
+  transition: 0.3s all ease-in-out;
 }
 
 #location span,
