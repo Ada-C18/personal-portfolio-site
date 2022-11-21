@@ -2,16 +2,12 @@ body{
     background-color: rgb(14, 49, 53);
     font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
     margin: 50px;
-    padding: 10px;
+    /* padding: 10px; */
     color:rgb(190, 241, 247);
     line-height: 1.8;
     font-weight: lighter;
     letter-spacing: 1px;
-    font-size: 20px;
-    /* height:100% */
-    /* margin-bottom: 0px; */
-    
-    
+    font-size: 20px;    
 }
 h1{
     margin:0px 0px 0px 4px;
@@ -46,7 +42,6 @@ h1{
     font-size: 16px;
     margin-top: 20px;
     margin-bottom:57px; /* to keep the social media logos in line with 'about' page */
-
   }
 
 .button a{
@@ -97,9 +92,6 @@ p,h2{margin: 0px 0px 15px}
     opacity: .5;        
 }
 
-.technologies{
-    margin-top:-18px; 
-}
 .myname{
     color:rgb(206, 243, 247);
     font-size: 50px;
@@ -130,12 +122,6 @@ p,h2{margin: 0px 0px 15px}
 
 
 .standard-container{
-    /* display: flex;
-    flex-flow: row wrap;
-    padding: 16px;
-    margin-bottom: 26px;
-    justify-content: space-between; */
-    /* align-items:stretch; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -143,7 +129,7 @@ p,h2{margin: 0px 0px 15px}
     row-gap: 15px;
     align-items: center;
     padding-left:0px;
-    /* width: 800px; */
+
 }
 
 .standard-card {
@@ -199,19 +185,20 @@ p,h2{margin: 0px 0px 15px}
 .intro-container {
     margin:80px;
     /* margin-top:40px; */
-    width: 80vw;
-    height: 80vh;
+    width: auto;
+    height: auto;
     display: grid;
     grid-template: 50% 50%/50% 50%;
     grid-gap: 50px;
     margin-bottom: 250px;
     height: 20%;
+    max-width: 100%;
 }
 
 .intro {
     /* display:block; */
-    max-width: 650px;
-    padding-bottom: 0px;
+    /* max-width: 650px; */
+    /* padding-bottom: 0px; */
     
     /* border:20px; */
     /* grid-column-start:1;
