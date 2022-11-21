@@ -79,10 +79,6 @@ nav {
     margin-bottom: 135px;
 }
 
-.project:last {
-    margin-bottom: 40px;
-}
-
 .project__img {
     height: 400px;
     width: 100%;
