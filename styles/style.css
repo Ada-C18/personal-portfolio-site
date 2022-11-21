@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-h1 {
+.page-title {
     color: teal;
     text-decoration: underline;
 }
@@ -33,3 +33,7 @@ section {
     height: 80vh;
 }
 
+img {
+    width: 400px;
+    height: 500px;
+}
