@@ -200,14 +200,17 @@ nav ul li  a:hover { /*added later */
     text-align: center;
     margin:25px 0px;
 }
-card h5 {
+.card h5 {
     color:#00909e;
     font-size: 23px;
     margin-bottom: 15px;
+    text-align: center;
+    /* align-items: center; */
 }
 .card p {
     margin-top: 0;
     color: #00909e;
+    text-align: center;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
