@@ -1,0 +1,13 @@
+        <!-- <nav>
+          <a href="/pages/about.html">about me</a>
+          <a href="/pages/portfolio.html">portfolio</a>
+        </nav>
+        <main>
+          hello, it's me kate.
+        </main>
+        <footer>
+          <nav>
+            <a href="mailto:varindakate@gmail.com">contact me</a>
+            <a href="https://github.com/kate-varinda">github</a>
+          </nav>
+        </footer> -->
