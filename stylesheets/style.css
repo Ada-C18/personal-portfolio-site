@@ -1,9 +1,9 @@
 /* debug */
-/* * {
+* {
     border: 1px;
     border-style: solid;
     border-color: black;
-}  */
+} 
 
 body {
     background-color: darksalmon;
@@ -40,10 +40,9 @@ article {
 
 .title {
     font-family: 'Caveat', cursive;
-    font-size: 72px;
+    font-size: 8vw;
     background-color: wheat;
     text-align: center;
-    margin-top: 8vh;
-    margin-bottom: 0px;
-    padding: 2vh 12vw;
+    padding: 1vh 12vw;
+    margin: 8vh 15vw 0px;
 }
