@@ -1,9 +1,9 @@
 /* debug */
-* {
+/* * {
     border: 1px;
     border-style: solid;
     border-color: black;
-} 
+}  */
 
 body {
     background-color: darksalmon;
@@ -15,17 +15,25 @@ article {
     background-color: wheat;
 }
 
-.nav-bar {
-    background-color: tomato;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2vw 0px;
+#nav-bar {
     list-style: none;
+    text-align: center;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
 }
 
-li.nav-bar:hover {
+.nav-button {
+    display: grid;
+    background-color: tomato;
+    color:darkred;
+    text-decoration: none;
+    padding: 1vw 0px;
+}
+
+.nav-button:hover {
     background-color: brown;
+    color: wheat;
 }
 
 .title {
