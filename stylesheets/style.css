@@ -17,6 +17,19 @@ article {
     background-color: wheat;
 }
 
+.title-container {
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Caveat', cursive;
+    font-size: 8vw;
+    background-color: wheat;
+    text-align: center;
+    padding: 1vh 12vw;
+    margin: 8vh 15vw 0px;
+}
+
 #nav-bar {
     list-style: none;
     text-align: center;
@@ -38,11 +51,3 @@ article {
     color: wheat;
 }
 
-.title {
-    font-family: 'Caveat', cursive;
-    font-size: 8vw;
-    background-color: wheat;
-    text-align: center;
-    padding: 1vh 12vw;
-    margin: 8vh 15vw 0px;
-}
