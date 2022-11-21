@@ -1,0 +1,38 @@
+/* universal styles */
+body {
+    /* border: red 1px solid; */
+    font-family: 'Cabin', Sans-Serif;
+    color: #020402;
+    margin: 0;
+    padding:0;
+}
+
+/* .container {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 40px;
+} */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #62A8AC;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Header */
+
+/* Main */
+
+
+/* Footer */
