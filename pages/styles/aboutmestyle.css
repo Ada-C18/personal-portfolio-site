@@ -30,6 +30,11 @@ p {
     font-size: 16px;
 }
 
+.text--purple {
+    color: #6030b1
+}
+
+
 /* Navigation */
 
 nav {
@@ -65,15 +70,16 @@ nav {
     background-color: #5d3eff;
 }
 
-.text--purple {
-    color: #6030b1
-}
-
-/* About Me Blurb */
+/* About Me */
 
 #about-me {
     min-height:100vh;
     display:flex;
+    flex-direction: column;
+}
+
+.about-me__info {
+    display: flex;
     flex-direction: column;
 }
 
@@ -100,7 +106,8 @@ nav {
     width: 100%;
 
 /* Improving my picture */
-    transform: scale(1.8);
+    transform: scale(1.4);
+    margin-top:12px;
 }
 
 .about-me__info--para {
@@ -110,16 +117,6 @@ nav {
 
 .about-me__info--title {
     margin-bottom: 16px;
-}
-
-.about-me__img {
-    width: 100%
-}
-
-.about-me__img--container {
-    flex: 1;
-    display: flex;
-    align-items: center;
 }
 
 .about-me__link{
