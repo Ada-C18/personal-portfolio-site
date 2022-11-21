@@ -21,7 +21,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: .75rem 3rem;
-    background-color: #006666;
+    background-color: #045050;
     /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
 }
 
@@ -68,10 +68,10 @@ footer {
     bottom: 0;
     grid-row: 5;
     grid-column: 1/ span 4;
-    background-color: #006666;
+    background-color: #045050;
 }
 
-section.flex-container {
+article.flex-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -79,7 +79,7 @@ section.flex-container {
     position: fixed;
     width: 100%;
     color: #dfdce3;
-    background-color: #006666;
+    background-color: #045050;
 }
 
 .copyright {
@@ -92,4 +92,8 @@ section.flex-container {
     margin: auto;
     align-self: flex-start;
     padding: 5px 5px 5px 5px;
+}
+
+.footer-icon-article {
+    padding: 0 0 0 15px;
 }

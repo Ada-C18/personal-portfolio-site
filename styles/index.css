@@ -20,7 +20,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('../assets/hero-mountain.jpeg');
+    background: url('../assets/hero-ferns.jpg');
     background-size:cover;
     position:relative;
 }
@@ -49,9 +49,5 @@
 div {
     font-size: 500%;
     margin-bottom: 0;
-    -webkit-text-stroke: .75px black;
 }
 
-p {
-    font-weight: bold;
-}
