@@ -2,7 +2,7 @@
 
 header a {
     color: gray;
-    font-family:fantasy;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .8cm;
     text-align:left;
     text-shadow: 2in;
@@ -13,7 +13,7 @@ header a {
 
 #interest {
     color: gray;
-    font-family:fantasy;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .8cm;
     text-align: center;
     text-shadow: 2in;
@@ -34,7 +34,7 @@ section {
     bottom: 8px;
     left: 16px;
     color: white;
-    font-family:fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .6cm;
     font-weight: bold;
 }
@@ -45,7 +45,7 @@ section img {
 }
 
 footer {
-    font-family:fantasy;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .5cm;
     text-align:left;
     font-weight: bolder;

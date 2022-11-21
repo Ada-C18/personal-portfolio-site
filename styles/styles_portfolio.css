@@ -2,7 +2,7 @@
 
 header a {
     color: gray;
-    font-family:fantasy;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .8cm;
     text-align:left;
     font-weight: bolder;
@@ -17,7 +17,7 @@ h1 {
     background-clip: content-box;
 
     color: gray;
-    font-family:fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .8cm;
     text-align: center;
     text-shadow: 2in;
@@ -39,13 +39,13 @@ nav.git_projects {
 
 p{
     color: gray;
-    font-family:fantasy;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .5cm;
     text-align: center;
     text-shadow: 2in;
 }
 footer {
-        font-family:fantasy;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: .5cm;
         text-align:left;
         font-weight: bolder;
