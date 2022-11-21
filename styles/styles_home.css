@@ -18,9 +18,9 @@ article {
   grid-column: 1 / 2 ;
 }
 
-#as {
-  width: 250;
-  height: 215;
+article #as {
+  width: 6cm;
+  height: 6cm;
 }
 
 header {
