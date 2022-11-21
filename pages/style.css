@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div {
+    margin: auto;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+   }
+
+footer {
+    background-color: white;
+    margin-left: 50px;
+    color: silver;
+}
+
+nav {
+    font-size: 12;
+  }
+
+.flex-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding:0 ;
+    margin: 10px;
+    list-style: none;
+}
+
+.flex-item1 {
+    background-color: rgba(192, 192, 192, 0.123);
+    padding: 10px;
+    width: 750px;
+    height: auto;
+    margin-top: 10px;
+    line-height: 20px;
+    color: rgb(82, 79, 79);
+    font-size: 1em;
+    text-align: left;
+}
+
+.flex-item2 {
+    background-color: white;
+    font-weight: lighter;
+    font-size: 1em;
+    text-align: left;
+}
+
+a:link {
+  color: silver;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: silver;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
