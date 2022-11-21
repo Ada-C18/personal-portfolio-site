@@ -4,7 +4,7 @@
 
 .body-index{
     display: grid;
-    grid-template-rows: 10vw auto 10vw;
+    grid-template-rows: 6vw auto 10vw;
     grid-template-columns: 20vw auto 20vw;
     margin: 0 0 0 0;
 }
@@ -14,6 +14,31 @@
     grid-row: 1;
     grid-column: 1/ span 4;
     top: 0;
+    z-index: 1;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('../assets/hero-mountain.jpeg');
+    background-size:cover;
+    position:relative;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+    
+}
+.hero_p {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 .main-index {
@@ -21,14 +46,12 @@
     grid-column: 1 / span 4;
 }
 
-.main-index-h1 {
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif !important;
-    font-weight: bold;
+div {
     font-size: 500%;
     margin-bottom: 0;
+    -webkit-text-stroke: .75px black;
 }
 
-.section {
-    text-align: center;
+p {
+    font-weight: bold;
 }
-

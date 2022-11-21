@@ -35,6 +35,8 @@ nav ul {
 
 nav li {
     padding: 0 1rem;
+    font-family: Lato, sans-serif;
+    font-size: large;
 }
 
 nav a {
@@ -54,6 +56,11 @@ main {
     grid-row: 2/ span 3;
     grid-column: 2 / span 2;
     color: #465C8B;
+}
+
+p {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
 }
 
 footer {
@@ -82,9 +89,7 @@ section.flex-container {
 .icon {
     width: 30px;
     height: 30px;
-    /* width: 2vw;
-    height: 3vh;  */
     margin: auto;
     align-self: flex-start;
-    padding: 10px;
+    padding: 5px 5px 5px 5px;
 }
