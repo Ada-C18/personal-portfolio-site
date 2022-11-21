@@ -1,12 +1,5 @@
 /* Global styles
 --------------------------------*/
-/* html {
-    box-sizing: border-box;
-} */
-
-  /* * , *:before, *:after{
-    box-sizing: inherit;
-} */
 
 body {
     color: #343434;
@@ -17,32 +10,18 @@ body {
     line-height: 1.5;
 }
 
-/* p {
-    line-height: 2.5;
-} */
-
 img {
     width: 300px;
 }
 
 a {
-    color:rgba(71,31,147,1);
+    color:rgba(41,86,78,1);
 }
 
 a:hover {
     text-decoration: none;
     color: magenta;
 }
-
-/* h1 {
-    font-size: 100px;
-    line-height: 1.5;
-} */
-
-/* h2 {
-
-    font-size: 45px;
-} */
 
 h1, h2 {
     font-family: 'Caveat', cursive;
@@ -55,8 +34,7 @@ h1, h2 {
     width: 85%;
     margin: 0 auto;
     padding: 10px 0;
-    display:grid;
-    
+    display:grid;   
 }
 
 h3 {
@@ -82,15 +60,17 @@ h3 {
 
 }
 
+.picture {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 
 /* profile
 --------------------------------*/
 header {
     background:rgba(107,223,204,0.8);
     color:white;
-    /* align-items:flex-start;
-    display:block; */
-   
 }
 
 /* projects
@@ -98,9 +78,7 @@ header {
 .projects {
     background: #F7FFF7;
 }
-.projects a {
-    color:#2F3061;
-}
+
 .projects .btn {
     color: #F7FFF7;
     background: rgba(4,174,145,1);
@@ -112,9 +90,9 @@ header {
 .projects .btn:hover {
     background: rgb(47, 48, 97, 80%);
 }
+
 .project-item {
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .project-item h3 {
@@ -122,6 +100,7 @@ header {
 }
 /* work experience
 --------------------------------*/
+
 .work-experience {
     background:rgba(188,245,235,0.8);
 }
@@ -129,40 +108,31 @@ header {
 /* Education
 --------------------------------*/
 .education {
-    background-size: cover;
-    background-position: top right;
     padding-bottom: 100px;
 }
-.education p {
-    width: 60%;
-}
+
 /* contact Info
 --------------------------------*/
 footer {
     background: rgba(107,223,204,0.8) ;
     color: #F7FFF7  ;
-    
 }
+
 .contact-list ,
 .nav-bar {
     list-style-type: none;
-    padding: 0%;
 }
 
 .contact-list a ,
 .nav-bar a {
     padding: 15px;
-    display: inline-block;
-    
-}
-
-.picture {
-    margin-top: 15px;
-    margin-bottom: 15px;
+    display: inline-block; 
 }
 
 
-/* REponsive
+
+
+/* Reponsive
 --------------------------------*/
 @media screen and (min-width:750px){
     header, footer {
@@ -197,7 +167,4 @@ footer {
     h2 {
         line-height: 1;
     }
-    /* .contact-list a {
-        padding: 5px;
-    } */
 }
