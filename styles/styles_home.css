@@ -1,7 +1,4 @@
-/* body {
-  background-color:aqua;
-  background-image: url("/images/4853433.jpg");
-}  */
+
 
 div {
   margin: auto;
@@ -24,11 +21,9 @@ article #as {
 }
 
 header {
-  /* background-color: pink; */
   grid-column: 2 / -1;
   border: 5px dotted gainsboro;
   padding: 15px;
-  /* background: lightblue; */
   background-clip: content-box;
 }
 
@@ -38,11 +33,10 @@ h1 {
   font-weight: bolder;
   font-style: normal;
   text-align: center;
-  font-size: 1.2cm;
+  font-size: 1cm;
 } 
 
 aside {
-  /* background-color:; */
   grid-row: 2 / 6;
 }
 
@@ -60,26 +54,33 @@ a {
 }
 
 main {
-  /* background-color: white; */
   grid-column: 2 / span 4;
-  /* grid-column: 2 / -1; */
   grid-row:  2 / span 4;
   color: gray;
   font-family:fantasy;
-  font-size: .8cm;
+  font-size: .5cm;
   text-align: center;
 }
 
+#seattle {
+  width: 8cm;
+  height: 6cm;
+}
+
 footer {
-  /* background-color: blue; */
-  grid-column: 1 / -1;  
+  grid-column: 1 / 2; 
   font-family:fantasy;
   font-size: .8cm;
-  text-align:left;
+  text-align: left;
   color: gray
 }
 
 
+a img{
+  justify-content:flex-start;
+  width: .9cm;
+  height: .7cm;
+}
 
 
 

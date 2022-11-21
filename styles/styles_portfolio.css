@@ -1,6 +1,4 @@
-body {
-    background-image: url("/images/4853433.jpg");
-}
+
 
 header a {
     color: gray;
@@ -18,10 +16,46 @@ h1 {
     /* background: lightblue; */
     background-clip: content-box;
 
-
     color: gray;
     font-family:fantasy;
     font-size: .8cm;
     text-align: center;
     text-shadow: 2in;
+    }
+
+
+nav.git_projects {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        
+    }
+
+.projects {
+    width: 8cm;
+    height: 8cm;
+}
+
+p{
+    color: gray;
+    font-family:fantasy;
+    font-size: .5cm;
+    text-align: center;
+    text-shadow: 2in;
+}
+footer {
+        font-family:fantasy;
+        font-size: .5cm;
+        text-align:left;
+        font-weight: bolder;
+        color: gray;
+    
+        align-items: flex-start;
+        justify-items: left;
+    }
+    
+.logos {
+        width: 1cm;
+        height: .8cm;
     }
