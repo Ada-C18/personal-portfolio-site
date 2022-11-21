@@ -7,7 +7,7 @@
 
 body {
     background-color: darksalmon;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Varela Round', Verdana, Geneva, Tahoma, sans-serif;
     color: darkred;
     margin: 0;
     padding: 0;
@@ -39,7 +39,9 @@ article {
 }
 
 .title {
+    font-family: 'Caveat', cursive;
     background-color: wheat;
     text-align: center;
-    padding: 2vw 0px;
+    margin-top: 8vh;
+    padding: 2vh 12vw;
 }
