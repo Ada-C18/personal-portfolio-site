@@ -1,0 +1,118 @@
+header {
+  font-family: 'Rubik Microbe', cursive;
+  font-size: xxx-large;
+  font-weight: 500;
+  color: rgb(102, 90, 72);
+  text-align: center;
+  
+}
+
+body {
+  background-image: url("../images/flower_background.avif");
+}
+
+
+/*div {
+  margin: auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template: 50% 50%/ 80% 20%;
+}
+
+
+header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  
+}
+*/
+
+.nav_bar {   
+    font-family: 'Rubik Distressed', cursive;
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-around;
+    height: 60px;
+    
+}
+
+.active {
+  background-color: rgb(206, 229, 208);
+  color: rgb(236, 179, 144)
+}
+
+
+
+.description {
+  height: 500px;
+  display: flex;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: x-large;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.connect_info {
+  font-family: 'Noto Serif', serif;
+  display: flexbox; 
+  text-align-last: center;
+  justify-content: space-evenly;
+}
+
+
+
+h2 {
+  font-family: 'Marck Script', cursive;
+}
+
+.section {
+  font-family: 'Noto Serif', serif;  
+  margin: auto;
+}
+
+
+.grid {
+  display: grid;
+  #grid-template-columns: repeat(2, 1fr);
+  #grid-template-rows: repeat(4, 1fr);
+  grid-template: 30% 70%/ 15% 85%;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  }
+
+
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+}
+
+.slides {
+  display:flex;
+  justify-content: center;
+  height: 1000px;
+  align-items: center;
+}
+
+
+th, td {
+  text-align: left;
+  font-family: 'Noto Serif', serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+table {
+  border-spacing: 15px;
+}
+
+tr:hover {
+  background-color: rgb(255, 225, 225);
+}
+
+
+
