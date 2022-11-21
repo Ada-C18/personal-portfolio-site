@@ -1,11 +1,12 @@
-* {
+/* * {
     border: #4756df 1px solid;
-}
+} */
 
 body {
     display: grid;
-    grid-template-rows: 15vw auto 10vw;
+    grid-template-rows: 7vw auto 10vw;
     grid-template-columns: 15vw 35vw 35vw 15vw;
+    margin: 0 0 0 0;
 }
 
 header {
@@ -13,7 +14,6 @@ header {
     grid-row: 1;
     grid-column: 1/ span 4;
     top: 0;
-    
 }
 
 nav {
@@ -22,7 +22,7 @@ nav {
     justify-content: space-between;
     padding: .75rem 3rem;
     background-color: #006666;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
 }
 
 
@@ -68,7 +68,6 @@ section.flex-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
     bottom: 0;
     position: fixed;
     width: 100%;
