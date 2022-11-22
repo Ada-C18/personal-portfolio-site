@@ -1,7 +1,7 @@
 
 #ada_class {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: .5cm;
+  font-size:small;
   color: gray;
 }
 
@@ -21,8 +21,8 @@ div {
 }
 
 #as {
-  width: 6cm;
-  height: 6cm;
+  width: 210px;
+  height: 200px;
 }
 
 #dotted_box {
@@ -51,8 +51,8 @@ div {
 }
 
 #seattle {
-  width: 8cm;
-  height: 6cm;
+  width: 210px;
+  height: 200px;
 }
 
 aside {

@@ -9,11 +9,10 @@ header a {
     font-style: normal;
     }
 
-h1 {
+#title_projects {
     grid-column: 3 / -1;
     border: 5px dotted gainsboro;
     padding: 15px;
-    /* background: lightblue; */
     background-clip: content-box;
 
     color: gray;
@@ -23,8 +22,7 @@ h1 {
     text-shadow: 2in;
     }
 
-
-nav.git_projects {
+.git_projects {
         display:flex;
         flex-direction:column;
         justify-content:center;
