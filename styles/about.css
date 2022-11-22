@@ -1,0 +1,21 @@
+/* ABOUT PAGE */
+.about-image {
+    width: 18vw;
+    height: 24vw;
+    border-radius: 10px;
+    padding: 10px 0 0 40px;
+}
+
+.about-text {
+    padding: 0 100px 0 100px;
+}
+
+.about-h1 {
+    font-size: 50px;
+}
+
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}

@@ -44,10 +44,6 @@ nav a {
     color: #dfdce3;
 }
 
-nav a:visited {
-    color: #dfdce3;
-}
-
 nav a:hover {
     text-decoration: underline;
 }
@@ -98,23 +94,8 @@ article.flex-container {
     padding: 0 0 0 15px;
 }
 
-.about-image {
-    width: 18vw;
-    height: 24vw;
-    border-radius: 10px;
-    padding: 10px 0 0 40px;
-}
-
-.about-text {
-    padding: 0 100px 0 100px;
-}
-
-.about-h1 {
-    font-size: 50px;
-}
-
-.about-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
+/* @media (min-width: 525px) {
+    .icon {
+        padding: 1px 1px 1px 1px;
+    }
+} */
