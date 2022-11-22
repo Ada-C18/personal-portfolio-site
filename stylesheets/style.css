@@ -48,10 +48,6 @@ em:hover {
     animation-duration: 2s;
 }
 
-.title {
-    justify-content: center;
-}
-
 .circles {
     z-index: 1;
     position: absolute;
@@ -74,7 +70,9 @@ em:hover {
 .title-text {
     font-family: 'Caveat', cursive;
     font-size: 8vw;
-    background-color: wheat;
+    color:firebrick;
+    background-image: linear-gradient(180deg, wheat, lemonchiffon);
+    background-size: 100%;
     text-align: center;
     padding: 1vh 12vw;
     margin: 4vh 15vw 0px;
@@ -90,14 +88,16 @@ em:hover {
 
 .nav-button {
     display: grid;
-    background-color: tomato;
+    background: tomato;
+    background: linear-gradient(180deg, tomato 50%, rgb(203, 45, 34) 100%);
     color:darkred;
     text-decoration: none;
     padding: 1vh 0px;
 }
 
 .nav-button:hover {
-    background-color: brown;
+    background: brown;
+    background: linear-gradient(180deg, brown 75%, rgb(203, 45, 34) 100%);
     color: wheat;
 }
 
