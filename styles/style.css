@@ -102,6 +102,7 @@ ul {
     border-color: rgb(94, 78, 106);
     border-width: 3px;
     border-radius: 10pt;
+    padding: 8px;
 }
 
 .divider {
