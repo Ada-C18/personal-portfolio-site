@@ -21,13 +21,32 @@ article {
     justify-content: center;
 }
 
+.circles {
+    z-index: 1;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+}
+
+.circle {
+    background-color: tomato;
+    height: 4vw;
+    width: 4vw;
+    border-radius: 100%;
+}
+
 .title-text {
     font-family: 'Caveat', cursive;
     font-size: 8vw;
     background-color: wheat;
     text-align: center;
     padding: 1vh 12vw;
-    margin: 8vh 15vw 0px;
+    margin: 4vh 15vw 0px;
 }
 
 #nav-bar {
