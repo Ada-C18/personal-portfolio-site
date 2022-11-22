@@ -1,0 +1,99 @@
+html {
+    background-image: url(/Users/nina/Developer/projects/personal-portfolio-site/images/portfolio-portfolio-background.jpg);
+    background-position: center center;
+    background-size: 100%;
+}
+
+footer {
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15% 50% 50%;
+    column-gap: 5%;
+    justify-items: center;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 250%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+h2 {
+    margin-bottom: 0%;
+}
+
+p {
+    font-family: monospace;
+}
+
+.language-title {
+    grid-row-start: 1;
+    text-decoration: underline overline;
+    text-decoration-color: #7f5a83;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.project-title {
+    grid-row-start: 2;
+    font-family: ui-monospace;
+}
+
+.python {
+    grid-column-start: 1;
+}
+
+.flaskSQL {
+    grid-column-start: 2;
+}
+
+.HTMLCSS {
+    grid-column-start: 3;
+}
+
+h4, p {
+    border: groove;
+    color: white;
+    background-color: #764ba2;
+    padding: 5px;
+}
+
+.button {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+
+}
+
+.center {
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

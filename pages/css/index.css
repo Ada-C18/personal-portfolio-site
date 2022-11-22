@@ -1,0 +1,22 @@
+html {
+    background-image: url(/Users/nina/Developer/projects/personal-portfolio-site/images/portfolio-home-background.jpg);
+    background-position: center center;
+    background-size: 100% 300%;
+    overflow: hidden;
+}
+
+footer {
+    color: black;
+}
+
+.container {
+    padding: 15%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
