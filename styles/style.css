@@ -5,15 +5,13 @@ div {
     height: 100vh;
     display: grid;
     grid-template-rows: repeat(10,10%);
-    grid-template-columns: repeat(1,100%);
+    grid-template-columns: 20%, 60%, 20%;
 }
-
 
 
 body {
     margin: 0px;
     height: 100%;
-    font-family: Rubik Distressed;
 }
 
 header {
@@ -24,21 +22,17 @@ header {
     align-items: center;
 }
 
-footer {
-    color: white;
-}
-
-.topnav a:link {
+a:visited {
     color: white;
     text-decoration: none;
 }
 
-.topnav a:link:visited {
+a:link {
     color: white;
     text-decoration: none;
 }
 
-main {
+.landing {
     display:flex;
     background-color:white;
     grid-area: 2/1/10/1;
@@ -46,6 +40,13 @@ main {
     align-items: center;
     font-size: 50px;
 }
+
+#abouttitle {
+    font-size: 50px;
+    text-align: center;
+}
+
+
 
 footer {
     background-color: black;
