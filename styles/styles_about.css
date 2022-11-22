@@ -43,19 +43,3 @@ section img {
     width: 9cm;
     height: 8cm;
 }
-
-footer {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: .5cm;
-    text-align:left;
-    font-weight: bolder;
-    color: gray;
-
-    align-items: flex-start;
-    justify-items: left;
-}
-
-a img {
-    width: 1.1cm;
-    height: 1cm;
-}

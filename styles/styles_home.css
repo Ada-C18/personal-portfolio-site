@@ -1,4 +1,9 @@
 
+#ada_class {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: .5cm;
+  color: gray;
+}
 
 div {
   margin: auto;
@@ -9,25 +14,25 @@ div {
   grid-template-rows: repeat(5,20); 
 }
 
-article {
+.logo_as {
   background-color: white;
   align-items:flex-end;
   grid-column: 1 / 2 ;
 }
 
-article #as {
+#as {
   width: 6cm;
   height: 6cm;
 }
 
-header {
+#dotted_box {
   grid-column: 2 / -1;
   border: 5px dotted gainsboro;
   padding: 15px;
   background-clip: content-box;
 }
 
-h1 {
+.phrase {
   color: orangered;
   font-family:cursive;
   font-weight: bolder;
@@ -36,24 +41,7 @@ h1 {
   font-size: 1cm;
 } 
 
-aside {
-  grid-row: 2 / 6;
-}
-
-nav {
-  text-align: center;
-  align-items:stretch;
-}
-
-a {
-  color: gray;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1cm;
-  font-weight: bolder;
-  font-style: normal;
-}
-
-main {
+.my_text {
   grid-column: 2 / span 4;
   grid-row:  2 / span 4;
   color: gray;
@@ -67,22 +55,22 @@ main {
   height: 6cm;
 }
 
-footer {
-  grid-column: 1 / 2; 
+aside {
+  grid-row: 2 / 6;
+}
+
+#other_pages {
+  text-align: center;
+  align-items:stretch;
+}
+
+a {
+  color: gray;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: .8cm;
-  text-align: left;
-  color: gray
+  font-size: 1cm;
+  font-weight: bolder;
+  font-style: normal;
 }
-
-
-a img{
-  justify-content:flex-start;
-  width: .9cm;
-  height: .7cm;
-}
-
-
 
 
 
