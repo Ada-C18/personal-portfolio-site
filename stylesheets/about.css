@@ -18,8 +18,8 @@ article img {
 }
 
 article p {
-    font-size: 12pt;
-    line-height: 3vmax;
+    /* font-size: 12pt;
+    line-height: 3vmax; */
     text-align: justify;
     margin: 5px 0px 2vw;
 }
