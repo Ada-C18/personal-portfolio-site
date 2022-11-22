@@ -1,14 +1,13 @@
-.home-body {
-    background-image: url("/Users/nancylee/Developer/projects/personal-portfolio-site/images/Blue-Background.jpg");
+html,body{
+    height: 100%
 }
 
-.homepage {
-    background-color: rgb(61, 133, 171);
-    grid-column: 1, -1;
+.wallpaper {
+    background-image: url("//Users/nancylee/Developer/projects/personal-portfolio-site/images/Minimalist-Background.jpg");
 }
 
 h1 {
-    color: rgb(6, 6, 244);
+    color: brown;
     text-align: center;
     font-size:large;
     font-family: fantasy, serif;
@@ -18,33 +17,36 @@ p {
     text-align: center;
 }
 
-#sailor-moon {
+.page-links {
     display: flex;
-    justify-content: center;
+    border: black 10px double;
+    font-family: cursive;
+    font-size: large;
+    justify-content: space-evenly;
 }
 
-.navigation {
-    color: rgb(247, 245, 245);
-    font-family: cursive;
-    font-size: medium;
-    justify-content: space-evenly;
-    grid-column: 1 / span -1;
-    grid-row: 1 / 2;
+#index-photos {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#favorites {
+    display: grid;
 }
 
 .repos {
-    display: inline-grid;
+    display: grid;
     flex-direction: row;
     justify-content: space-evenly;
     flex-direction: column;
 }
 
 footer {
+    position: static;
     font-family: 'Courier New', Courier, monospace;
-    position: absolute;
-    bottom: 0px;
-    text-align: right;
+    text-align: center;
+    bottom: 0;
     width: 100%;
 }
