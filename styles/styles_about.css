@@ -5,19 +5,22 @@ header a {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .8cm;
     text-align:left;
-    text-shadow: 2in;
     font-weight: bolder;
     font-style: normal;
     }
 
 
 #interest {
+    border: 5px dotted gainsboro;
+    padding: 15px;
+    background-clip: content-box;
+
     color: gray;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .8cm;
     text-align: center;
-    text-shadow: 2in;
-}
+    }
+
 
 section {
     display:flex;

@@ -19,7 +19,6 @@ header a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .8cm;
     text-align: center;
-    text-shadow: 2in;
     }
 
 .git_projects {
@@ -40,5 +39,4 @@ p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: .5cm;
     text-align: center;
-    text-shadow: 2in;
 }
