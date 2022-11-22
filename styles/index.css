@@ -1,7 +1,3 @@
-/* * {
-    border: #4756df 1px solid;
-} */
-
 .body-index{
     display: grid;
     grid-template-rows: 5vw auto 10vw;
