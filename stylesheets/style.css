@@ -20,6 +20,7 @@
 body {
     background-color: darksalmon;
     font-family:'Varela Round', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11pt;
     color: darkred;
     margin: 0;
     padding: 0;
@@ -50,6 +51,15 @@ em {
 em:hover {
     animation-name: rainbow-text;
     animation-duration: 2s;
+}
+
+footer {
+    background: rgb(255, 250, 205, 0.5);
+    color: firebrick;
+    font-size: 8pt;
+    text-align: center;
+    margin: 10px 10vw;
+    padding: 0;
 }
 
 .circles {
