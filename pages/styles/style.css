@@ -53,6 +53,7 @@ body{
 
 #project-photo {
     max-width:500px;
+    padding-left: 160px;
 }
 
 a {
@@ -237,11 +238,11 @@ p.copyright {
     border-style: dotted;
     align-content: center;
     justify-content: center;
-    text-align: center;
 }
 
 #project-title{
     font: bold;
+    text-align:center;
 }
 
 .project-1 { 
