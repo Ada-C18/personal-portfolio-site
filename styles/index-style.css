@@ -1,11 +1,6 @@
-/* * {
-    border: red 1px solid;
-} */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #A7D2CB;
-    /* font-family: 'Playfair Display', serif; */
-
 }
 
 /* Main */
@@ -21,7 +16,6 @@ body {
 header {
     grid-row: 1 / 2;
     grid-column: 1 / 13;
-    /* background-color: #A7D2CB; */
     color: #006E7F;
     display: flex;
     align-items: center;
@@ -31,10 +25,8 @@ header {
 
 h1 {
     font-size: 2em;
-    /* color: #e5e7eb; */
     padding-left: 2rem;
     font-family: 'Playfair Display', serif;
-    /* font-family: 'Roboto', sans-serif; */
     /* border: red 1px solid; */
 }
 
@@ -47,7 +39,6 @@ nav {
 .navlinks {
     list-style: none;
     display: flex;
-    flex-direction: row;
     padding-right: 2rem;
     justify-content: flex-end;
     gap: 30px;
@@ -71,9 +62,8 @@ section {
     grid-column: 1/ 13;
     display: flex;
     justify-content: space-around;
-    /* background-color:#A7D2CB; */
-    /* background-color: beige; */
 }
+
 /* Name Container  */
 .container-left{
     /* border: red 1px solid;  */
@@ -90,7 +80,6 @@ h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
     margin-bottom: 10px;
-    /* padding-left: .5em; */
     color: #006E7F;    
     /* border: red 1px solid; */
 }
@@ -107,7 +96,8 @@ p {
 /* Right Container  */
 .container-right {
     /* border: red 1px solid; */
-    color: #FFD124;
+    /* color: #FFD124; */
+    color:#FFE15D;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -144,7 +134,7 @@ footer {
     color:#e5e7eb;
 }
 .social-media-icon:hover {
-    color: #F2D388;
+    color: #FFD124;
 }
 
 
@@ -154,16 +144,60 @@ img {
     width: 22em;
     height: auto;
     border-radius: 12%;
-    /* object-fit: contain; */
     align-self: center;
 }
 
 .container-photo {
     /* border: red 1px solid; */
-    /* color: #FFD124; */
     display: flex;
     align-content: center;
     justify-items: center;
 }
 
+
+/* Styling for Portfolio Page  */
+
+.container-portfolio {
+    display: flex;
+    flex-direction: column;
+}
+.container-portfolio-figures {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio-header {
+    /* border: 1px red solid; */
+    padding-left: 1em;
+    padding-top: 1.5em;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    /* border: 1px red solid; */
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+}
+
+.project > a:hover {
+    color: #FFD124;
+}
+
+figure > img {
+    width: 200px;
+    justify-content: center;
+}
+.project-description {
+    width: 100%;
+    font-size: 1.25em;
+    text-align: center;
+    /* border: 1px red solid; */
+}
 

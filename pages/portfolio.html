@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/c72358b43f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/styles/index-style.css">
         <title>Tasha Chang Portfolio</title>
@@ -14,37 +16,61 @@
     <body>
         <main class ="main-container">
             <header>
-                <h1>Portfolio</h1>
+                <h1>Tasha Chang</h1>
                 <nav>
                     <ul class="navlinks">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a>
+                        </li>
                     </ul>
                 </nav>
             </header>
 
-            <section>
-                <div class="container-left">
-                    <h2>Portfolio</h2>
-                    <p>Phyical Therapist --> Software Engineering Student at Ada Developers Academy</p>
-                </div>
-                <div class="container-right">
-                    <i class="fa-solid fa-dumbbell fa-5x"></i>
-                    <i class="fa-solid fa-arrow-right fa-5x"></i>
-                    <i class="fa-solid fa-laptop fa-5x"></i>
+            <section id="container-portfolio">
+                <h2 id="portfolio-header">Ada Projects</h2>
+            
+                <div class="container-portfolio-figures">
+                    <div class="project">
+                        <a href="https://github.com/tashach/task-list-api">                    
+                            <figure>
+                                <img src="/assets/task-list-unsplash.jpg" alt="Photo of to-do List">
+                                <figcaption>Task List Api</figcaption>
+                            </figure>
+                        </a>
+
+                        <p class="project-description">Our first Api project utilizing Flask, SQL, and Postgres</p>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/tashach/viewing-party">                             <figure>
+                                <img src="/assets/viewing-party-unsplash.jpg" alt="Popcorn and movie">
+                                <figcaption>Viewing Party</figcaption>
+                            </figure>
+                        </a>
+                            <p class="project-description">Practicing nested Python lists and dictionaries</p>
+                    </div>
+                    <div class="project">
+                        <a href="https://github.com/tashach/swap-meet">
+                            <figure>
+                                <img src="/assets/swap-meet-unsplash.jpg" alt="Thrift store photo">
+                                <figcaption>Swap-Meet</figcaption>
+                            </figure>
+                        </a>
+                        <p class="project-description">A foray into object-oriented programming</p>
+                    </div>
                 </div>
             </section>
 
             <footer>
                 <ul class="footer-list">
                     <li class="social-media-icon">
-                        <a href="https://instagram.com/tashachang"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                        <a href="https://instagram.com/tashachang"><i class="fa-brands fa-instagram social-media-icon fa-xl"></i></a>
                     </li>
                     <li class="social-media-icon">
-                        <a href="https://linkedin.com/in/tasha-chang-6a7059229"><i class="fa-brands fa-linkedin-in social-media-icon fa-2xl"></i></a>
+                        <a href="https://linkedin.com/in/tasha-chang"><i class="fa-brands fa-linkedin-in social-media-icon fa-xl"></i></a>
                     </li>
                     <li class="social-media-icon">
-                        <a href="https://github.com/tashach"><i class="fa-brands fa-github social-media-icon fa-2xl"></i></a>
+                        <a href="https://github.com/tashach"><i class="fa-brands fa-github social-media-icon fa-xl"></i></a>
                     </li>
                 </ul>
             </footer>
