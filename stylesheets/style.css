@@ -24,19 +24,19 @@ article {
 .circles {
     z-index: 1;
     position: absolute;
-    top: 5vh;
+    top: 3.5vh;
     left: 0;
     right: 0;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 80vw;
+    width: 85vw;
 }
 
 .circle {
     background-color: tomato;
-    height: 4vw;
-    width: 4vw;
+    height: calc(10vw + 4vh);
+    width: calc(10vw + 4vh);
     border-radius: 100%;
 }
 
