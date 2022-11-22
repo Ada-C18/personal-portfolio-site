@@ -7,6 +7,9 @@ ul {
     list-style-type: none;
    }
 
+h2 {
+    margin: 20px;
+}
 .flex-container {
     background-color: white;
     display: flex;
@@ -84,9 +87,15 @@ a:hover {
       margin-bottom: 50px;
   }
 
+  #intro {
+      font-size: 1.2em;
+      color: rgb(82, 79, 79);
+      border-color: black;
+      margin: 20px;
+  }
+
   .footer {
     background-color: white;
-    margin-left: 50px;
     color: silver;
     text-align: center;
     font-size: 0.8em;
