@@ -3,32 +3,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-div {
-    margin: auto;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-header {
-    background-color: white;
-}
-
 ul {
     list-style-type: none;
    }
-
-footer {
-    background-color: white;
-    margin-left: 50px;
-    color: silver;
-    font-size: 0.8em;
-}
-
-nav {
-    font-size: 12;
-  }
 
 .flex-container {
     background-color: white;
@@ -40,6 +17,13 @@ nav {
 }
 
 .flex-item1 {
+    background-color: white;
+    font-weight: lighter;
+    font-size: 1em;
+    text-align: left;
+}
+
+.flex-item2 {
     background-color: rgba(192, 192, 192, 0.123);
     padding: 10px;
     width: 750px;
@@ -47,13 +31,6 @@ nav {
     margin-top: 10px;
     line-height: 20px;
     color: rgb(82, 79, 79);
-    font-size: 1em;
-    text-align: left;
-}
-
-.flex-item2 {
-    background-color: white;
-    font-weight: lighter;
     font-size: 1em;
     text-align: left;
 }
@@ -75,3 +52,42 @@ a:hover {
   background-color: transparent;
   text-decoration: none;
 }
+
+/* grid */
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+  }
+  
+  .header {
+    background-color: white;
+  }
+  
+  .nav {
+    font-size: 12pt;
+  }
+  
+  .content {
+      margin: auto;
+      font-size: 3em;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 50px;
+  }
+
+  .content2 {
+      font-size: 1em;
+      text-align: left;
+      margin-top: 1px;
+      margin-bottom: 50px;
+  }
+
+  .footer {
+    background-color: white;
+    margin-left: 50px;
+    color: silver;
+    text-align: center;
+    font-size: 0.8em;
+  }
