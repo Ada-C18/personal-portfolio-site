@@ -1,9 +1,3 @@
-/* debug */
-/* * {
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-}  */
 
 article div {
     overflow: hidden;
@@ -18,8 +12,6 @@ article img {
 }
 
 article p {
-    /* font-size: 12pt;
-    line-height: 3vmax; */
     text-align: justify;
     margin: 5px 0px 2vw;
 }
