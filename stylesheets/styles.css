@@ -1,5 +1,8 @@
+/* Downloaded fonts to display correctly for all users */
 @import url("fonts.css");
 
+
+/* Across site styling */
 html {
     background-color: #f2f3f3;
 }
@@ -7,6 +10,22 @@ html {
 body {
     font-family: 'Nunito';
     margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    border: 0;
+    min-height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #494e52;
+}
+
+a:hover {
+    color: black;
 }
 
 /* Page layout */
@@ -17,21 +36,6 @@ body {
     grid-template: 75px auto auto / 100%
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    border: 0;
-    min-height: 100px;
-}
-
-ul a {
-    text-decoration: none;
-    color: #494e52;
-}
-
-ul a:hover {
-    color: black;
-}
 
 /* Header - Grid Row 1 */
 .header {
@@ -46,15 +50,12 @@ ul a:hover {
     padding-top: 30px;
     padding-right: 30px;
     justify-content: right;
+    font-size: 1.15em;
 }
 
 .menu_bar img {
     width: 1em;
     height: auto;
-}
-
-.menu_bar ul {
-    font-size: 1.15em;
 }
 
 .menu_bar a.active {
@@ -133,10 +134,10 @@ address img {
     margin-top: 0.05em;
 }
 
+
 .content h1, .content h2 {
     margin: 0;
     color: #777;
-    /* text-align: center; */
 }
 
 .content h1 {
