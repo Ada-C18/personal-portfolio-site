@@ -100,8 +100,12 @@ em:hover {
 }
 
 .nav-button:hover {
+    background: rgb(203, 45, 34);
+    color: lemonchiffon;
+}
+
+.nav-selected {
     background: brown;
     background: linear-gradient(180deg, brown 75%, rgb(203, 45, 34) 100%);
     color: wheat;
 }
-
