@@ -9,20 +9,22 @@
 </head>
 <body>
   <header id="portfolio-header">
-    <div class="portfolio-menu">
-      <div><a href="http://127.0.0.1:5502/pages/index.html"><h3>Home</h3></a></div>
-      <div><a href="http://127.0.0.1:5502/pages/about.html"><h3>About</h3></a></div>
-      <div><h1>My Portfolio</h1></div>
-      <div><a href="http://127.0.0.1:5502/pages/portfolio.html"><h3>Portfolio</h3></a></div>
-      <div><a href="https://www.linkedin.com/in/wanjun-lan/"><h3>Contact</h3></a></div>
+    <nav>
+      <ul class="portfolio-menu">
+        <li><a href="http://127.0.0.1:5502/pages/index.html"><h3>Home</h3></a></li>
+        <li><a href="http://127.0.0.1:5502/pages/about.html"><h3>About</h3></a></li>
+        <li><h1>My Portfolio</h1></li>
+        <li><a href="http://127.0.0.1:5502/pages/portfolio.html"><h3>Portfolio</h3></a></li>
+        <li><a href="https://www.linkedin.com/in/wanjun-lan/"><h3>Contact</h3></a></li>
+      </ul>
       <img id='divider' alt='Divider' src='../assets/Divider-1.png'>
-    </div>
+    </nav>
   </header>
   <main>
     <div class="project-container">
       <div class="project-1">
-        <a href="https://github.com/wjlan/viewing-party"><h4 id="project-title">Viewing Party</h4></a>
-        <img id="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
+        <a href="https://github.com/wjlan/viewing-party"><h4 class="project-title">Viewing Party</h4></a>
+        <img class="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
         <p><b>Description:</b> To create a series of functions, which will modify the data, and implement features like adding and removing things between different lists. Other features include creating recommendations!</p>
         <ul>
           <li>Conditional logic</li>
@@ -33,8 +35,8 @@
         </ul>
       </div>
       <div class="project-2">
-        <a href="https://github.com/wjlan/adagrams-py"><h4 id="project-title">AdaGrams</h4></a>
-        <img id="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
+        <a href="https://github.com/wjlan/adagrams-py"><h4 class="project-title">AdaGrams</h4></a>
+        <img class="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
         <p><b>Description:</b> To create Adagrams, a game in which a player is given a random set of letters and must make an anagram using those letters. Each submitted word will score points.</p>
         <ul>
           <li>Following directions and reading comprehension</li>
@@ -45,8 +47,8 @@
         </ul>
       </div>
       <div class="project-3">
-        <a href="https://github.com/wjlan/swap-meet"><h4 id="project-title">Swap Meet</h4></a>
-        <img id="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
+        <a href="https://github.com/wjlan/swap-meet"><h4 class="project-title">Swap Meet</h4></a>
+        <img class="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
         <p><b>Description:</b> Envision an app where vendors can swap items between different inventories. Given some features that the vendors want, create a set of classes. To create many class definitions, their attributes and instance methods, and some other cool features. Vendors will be able to swap their top item and swap items by category!</p>
         <ul>
           <li>Creating classes.Importing modules</li>
@@ -56,8 +58,8 @@
         </ul>
       </div>
       <div class="project-4">
-        <a href="https://github.com/wjlan/solar-system-api"><h4 id="project-title">Solar System API</h4></a>
-        <img id="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
+        <a href="https://github.com/wjlan/solar-system-api"><h4 class="project-title">Solar System API</h4></a>
+        <img class="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
         <p><b>Description:</b> To build a Solar System API. This API will store information about different planets. Focus on creating RESTful endpoints for CRUD operations.</p>
         <ul>
           <li>Improve our understand of Flask & SQL Alchemy with repetition</li>
@@ -66,8 +68,8 @@
         </ul>
       </div>
       <div class="project-5">
-        <a href="https://github.com/wjlan/task-list-api"><h4 id="project-title">Task List API</h4></a>
-        <img id="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
+        <a href="https://github.com/wjlan/task-list-api"><h4 class="project-title">Task List API</h4></a>
+        <img class="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
         <p><b>Description:</b> To make a web API to organize our tasks, we'll be able to create, read, update, and delete tasks as long as we have access to the Internet and our API is running! Do some interesting features with the tasks including:
           sorting tasks, marking them as complete, geting feedback about our task list through Slack, organizing tasks with goals</p>
         <ul>
@@ -80,8 +82,8 @@
         </ul>
         </div>
       <div class="project-6">
-        <a href="https://github.com/wjlan/Python-Projects"><h4 id="project-title">Library Management</h4></a>
-        <img id="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
+        <a href="https://github.com/wjlan/Python-Projects"><h4 class="project-title">Library Management</h4></a>
+        <img class="project-photo" alt='project-photo' src='../assets/Project-icon.png'>
         <p><b>Description:</b> To build a library management system keeps track of the books present in the library. Other functions include adding a book, deleting a book, viewing a book and return a book.</p>
         <ul>
           <li>Importing the necessary modules</li>
@@ -90,12 +92,11 @@
           <li>Reading query parameters to create custom behavior</li>
           <li>Making requests in Python and implement functions</li>
         </ul>
-        </p>
       </div>
     </div>
   </main>
   <footer>
-
+    <p class="copyright">&amp; Copyright 2022</p>
   </footer>
 </body>
 </html>
