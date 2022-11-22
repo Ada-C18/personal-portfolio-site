@@ -6,12 +6,13 @@ body{
     width: 200px;
 }
 .biography{
+    margin: 20px;
     display: flex;
     justify-content: space-evenly;
 }
 .biography > p{
     font-size: 20px;
-    margin: 20px;
+    margin: 25px;
 }
 .fun-facts > h3{
     text-align: center;

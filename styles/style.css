@@ -33,3 +33,6 @@ header{
 li{
     list-style: none;
 }
+footer{
+    margin: 40px 10px 0 0;
+}
