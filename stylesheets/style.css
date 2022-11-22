@@ -32,6 +32,10 @@ article, .title-text {
     background: linear-gradient(180deg, wheat, lemonchiffon);
 }
 
+.title-text {
+    line-height: normal;
+}
+
 article {
     margin: 0px 15vw;
     padding: 10px 3vw;
