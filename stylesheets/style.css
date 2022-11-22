@@ -25,10 +25,14 @@ body {
     padding: 0;
 }
 
+article, .title-text {
+    background: wheat;
+    background: linear-gradient(180deg, wheat, lemonchiffon);
+}
+
 article {
     margin: 0px 15vw;
     padding: 10px 3vw;
-    background-color: wheat;
 }
 
 h2 {
@@ -61,7 +65,8 @@ em:hover {
 }
 
 .circle {
-    background-color: tomato;
+    background: tomato;
+    background: linear-gradient(225deg, coral 20%, tomato 50%, rgb(203, 45, 34) 100%);
     height: calc(10vw + 4vh);
     width: calc(10vw + 4vh);
     border-radius: 100%;
@@ -71,7 +76,6 @@ em:hover {
     font-family: 'Caveat', cursive;
     font-size: 8vw;
     color:firebrick;
-    background-image: linear-gradient(180deg, wheat, lemonchiffon);
     background-size: 100%;
     text-align: center;
     padding: 1vh 12vw;
