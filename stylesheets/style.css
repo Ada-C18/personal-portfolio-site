@@ -1,20 +1,60 @@
-header {
-    background-color: rgb(8, 92, 95);
-}
-
-footer {
-    background-color: rgb(8, 92, 95);
+* {
+    font: helvetica;
+    text-align: center;
+    border: 2px solid red;
 
 }
 
 body {
+    margin: 0;
     background-color: rgb(249, 198, 234);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 10fr 1fr;
+    border: 5px solid blue;
 }
 
-* {
-    font: helvetica;
-    /* border: 2px solid red; */
+header {
+    background-color: rgb(8, 92, 95);
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    border: 5px solid white;
 }
+
+nav {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    border: 5px solid rgb(69, 241, 129);
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap;
+    justify-content: space-evenly; */
+}
+
+main {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;
+    border: 5px solid rgb(66, 6, 6);
+}
+
+/* main > p {
+    margin-right: 100 px;
+    margin-left: 100 px;
+} */
+
+footer {
+    background-color: rgb(8, 92, 95);
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+    border: 5px solid rgb(139, 212, 243)
+}
+
+footer > p {
+    color: white;
+}
+
+
+
 
 h1 {
     color: white;
@@ -40,7 +80,7 @@ p {
 
 a:hover {
     color: rgb(242, 244, 138);
-    background-color: rgb(123, 30, 87) ;
+    background-color: rgb(123, 30, 87);
   }
 a:visited {
     color: rgb(231, 174, 216);
@@ -50,8 +90,9 @@ a:link {
     color: white;
     text-decoration: none;
     font-size: x-large;
-
-li {
-    list-style: none;
 }
+
+/* li {
+    list-style: none;
+} */
 
