@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 body{
   background-color:#e2e2a6; }
 
@@ -26,38 +25,38 @@ header {
   width: 100%;
   background-color: #555;
   overflow: auto; 
-  }
+}
   
   /* Navigation links */
-  .nav a {
-    float: left;
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 30px;
-    width: 30%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-    text-align: center; 
-  }
+.nav a {
+  float: left;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  width: 30%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; 
+}
   
   /* Add a background color on mouse-over */
-  .nav a:hover {
-    background-color: #000;
-  }
+.nav a:hover {
+  background-color: #000;
+}
   
   /* Style the current/active link */
-  .nav a.active {
-    background-color: #04AA6D;
-  }
+.nav a.active {
+  background-color: #04AA6D;
+}
   
   /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-  @media screen and (max-width: 500px) {
-    .nav a {
-      float: none;
-      display: block;
-      width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
-    }
+@media screen and (max-width: 500px) {
+  .nav a {
+  float: none;
+  display: block;
+  width: 100%;
+  text-align: left; /* If you want the text to be left-aligned on small screens */
   }
+}
   
 .main-section {
   background-color:#e5b0c6;
@@ -173,5 +172,6 @@ section div:nth-of-type(2) {
   align-content: center;
 }
 
-
-
+figcaption {
+  text-align: center;
+}
