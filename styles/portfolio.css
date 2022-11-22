@@ -17,10 +17,6 @@
     grid-template: 1fr 1fr / 1fr 1fr;
 }
 
-.project-img {
-    grid-column-start: 1;
-}
-
 .text {
     border: 1px solid black;
     border-radius: 10px;
@@ -32,16 +28,5 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
+    grid-column-start: 1;
 }
-
-/* @media only screen and (min-width: 720px) {
-    .project-grid {
-        grid-template-columns: 250px 1fr;
-        gap: 4em 2em;
-        grid-template-areas: 
-            "image1 text1"
-            "image2 text2"
-            "image3 text3"
-            "image4 text4";
-    }
-} */
