@@ -31,10 +31,16 @@ article {
     background-color: wheat;
 }
 
+h2 {
+    color: tomato;
+    background-color:lemonchiffon;
+    padding: 7px;
+}
+
 em {
     font-style: normal;
     font-weight:bolder;
-    color: tomato;
+    color:tomato;
 }
 
 em:hover {
