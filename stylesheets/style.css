@@ -5,6 +5,18 @@
     border-color: black;
 }  */
 
+@keyframes rainbow-text {
+    0% {color:red;}
+    12.5% {color:orange;}
+    25% {color:gold;}
+    37.5% {color:limegreen}
+    50% {color:cornflowerblue;}
+    62.5% {color:indigo;}
+    75% {color:purple;}
+    87.5% {color:magenta;}
+    100% {color: red;}
+}
+
 body {
     background-color: darksalmon;
     font-family:'Varela Round', Verdana, Geneva, Tahoma, sans-serif;
@@ -17,6 +29,17 @@ article {
     margin: 0px 15vw;
     padding: 10px 3vw;
     background-color: wheat;
+}
+
+em {
+    font-style: normal;
+    font-weight:bolder;
+    color: tomato;
+}
+
+em:hover {
+    animation-name: rainbow-text;
+    animation-duration: 2s;
 }
 
 .title {
