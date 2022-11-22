@@ -33,7 +33,17 @@ p {
 }
 
 #favorites {
-    display: grid;
+    background-color: goldenrod;
+    grid-column: 1 / 4;
+    grid-row: 3 / -1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+img {
+    height: 200px;
+    width: 300px;
 }
 
 .repos {
