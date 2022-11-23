@@ -5,9 +5,19 @@ Congratulations! You're submitting your assignment!
 Question | Answer
 :------------- | :-------------
 Did you have to resolve any issues when running the HTML Validator? If so, what were they? |
+- I did have a few issues with forgetting to close tags. I also learned that a figcaption needs to be a direct child of a figure, and can't be nested in a link.
+- 
 Why is it important to consider and use semantic HTML? |
+- Semantic HTML is important for accesesibility. Screen readers will navigate to different parts of the page and semantic HTML can give the user and screen reader an idea of what items are located where.
+- 
 How did you decide to structure your CSS? |
+- My CSS was all in one file. First I did all the styling for the index.html page. Anything that I changed for the about.html and portfolio.html I put farther down in the CSS with a comment so I could easily find the changes.
+- 
 What was the most challenging piece of this assignment? |
-Describe one area that you gained more clarity on when completing this assignment |
+- The most challenging part of this assignment was layout and alignment. I used grid and flexbox for the main structure of my site, and it took a lot of trial and error to get it to look the way I wanted it to.
+
+Describe one area that you gained more clarity on when completing this assignment | 
+- I learned a lot about flexbox and grid, I feel way more comfortable using those two.
 **Optional** |
 Did you deploy to GitHub Pages? If so, what is the URL to your website? |
+https://tashach.github.io
