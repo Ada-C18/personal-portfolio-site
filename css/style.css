@@ -1,6 +1,5 @@
 /* universal styles */
 body {
-    /* border: red 1px solid; */
     font-family: 'Cabin', Sans-Serif;
     color: #020402;
     margin: 0;
@@ -61,7 +60,6 @@ h1 {
 
 /* Main */
 main {
-    /* background: #d2e6d4; */
     background-image: url(../assets/background-img.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -72,17 +70,12 @@ main {
     min-height: 500px;
     justify-content: center;
     text-align: center;
-    /* background-color: #f0f0f0; */
 }
 
 main .description {
     display: block;
     text-align: center;
     margin: auto;
-    /* display: flex;
-    flex: 1;
-    flex-direction: column;
-    text-align: center; */
 }
 
 .description p {
@@ -103,40 +96,6 @@ main .description {
     justify-content: center;
 }
 
-/* .projects {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.project {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex: 1 1 100px;
-}
-
-.projects-title {
-    margin: 30px auto;
-}
-
-.projects-title a {
-    color: black;
-    text-decoration: none;
-}
-
-.project-img {
-    height: 200px;
-    width: 180px;
-    background-color: #477A7D;;
-    border-radius: 5px;
-    padding: 5px 10px;
-} */
-
 .projects {
     display: flex;
     flex-direction: row;
@@ -144,7 +103,7 @@ main .description {
     justify-content: center;
     gap: 20px;
     color: #E5E7EB;
-    padding-left: 100px 50px;
+    padding: 40px 100px;
 }
 
 .project {
@@ -179,9 +138,6 @@ main .description {
     color:#020402;
 }
 
-.icons-left i:hover {
-    color: none;
-}
 
 .info h2 {
     color: black;
@@ -193,7 +149,6 @@ main .description {
 
 .projects-title {
     margin: 30px auto;
-    position: center;
 }
 
 .projects-title a {
@@ -207,19 +162,9 @@ main .description {
 .project-description p {
     font-size: 14px;
 }
-/* .project-img p {
-    color: #f0f0f0;
-    text-align: center;
-}
-
-.project-img .name {
-    font-weight: bolder;
-} */
 
 /* Contact Section */
 #contact {
-    /* background: #b1cbb3; */
-    /* background-color: rgba(13, 27, 46, 0.94); */
     background-color: #020402;
     color: #E5E7EB;
     display: flex;
@@ -231,7 +176,6 @@ main .description {
 #contact .container {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     gap: 60px;
     width: 100%;
 }
@@ -252,13 +196,12 @@ i {
     color: #E5E7EB;
 }
 
-i:hover {
+.contact-links i:hover {
     color: #62A8AC;
 }
 
 /* Footer */
 #footer {
-    /* background-color: rgba(13, 27, 46, 0.94); */
     background-color: #020402;
     display: block;
     /* position: fixed; */
@@ -268,8 +211,6 @@ i:hover {
 
 footer .container {
     height: 60px;
-    /* display: flex; */
-    /* align-items: center; */
     justify-content: center;
 }
 
