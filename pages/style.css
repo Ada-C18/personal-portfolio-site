@@ -1,5 +1,4 @@
 
-/* This modifies the rectangle at the top uses flexbox*/
 .container {
     width: 500px;
     display: flex;  
@@ -34,15 +33,12 @@ h1{
     align-items: center;
 }
 
-
-/* This modifies the headers that talks present projects, intrests and background */
 h3 {
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color : rgb(192, 192, 255);
 }
 
-/* This modifys my name near the contact information */
 h4 {
     font-size: 1rem;
     font-family: cursive;
@@ -50,13 +46,10 @@ h4 {
 }
 
 
-/*This photo size */
 img {
     width: 65% ;
 }
 
-
-/* This holds the grid information */
 .item1 { grid-area: header;}
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
