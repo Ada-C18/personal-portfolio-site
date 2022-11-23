@@ -11,7 +11,7 @@ body {
 
 h1 {
     font-family: TimesNRMTStd-BoldCond;
-    font-size: 55px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: -0.3px;
@@ -37,15 +37,18 @@ a {
 }
 
 .title {
-    color: #8a0616;
+    text-align: center;
+    color: whitesmoke;
+    background: rgb(236,96,96);
+    background: linear-gradient(90deg, rgba(236,96,96,1) 0%, rgba(121,9,86,1) 46%, rgba(0,200,255,1) 100%);
 }
 
 .copyright {
     font-size: 0.6em;
 }
 
-.namesake {
-    width: 25%;
+.namesake li{
+    width: 40%;
 }
 
 .creative-projects, img {
@@ -59,4 +62,32 @@ a {
 
 #history {
     text-indent: 3%;
+}
+
+/* grid styling below */
+
+.grid {
+    display: grid;
+    grid-template: 15% auto 20% / 1fr 3fr;
+}
+
+.header {
+    /* background-color: palegoldenrod; */
+    grid-column: 1 / 4;
+}
+
+.nav {
+    background-color: palegreen;
+}
+
+.content {
+    background-color: paleturquoise;
+    grid-column: 1 / 4;
+    grid-row: 2 / 2;
+}
+
+.footer {
+    background-color: palevioletred;
+    grid-column: 1 / 4;
+    grid-row-end: 4;
 }
