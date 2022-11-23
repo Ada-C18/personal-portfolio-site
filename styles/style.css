@@ -19,15 +19,36 @@ h1 {
     text-transform: uppercase;
 }
 
-.title {
-    color: #8a0616;
+h3 {
+    font-size: 12;
+}
+
+img {
+    border-radius: 8px;
+    width: 50%;
 }
 
 a {
     color: forestgreen
 }
 
+.title {
+    color: #8a0616;
+}
+
+.namesake {
+    width: 25%;
+}
+
+.creative-projects, img {
+    width: 50%;
+}
+
 #coming-soon {
     text-decoration: underline;
     color: rgb(59, 191, 191);
+}
+
+#history {
+    text-indent: 3%;
 }
