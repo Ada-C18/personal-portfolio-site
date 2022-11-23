@@ -7,6 +7,7 @@ body {
     grid-template-rows: 7vw auto 10vw;
     grid-template-columns: 15vw 35vw 35vw 15vw;
     margin: 0 0 0 0;
+    font-family: Lato, sans-serif;
 }
 
 header {
