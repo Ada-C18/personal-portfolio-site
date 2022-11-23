@@ -3,10 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>portfolio</title>
+  <link rel = "stylesheet" href = "../styles/portfolio.css">
+  
+
 </head>
 <body>
+  <header>
+    <h1>PORTFOLIO</h1>
+  <nav class = "navbar">
+    <a href = "about.html">ABOUT ME</a> 
+    <a href = index.html > HOME</a>
+  </nav>
+</header>
+
+ 
+    <h2>Projects</h2>
+   <main>
+    <div class="task image">
+      <img 
+      src = "../assets/image/task.png"
+      alt="task list"
+      loading = "lazy"
+      class ="hero-img"
+      />
+ <div>
+    <a class="task title" href = "https://github.com/hangmtran/task-list-api">Task List</a>
+        <p class="task summary">
+         Built API handling task and goals using CRUD methods. This app also connects to slack via slack api, enabling request to send message if task has been completed. Developed with Python, Flask, and SQlAlchemy
+
+        </p>
+      </div>
+    </div>
+
+<div class = "viewing image">
+  <img 
+  src = "../assets/image/movie.jpg"
+  alt="movie"
+  loading = "lazy"
+  class = "movie-img"
+  width = 200
+  height = 200
+
+  />
+
+  <div>
+    <a class="viewing title" href = "https://github.com/hangmtran/viewing-party.git">Viewing Party</a>
+        <p class="viewing summary">
+         Recommends movies to user from friends based on different criteria such as most watched genre, unique watches, and subscription based recommendations. Developed with Python.
+        </p>
+      </div>
+
+</div>
+</main>
+
+
+
+  <footer>
+    <h4>connect with me</h4>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
+  
+  <a href="https://www.instagram.com/hang_m_tran/" class="fa fa-instagram"></a>
+  <a href="https://www.linkedin.com/in/hang-m-tran/" class="fa fa-linkedin"></a>
+  <a href="https://github.com/hangmtran" class="fa fa-github"></a>
+   </footer>
 </body>
 </html>
+

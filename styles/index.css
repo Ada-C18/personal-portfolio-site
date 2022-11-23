@@ -1,0 +1,102 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin:auto;
+  display:grid;
+  grid-template-rows: repeat(10,10%);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url("../assets/image/giphy.gif");
+    background-size: 100% 100%;
+    color: white;
+    font-size:40px;
+    grid-row-start:1;
+    grid-row-end: 5;     
+}
+
+h2 {
+    font-size: 30px;
+}
+
+
+nav {
+    overflow: hidden; 
+    background-color:salmon;
+    padding: 1.px;
+    font-size:20px;
+    font-weight: bold;
+    justify-content:space-evenly;
+    display: flex;
+    grid-row-start:5;
+    grid-row-end:6;
+}
+
+.navbar a {
+    color: black;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+.navbar a:hover {
+    color: #0000;
+    background: 
+      linear-gradient(45deg, white, 50%,#000 0) 
+      var(--_p,100%)/200% no-repeat;
+    -webkit-background-clip: text;
+            background-clip: text;
+    transition: .5s;
+    --_p: 0%;
+  }
+
+main{
+  font-size: 40px;
+  display:flex;
+  justify-content:space-evenly;
+  font-family: "Copperplate"; 
+}
+
+
+.fa {
+    padding: 15px;
+    font-size: 10px;
+    width: 7.5px;
+    height: 7.5px; 
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  
+  .fa-linkedin {
+    background: black;
+    color: white;
+  }
+  
+
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
+
+  .fa-github {
+    background: black;
+    color:white
+  }
+
+  footer {
+    text-align: center;
+    grid-row-start:-1;
+   
+  }
+
+  
