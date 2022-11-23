@@ -8,32 +8,37 @@
   <title>Melissa's Portfolio</title>
   
 </head>
-<body>
+<body id="page1">
   <header>
+    <h1> Welcome to Melissa's portfolio </h1>
     <nav>
       <ul>
-        <li><a href="/pages/about.html">About me</a></li>
-        <li><a href="/pages/portfolio.html">Portfolio</a></li>
-        <li><a href="/pages/index.html">Home</a></li> 
+        <div class="box">
+        <div><li><a class="btn" href="/pages/about.html">About me</a></li></div>
+        <div><li><a class="btn" href="/pages/portfolio.html">Portfolio</a></li></div>
+        <div><li><a class="btn" href="/pages/index.html">Home</a></li></div>
+        </div>
       </ul>
     </nav>
-
-    <h1> Welcome to Melissa's portfolio </h1>  
+    
   </header> 
-  <main>
-    <img alt="melissa's profile picture" src="/images/image1.png"/>
-
+  <main id="index">
+    <img class= "profile" alt="melissa's profile picture" src="/images/image1.png"/>
+    <div>
     <p>This is the place where I will share a little bit about my life as an engineer and as a developer.
       After working as a civil engineer for 4 years in project management, 
       I have changed the direction of my career and pursuing the goal to become a <strong>software developer.</strong> 
     </p>
+    </div>
   </main>
   <footer>
-    copyright 2002 <a href="/pages/index.html">Melissa Pena.</a> All rights reserved.
     <ul>
+      <div class="box">
       <li><a href="https://www.linkedin.com/in/melissapenar" target="blank">Visit my Linkedin</a></li>
       <li><a href="https://github.com/melipena" target="blank">Visit my Github</a></li>
+    </div>
     </ul>
+    copyright 2002 <a href="/pages/index.html">Melissa Pena.</a> All rights reserved.
   </footer>
 </body>
 </html>

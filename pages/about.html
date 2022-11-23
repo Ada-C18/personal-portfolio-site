@@ -7,16 +7,19 @@
   <link rel="stylesheet" href="style.css">
   <title>About me</title>
 </head>
-<body>
+<body id="page2">
   <header>
+    <h1>My life </h1>
     <nav>
       <ul>
-        <li><a href="/pages/index.html">Home</a></li>
-        <li><a href="/pages/about.html">About</a></li>
-        <li><a href="/pages/portfolio.html">Portfolio</a></li>
+        <div class="box">
+        <div><li><a class="btn" href="/pages/about.html">About me</a></li></div>
+        <div><li><a class="btn" href="/pages/portfolio.html">Portfolio</a></li></div>
+        <div><li><a class="btn" href="/pages/index.html">Home</a></li></div>
+        </div>
       </ul>
     </nav>
-    <h1>My life </h1>
+    
   </header>
   <main>
     <section>
@@ -26,7 +29,7 @@
         I spent most of my time going to the gym and riding my motorcycle. 
         I have been always very curios about life, and love learning new things every day.    
       </p>
-      <img alt="Colombia" src="/images/Family.png"/>
+      <img class="about" alt="Colombia" src="/images/Family.png"/>
     </section>
     <section>
       <h2>My career as a civil engineer</h2>
@@ -35,24 +38,26 @@
           I worked as a project engineer for 2 years before I moved to the USA. Once here, I kept working as a project engineer/assistent of project manager. 
           I was involved in big projects such as the new campus of Microsoft and the new Google's building in Kirkland. 
       </p>
-      <img alt="project engineer" src="/images/PE.jpg"/>
+      <img class="about" alt="project engineer" src="/images/PE.jpg"/>
     </section>
     <section>
       <h2>software developer </h2>
       <p>
-        I decided to take another direction with my professional development, and I found out about Ada developers Academies. 
+        I decided to take another direction with my professional development, and I found out about Ada developers Academy. 
         I've been part of this community since September, and has been the most challenging and exciting phase of my life. 
         I have also met people that have helped growing in this new field.
       </p>
-      <img alt="Ada" src="/images/ada.jpg"/>
+      <img class="about" alt="Ada" src="/images/ada.jpg"/>
     </section>
   </main>
   <footer>
-    copyright 2002 <a href="/pages/index.html">Melissa Pena.</a> All rights reserved.
     <ul>
+      <div class="box">
       <li><a href="https://www.linkedin.com/in/melissapenar" target="blank">Visit my Linkedin</a></li>
       <li><a href="https://github.com/melipena" target="blank">Visit my Github</a></li>
+    </div>
     </ul>
+    copyright 2002 <a href="/pages/index.html">Melissa Pena.</a> All rights reserved.
   </footer>
 </body>
 </html>
