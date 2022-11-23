@@ -59,8 +59,8 @@ x Uses at least one CSS file (likely named `style.css`)
 ### Required Content
 
 Present the elements on the page as you see fit by using the following at least once:
-* a grid container with a few grid items
-* a flexbox container with a few flex items
+x a grid container with a few grid items
+x a flexbox container with a few flex items
 
 Both of these containers do not need to be on the same page. Try using one for one page, and the other for another page!
 
@@ -78,7 +78,7 @@ Both of these containers do not need to be on the same page. Try using one for o
 The site should follow best practices, including:
   - All markup should be semantic, with consideration of hierarchy and accessibility
   - CSS should be concise and well-formatted
-  - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
+  x Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
   - Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and fix all errors before submitting
 
 ### Optional Enhancements

@@ -1,0 +1,10 @@
+img {
+    height: auto;
+    max-width: 350px; 
+}
+
+#mainpage {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
