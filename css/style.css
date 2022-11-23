@@ -92,22 +92,18 @@ main .description {
 
 /* Projects Section */
 .info {
-    /* background: #3C6669; */
-    /* background: #264142; */
-    /* background: #477A7D; */
-    /* background-color: #3C6669; */
-    background-color: #62A8AC;
+    background-color:#f0f0f0;
 }
 
 .info .container {
-    min-height: 400px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.projects {
+/* .projects {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,7 +125,6 @@ main .description {
 }
 
 .projects-title a {
-    /* color: #1F2937; */
     color: black;
     text-decoration: none;
 }
@@ -137,34 +132,89 @@ main .description {
 .project-img {
     height: 200px;
     width: 180px;
-    /* border: thick solid #3882f6; */
-    /* background: #477A7D; */
-    /* background: #5C9DA1; */
-    /* background:#3C6669; */
     background-color: #477A7D;;
     border-radius: 5px;
     padding: 5px 10px;
+} */
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    color: #E5E7EB;
+    padding-left: 100px 50px;
+}
+
+.project {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #62A8AC;
+    border-radius: 4px;
+    padding: 15px;
+    height: 250px;
+    width: 220px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.icons-right i {
+    font-size: 25px;
+}
+
+.icons-left i {
+    font-size: 30px;
+}
+
+.icons-right i:hover {
+    color:#020402;
+}
+
+.icons-left i:hover {
+    color: none;
 }
 
 .info h2 {
-    /* color: #1F2937; */
     color: black;
     font-family: 'Roboto Condensed';
-    /* font-size: 20px; */
+    font-size: 28px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-.project-img p {
-    /* color: #E5E7EB; */
-    /* color: #b4d3d5; */
+.projects-title {
+    margin: 30px auto;
+    position: center;
+}
+
+.projects-title a {
+    color: black;
+}
+
+.projects-title a:hover {
+    color: #62A8AC;
+}
+
+.project-description p {
+    font-size: 14px;
+}
+/* .project-img p {
     color: #f0f0f0;
     text-align: center;
 }
 
 .project-img .name {
     font-weight: bolder;
-}
+} */
 
 /* Contact Section */
 #contact {
