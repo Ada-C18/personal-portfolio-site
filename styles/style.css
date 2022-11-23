@@ -23,7 +23,7 @@ body{
     margin: 20px;
 }
 
-.nav-menu-item {
+.nav-menu-item a {
     list-style: none;
     padding: 5px;
     color: black;
