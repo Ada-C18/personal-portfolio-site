@@ -23,11 +23,15 @@ body{
     margin: 20px;
 }
 
-.nav-menu-item a {
+.nav-menu-item {
     list-style: none;
     padding: 5px;
+}
+
+.nav-menu-item a {
     color: black;
 }
+
 
 .nav-menu-item a:visited {
     color: black;
