@@ -5,7 +5,8 @@ body {
     color: #020402;
     display: block;
     margin: 0;
-    padding:0;
+    padding: 0;
+
 }
 
 .container {
@@ -38,6 +39,7 @@ header {
     position: fixed;
     padding: 10px 20px;
     width: 100%;
+    top: 0;
 }
 
 header .navbar {
@@ -62,11 +64,24 @@ nav a {
 
 /* Main */
 main {
+    flex-flow: flex wrap;
+    justify-content: space-around;
+    gap: 20px;
+    min-height: 700px;
+    margin-top: 40px;
+}
+
+#portfolio-main {
     display: flex;
     flex: 1;
     flex-direction: column;
     align-items: center;
-    /* height: 700px; */
+    min-height: 600px;
+    padding: 30px;
+}
+
+main .description {
+    align-items: center;
 }
 
 .projects {
@@ -74,24 +89,41 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
 
 .project {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    justify-content: flex-start;
     background-color: #62A8AC;
     border-radius: 4px;
-    height: 300px;
-    width: 30%;
+    /* margin: 20px; */
+    padding: 15px;
+    height: 270px;
+    width: 250px;
+    /* width: 30%; */
+    /* flex: 1 1 300px; */
 }
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+}
+
+.icons-right {
+    flex: 1;
+    align-self: flex-start;
+}
+
+
 
 .icons i {
     font-size: 30px;
     color: #E5E7EB;
 }
-
 
 
 /* Footer */
