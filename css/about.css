@@ -97,17 +97,22 @@ h1 {
 img {
     display: block;
     height: auto;
-    width: 90%;
+    width: 80%;
 }
 
-/* skills container */
-/* .skills-container {
-    display: flex;
-    flex-direction: row;
-} */
+.description {
+    width: 480px;
+}
+
+.description p {
+    color:#696969;
+}
+
+.description a {
+    color:#696969;
+}
 
 .skills {
-    /* flex-flow: flex wrap; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
