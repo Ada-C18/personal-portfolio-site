@@ -152,7 +152,7 @@ main .description {
 #contact .container {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 200px;
     width: 100%;
 }
 
