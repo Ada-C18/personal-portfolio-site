@@ -22,6 +22,12 @@ header{
     background-color:;
 }
 
+h1{
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    background-clip: text;
+    font-size:xx-large;
+}
+
 
 a{ 
     color: blue;
@@ -83,4 +89,27 @@ section.port{
     display: Flex;
 
 }
+
+.container{
+    display: grid;
+    grid: gap 10px;
+    grid-template-columns: 500px 500px 200px;
+    grid-template-areas:
+    "header header header"
+    "nav main main"
+    "footer footer footer";
+}
+
+header.container{
+    grid-column: header;
+}
+nav.container{
+    grid-area: nav;
+    
+}
+main.container{
+    grid-area: main;
+    
+}
+
 
