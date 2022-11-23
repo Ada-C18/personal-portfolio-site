@@ -1,0 +1,48 @@
+body{
+    /* background-color: bisque; */
+    background-image: url("/assets/images/backgroundImage.png");
+    background-size: cover;
+}
+
+.header {
+    background-image: inherit;
+}
+
+.title-name {
+    padding-left: 20vw;
+    padding-top: 7vh;
+    color:aliceblue;
+}
+
+.nav-menu-item {
+    color: white;
+}
+
+.nav-menu-item a:visited {
+    color: white;
+} 
+
+.profile-pic { 
+    width: 200px;
+    border-radius: 10px;
+}
+
+.heart {
+    margin-left: 10px;
+    margin-top: 10px;
+    display:inline-block;
+    width: 20px; 
+    aspect-ratio: 1;
+    border-image: radial-gradient(red 69%,#0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
+
+#linkedin {
+    display: inline-flex;
+    align-items: flex-end;
+    color :red;
+}
+
+#linkedin a:visited {
+    color: red;
+}
