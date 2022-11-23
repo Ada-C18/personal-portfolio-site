@@ -9,6 +9,7 @@ section {
 h2 {
     color:antiquewhite;
     font-family:cursive;
+    font-size: xx-large;
     text-align: center;
     background-color:lightcoral;
     grid-column: auto/span 3;

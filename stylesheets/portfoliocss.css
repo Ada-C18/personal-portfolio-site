@@ -14,3 +14,7 @@ p {
     background-color:palevioletred;
     text-size-adjust: auto;
 }
+
+ul{
+    list-style-type:square;
+}
