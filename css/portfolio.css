@@ -110,19 +110,18 @@ main .description {
 .icons {
     display: flex;
     flex-direction: row;
-    /* gap: 20px; */
-}
-
-.icons-right {
-    flex: 1;
-    align-self: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 
-
-.icons i {
+.icons-right i {
     font-size: 30px;
-    color: #E5E7EB;
+}
+
+.icons-left i {
+    font-size: 40px;
 }
 
 
