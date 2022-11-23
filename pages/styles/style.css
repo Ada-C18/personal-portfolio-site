@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0a7d0;
+}
+
+h1 {
+    text-decoration: unset;
+    text-align: center;
+    color: rgb(88, 12, 154);
+    font-size: x-large;
+}
+
+p {
+    line-height: 100%;
+    color: rgb(99, 6, 107);
+    font-size: large;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #home-page-title {
+    color: rgb(135, 8, 151);
+    font-size: xx-large;
+  }
+
+#grid {
+    display: grid;
+    margin: auto;
+    width: 40%;
+    grid-template-columns: 35% 35% 35%;
+    grid-template-rows: 20%;
+}
+
+#flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
