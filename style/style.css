@@ -104,9 +104,12 @@ h2 {
 }
 
 h3 {
-    font-size: 48px;
+    display: inline;
+    font-size: 42px;
     padding: 15px;
     margin: 0;
+    text-align: center;
+    grid-column: span 8;
 }
 
 p {
@@ -194,14 +197,31 @@ footer ul, footer li {
     padding: 0;
 }
 
-.proj-card {
+.proj-grid {
     display: grid;
-    grid-auto-rows: 1fr;
-    align-items: center;
-    width: 900px;
-    height: 350px;
-    border: 1px solid yellow;
-    margin: 60px;
+    grid-template-columns: repeat(8);
+    background-color: #b9c7cc;
+    border: 30px solid #CBC2B9;
+}
+
+.proj-container {
+    display: block;
+    width: 72%;
+    height: auto;
+    margin: 80px;
     padding: 40px;
-    background-color: #D7CAB1;
+}
+
+article {
+    grid-column: span 3;
+    display: inline-block;
+    margin-block-start: 5px;
+}
+
+.proj-grid img {
+    grid-column: 5 / span 3;
+    display: block;
+    align-self: center;
+    adjust-self: center;
+    width: 90%;
 }
