@@ -30,6 +30,9 @@ body {
     background-color: rgb(224, 143, 230);
 }
 
+h1{
+    align-items: center;
+}
 
 
 /* This modifies the headers that talks present projects, intrests and background */
@@ -47,12 +50,33 @@ h4 {
 }
 
 
-/*This modify the contact information */
+/*This photo size */
+img {
+    width: 65% ;
+}
 
-.contact {
-    width: 500px;
-    display: flex;  
-    flex-direction: row;  
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+
+/* This holds the grid information */
+.item1 { grid-area: header;}
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header'
+        'menu main main main right'
+        'menu footer footer footer footer';
+    gap: 10px;
+    background-color: #b84aad;
+    padding: 10px;
+}
+
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
 }
