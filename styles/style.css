@@ -19,10 +19,6 @@ h1 {
     text-transform: uppercase;
 }
 
-h3 {
-    font-size: 12;
-}
-
 img {
     border-radius: 8px;
     width: 50%;
@@ -32,8 +28,20 @@ a {
     color: forestgreen
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
 .title {
     color: #8a0616;
+}
+
+.copyright {
+    font-size: 0.6em;
 }
 
 .namesake {
