@@ -3,7 +3,7 @@ img {
     max-width: 350px; 
 }
 
-#mainpage {
+section {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
