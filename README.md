@@ -37,7 +37,7 @@ This portfolio site must have the following HTML files:
 
 x `index.html` must include your name somewhere.
 
-- `about.html` should include some information about you, your interests, background or similar. Only post what you are comfortable sharing.
+x `about.html` should include some information about you, your interests, background or similar. Only post what you are comfortable sharing.
 
 x `portfolio.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
 

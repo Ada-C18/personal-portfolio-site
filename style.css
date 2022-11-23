@@ -1,12 +1,46 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work%20Sans');
 
+a:visited{
+    color: darkolivegreen
+}
+
+a:hover {
+    color: rgb(21, 147, 7)
+}
+
 body {
     background-color: #e9e8e6;
     color: black;
     font-family: 'Work Sans';
 }
 
+img {
+    height: auto;
+    max-width: 350px; 
+}
+
 header { 
-    text-align: center
+    text-align: center;
+    font-size: larger;
+}
+
+#mainpage {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+/* #mainpage {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+} */
+
+/* #mainpage_nav {
+    font-size: 25px;
+} */
+
+nav {
+    font-size: 25px;
 }
