@@ -22,3 +22,12 @@ h1 {
 .title {
     color: #8a0616;
 }
+
+a {
+    color: forestgreen
+}
+
+#coming-soon {
+    text-decoration: underline;
+    color: rgb(59, 191, 191);
+}
