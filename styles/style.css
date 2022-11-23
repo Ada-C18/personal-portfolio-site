@@ -24,6 +24,10 @@ img {
     height: 200px;
 }
 
+#index-page-title {
+    text-align: center;
+}
+
 main {
     min-height: 70vh;
     background-color: whitesmoke;
@@ -34,10 +38,6 @@ main {
     justify-content: space-evenly;
     padding: 30px;
     list-style: none;
-}
-
-.page-title {
-    text-align: center;
 }
 
 .portfolio-header {
