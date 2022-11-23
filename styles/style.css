@@ -56,6 +56,7 @@ img {
 }
 
 p {
+    align-items: center;
     font-weight: 300;
     display: block;
     text-align: center;
@@ -83,20 +84,6 @@ ul {
     margin: 50px auto;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 15% auto 20%;
-}
-
-.tech-motivate {
-    float: left;
-}
-
-.top-container {
-    width: 940px;
-    text-align: center;
-}
-
 .nav_links {
     list-style: none;
     color: #21564b;
@@ -118,10 +105,10 @@ ul {
 .project-container {
     margin: auto;
     width: 80vw;
-    height: 80vh;
+    height: auto;
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 15% 70% 15%;
+    grid-template-rows: 100px 2fr 100px;
     text-align: center;
     align-items: center;
     padding: 50px 150px;
@@ -138,6 +125,7 @@ ul {
     grid-row: 2/3;
     grid-column: 2/3;
     margin: 0px 2em;
+    display: block;
 }
 
 .project-image {
