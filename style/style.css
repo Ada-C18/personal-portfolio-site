@@ -104,7 +104,6 @@ h1 {
 h2 {
     font-size: 58px;
     font-style: italic;
-    align-items: left;
     padding-left: 28px;
     padding-top: 15px;
     margin:0;
@@ -153,7 +152,7 @@ p {
 .intro {
     justify-content: center;
     align-items: center;
-    display: flexbox;
+    display: flex;
     padding: 0;
     margin: auto;
 }
@@ -208,7 +207,7 @@ footer ul, footer li {
 
 .proj-grid {
     display: grid;
-    grid-template-columns: repeat(8);
+    grid-template-columns: repeat(8, 1fr);
     background-color: #b9c7cc;
     border: 30px solid #CBC2B9;
 }
@@ -222,15 +221,14 @@ footer ul, footer li {
 }
 
 article {
-    grid-column: span 3;
-    display: inline-block;
+    grid-column: span 5;
+    display: block;
     margin-block-start: 5px;
 }
 
 .proj-grid img {
-    grid-column: 5 / span 3;
+    grid-column: 6 / span 3;
     display: block;
     align-self: center;
-    adjust-self: center;
     width: 90%;
 }
