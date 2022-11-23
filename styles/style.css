@@ -131,10 +131,10 @@ footer{
     height: auto;
     display: grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 100px 2fr 100px;
+    grid-template-rows: 80px 2fr 80px;
     text-align: center;
     align-items: center;
-    padding: 50px 150px;
+    padding: 50px 80px;
     margin: 0px 2em;
 }
 
@@ -169,7 +169,7 @@ footer{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 30px auto 100px;
+    margin: 10px auto 10px;
 }
 .social_icon {
     display: flex;
