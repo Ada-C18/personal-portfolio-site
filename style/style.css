@@ -1,7 +1,7 @@
 body {
     font-family: "Georgia", serif;
     font-size: 36px;
-    text-decoration: none !important;
+    text-decoration: none!important;
     color: #323334;
     background-color: #F5F5EF;
     min-height: 680px;
@@ -46,7 +46,7 @@ nav {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    text-decoration: none !important;
+    text-decoration: none!important;
 }
 
 nav ul {
@@ -76,6 +76,12 @@ a:visited {
     color: #4e6559;
 }
 
+a:link {
+    text-decoration: none;
+    color: #4e5a65;
+    cursor: grabbing;
+}
+
 .hero-text {
     font-family: "Palatino", serif;
     text-align: left;
@@ -90,16 +96,17 @@ a:visited {
 }
 
 h1 {
-    font-size: 86px;
+    font-size: 82px;
     margin-top: 1.4em;
     padding-left: 22px;
 }
 
 h2 {
-    font-size: 62px;
+    font-size: 58px;
     font-style: italic;
     align-items: left;
-    padding-left: 25px;
+    padding-left: 28px;
+    padding-top: 15px;
     margin:0;
 }
 
@@ -110,12 +117,14 @@ h3 {
     margin: 0;
     text-align: center;
     grid-column: span 8;
+    text-decoration: underline;
 }
 
 p {
     margin: 35px;
     padding-bottom: 0.8em;
     font-weight:400;
+    font-size: 95%;
     line-height: 135%;
 }
 
@@ -165,7 +174,7 @@ footer p {
 }
 
 footer ul, footer li {
-    text-decoration: none;
+    text-decoration: none!important;
     list-style-type: none;
     text-align: left;
     display: inline;
