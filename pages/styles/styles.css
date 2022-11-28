@@ -1,0 +1,39 @@
+
+.photos{
+    height: 470px;
+    width: 470px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+.color{
+    background-color: orange;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 33px;
+}
+.font{
+    font-stretch: ultra-expanded
+}
+.decoration{
+    text-decoration: none;
+    color: white;
+}
+.decoration2{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.flex-container {
+
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .flex-container2 {
+
+        display: flex;
+        justify-content: center
+    }
