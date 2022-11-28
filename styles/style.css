@@ -110,5 +110,5 @@ img {
 .pixel:nth-child(94),
 .pixel:nth-child(96),
 .pixel:nth-child(105) {
-    background: white;
+    background-color: white;
 }
