@@ -10,6 +10,14 @@ footer {
     bottom: 0;
 }
 
+[href]:hover {
+    color: #008d80;
+}
+
+[href]:visited {
+    color: #008d80;
+}
+
 p {
     margin: 3%;
     font-weight:400;
