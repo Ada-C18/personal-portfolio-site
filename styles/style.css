@@ -59,7 +59,8 @@ img {
 #flex-box-container {
     background-image: linear-gradient(#008d80, white);
     width: 90%;
-    height: 450px;
+    max-height: 450px;
+    padding-top: 30px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
