@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+    color: tomato;
+}
+
+a:hover {
+    text-underline-offset: 3px;
+    text-decoration: underline wavy 1px;
+    color: salmon;
+}
+
+.about {
+    display: grid;
+    grid-template: auto auto / 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px; 
+}
+
+.about-section {
+    background-color: rgba(255, 235, 205, 50%);    
+    padding: 10px;    
+}
+
+body {
+    font-family:  'Helvetica Neue', 'Inter', sans-serif;
+    color: darkslategray;
+}
+
+figcaption {
+    font-family: 'Avenir Next Condensed', 'Arial Narrow', sans-serif;
+    font-size: 85%;
+    color: slategray;
+    font-style: italic;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer {
+    padding: 5%;
+    font-family: 'Avenir', 'Montserrat', sans-serif;
+    font-size: 85%;
+    color: slategray;
+    opacity: 75%;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family:  'Avenir', 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: slategray;
+    text-align: center;
+}
+
+#my-story {
+    grid-column: span 2;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10px; 
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: whitesmoke;
+}
+
+.portfolio {
+    display: grid;
+    grid-template: auto auto / 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;    
+}
+
+.portfolio-section {
+    background-color: rgba(255, 235, 205, 50%);
+    padding: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.subtitle {
+   font-style: italic; 
+   font-size: 90%;
+   line-height: 25%; 
+}
+
+ul {
+    list-style: circle;
+}
