@@ -35,5 +35,15 @@ header {
 }
 
 img {
-    width: 400px;
+    display: grid;
+    height: 400px;
+    grid-row-start: 1;
+    grid-column-start: 4;
+}
+
+section {
+    display: grid;
+    grid-row-start: 1;
+    grid-column: 1/4;
+    
 }
