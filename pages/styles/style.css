@@ -1,0 +1,136 @@
+body {
+    background-color: #FEBCAE;
+    color:#4120A9;
+}
+
+#index #about {
+    display: flex;
+    Flex-Direction: Column;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Hind', sans-serif;
+    align-items: flex-end;
+    font-size: 20px;
+}
+
+li a {
+    margin: 10px;;
+    border:0px;
+    font-weight: bold;
+}
+
+li a:link { 
+    text-decoration: none; 
+}
+
+li a:visited {
+    text-decoration: none; 
+}
+
+
+li a:hover { 
+    text-decoration: none;
+    color: #FF00AC;
+}
+
+
+li a:active { 
+    text-decoration: none; 
+}
+
+
+nav{
+    margin-top: 25px;
+    text-align: right;
+    align-items: flex-end;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+header {
+    padding: 30px 0px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    Flex-Direction: Column;
+    margin-top: 75px;
+}
+
+#name {
+    margin-bottom: 0;
+}
+
+#intro h3 {
+    margin-top: 0;
+}
+
+#self {
+    width: 400px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    Flex-Direction: Column;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact {
+    padding-left: 0;
+}
+
+
+#about {
+    display: flex;
+    Flex-Direction: Column;
+    text-align: center;
+}
+
+#portfolio-main {
+    display: grid;
+    justify-content: center;
+}
+
+#portfolio-title {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+#grid {
+    display:grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 300px);
+}

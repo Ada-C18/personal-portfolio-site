@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="styles/style.css" type="text/css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap"
@@ -13,9 +13,11 @@
   <title>Home - Aretta Brown</title>
 </head>
 
-<body>
+<body id="index">
   <header>
-    <logo></logo>
+    <logo>
+      <img id="logo" src="images/logo.png">
+    </logo>
     <nav>
       <ul>
         <li>
@@ -30,7 +32,7 @@
   <main>
     <div>
       <container id="intro">
-        <h1>
+        <h1 id="name">
           Hi, I'm Aretta Brown
         </h1>
         <h3>
@@ -42,20 +44,20 @@
       </p>
     </div>
     <figure>
-      <img src="funko me.png">
+      <img id="self" src="images/funko me.png">
     </figure>
   </main>
   <footer>
     <h3>Contact me</h3>
     <ul id="contact">
       <li>
-        <a href="">email</a>
+        <a href="mailto: aretta.brown@gmail.com">email</a>
       </li>
       <li>
-        <a href="">linkedin</a>
+        <a href="https://www.linkedin.com/in/aretta-brown-77a2731b7/">linkedin</a>
       </li>
       <li>
-        <a href="">twitter</a>
+        <a href="https://github.com/arettab">Github</a>
       </li>
     </ul>
   </footer>
