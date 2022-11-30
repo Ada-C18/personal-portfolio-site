@@ -77,7 +77,7 @@ main {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -106,6 +106,7 @@ footer {
     Flex-Direction: Column;
     justify-content: center;
     text-align: center;
+    margin-top: 40px;
 }
 
 #contact {
@@ -113,7 +114,7 @@ footer {
 }
 
 
-#about {
+#about-main {
     display: flex;
     Flex-Direction: Column;
     text-align: center;
@@ -133,4 +134,8 @@ footer {
     display:grid;
     grid-gap: 50px;
     grid-template-columns: repeat(3, 300px);
+}
+
+#bio {
+    margin: 0px 100px;
 }
