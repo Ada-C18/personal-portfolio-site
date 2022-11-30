@@ -4,7 +4,7 @@ body {
     background: lightblue
 }
 
-h1,h2 {
+h1, h2 {
     color: deeppink;
 }
 
@@ -15,6 +15,7 @@ div{
     display: grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(5, 20%);
+    margin: auto;
 }
 
 aside {
