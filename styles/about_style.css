@@ -48,3 +48,13 @@ section {
     grid-column: 1/4;
     
 }
+
+#specialheader {
+    color: purple;
+    font-size: 200;
+
+}
+
+.list {
+    color: red;
+}
