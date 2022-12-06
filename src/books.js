@@ -1,13 +1,24 @@
+const state = {
+  bookCount: 0,
+};
+
 //function to add books
-const addBook = () => {
+const addBook = (event) => {
+  console.log("in addBook:", event);
   const newBook = document.createElement("span");
   const bookContainer = document.querySelector("#bookContainer");
   newBook.textContent = "📖";
   bookContainer.appendChild(newBook);
+
+  //Book Count Behavior
+  state.bookCount += 1;
+  const bookCountContainer = document.querySelector("#bookCount");
+  bookCountContainer.textContent = `Book Count: ${state.bookCount}`;
 };
 
 //registering event handler
-const registerEventHandlers = () => {
+const registerEventHandlers = (event) => {
+  console.log("in registerEventHandelers:", event);
   const bookButton = document.querySelector("#addBookButton");
   bookButton.addEventListener("click", addBook);
 };

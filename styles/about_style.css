@@ -58,3 +58,8 @@ section {
 .list {
     color: blue;
 }
+
+#bookContainer{
+    white-space: nowrap;
+    display: inline-block;
+}
