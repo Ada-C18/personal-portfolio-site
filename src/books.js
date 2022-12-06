@@ -1,3 +1,19 @@
+//function to add books
+const addBook = () => {
+  const newBook = document.createElement("span");
+  const bookContainer = document.querySelector("#bookContainer");
+  newBook.textContent = "📖";
+  bookContainer.appendChild(newBook);
+};
+
+//registering event handler
+const registerEventHandlers = () => {
+  const bookButton = document.querySelector("#addBookButton");
+  bookButton.addEventListener("click", addBook);
+};
+
+document.addEventListener("DOMContentLoaded", registerEventHandlers);
+
 //this is my first javascript file in a webpage!
 
 console.log("Hello, World!");
