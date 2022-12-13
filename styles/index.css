@@ -1,0 +1,9 @@
+header {
+    background-color: antiquewhite;
+    font-family: fantasy;
+    font-size: 150%;
+}
+
+#course-list li {
+    margin: 2%;
+}

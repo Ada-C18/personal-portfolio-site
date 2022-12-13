@@ -1,0 +1,12 @@
+section h2, h4, p, ul {
+    padding-left: 10%;
+}
+
+#guagua-intro {
+    font-size:medium
+}
+
+#guagua-pic {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

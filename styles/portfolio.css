@@ -1,0 +1,40 @@
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table {
+    table-layout: fixed;
+    width:800px;
+}
+
+tr {
+    height: 40px;
+}
+
+#column-1 {
+    width: 15%;
+}
+
+#column-2 {
+    width: 65%;
+}
+
+div {
+    align-content: flex-start;
+}
+
+#section-1 {
+    padding-left: 15%;
+}
+
+#section-2 {
+    padding-right: 15%;
+}
+
+iframe {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 0;
+}
