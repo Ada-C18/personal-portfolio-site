@@ -1,0 +1,17 @@
+
+article div {
+    overflow: hidden;
+    padding: 0px 0px 10px;
+}
+
+article img {
+    width: 33vw;
+    height: auto;
+    margin: 0px 2vw;
+    float: left;
+}
+
+article p {
+    text-align: justify;
+    margin: 5px 0px 2vw;
+}

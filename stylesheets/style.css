@@ -1,0 +1,122 @@
+
+@keyframes rainbow-text {
+    0% {color:red;}
+    12.5% {color:orange;}
+    25% {color:gold;}
+    37.5% {color:limegreen}
+    50% {color:cornflowerblue;}
+    62.5% {color:indigo;}
+    75% {color:purple;}
+    87.5% {color:magenta;}
+    100% {color: red;}
+}
+
+body {
+    background-color: darksalmon;
+    font-family:'Varela Round', Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    font-size: 12pt;
+    color: darkred;
+    margin: 0;
+    padding: 0;
+}
+
+article, .title-text {
+    background: wheat;
+    background: linear-gradient(180deg, wheat, lemonchiffon);
+}
+
+.title-text {
+    line-height: normal;
+}
+
+article {
+    margin: 0px 15vw;
+    padding: 10px 3vw;
+}
+
+h2 {
+    color: tomato;
+    background-color:lemonchiffon;
+    padding: 7px;
+}
+
+em {
+    font-style: normal;
+    font-weight:bolder;
+    color:tomato;
+}
+
+em:hover {
+    animation-name: rainbow-text;
+    animation-duration: 2s;
+}
+
+footer {
+    background: rgb(255, 250, 205, 0.5);
+    color: firebrick;
+    font-size: 8pt;
+    text-align: center;
+    margin: 10px 10vw;
+    padding: 0;
+}
+
+.circles {
+    z-index: 1;
+    position: absolute;
+    top: 3vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 85vw;
+}
+
+.circle {
+    background: tomato;
+    background: linear-gradient(225deg, coral 20%, tomato 50%, rgb(203, 45, 34) 100%);
+    height: calc(10vw + 4vh);
+    width: calc(10vw + 4vh);
+    border-radius: 100%;
+}
+
+.title-text {
+    font-family: 'Caveat', cursive;
+    font-size: 8vw;
+    color:firebrick;
+    background-size: 100%;
+    text-align: center;
+    padding: 1vh 12vw;
+    margin: 4vh 15vw 0px;
+}
+
+#nav-bar {
+    list-style: none;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 25vw;
+}
+
+.nav-button {
+    display: grid;
+    background: tomato;
+    background: linear-gradient(180deg, tomato 50%, rgb(203, 45, 34) 100%);
+    color:darkred;
+    font-size: 2.5vmin;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 0.75vh 3px;
+}
+
+.nav-button:hover {
+    background: rgb(203, 45, 34);
+    color: lemonchiffon;
+}
+
+.nav-selected {
+    background: brown;
+    background: linear-gradient(180deg, brown 75%, rgb(203, 45, 34) 100%);
+    color: wheat;
+}

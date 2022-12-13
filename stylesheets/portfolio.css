@@ -1,0 +1,38 @@
+
+article p {
+    padding: 0px 2vw;
+}
+
+.links {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 2vw;
+    row-gap: 10px;
+    padding: 0px 2vw 15px;
+}
+
+.links a {
+    display: grid;
+    background: tomato;
+    color: lemonchiffon;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.links a:hover {
+    background: rgb(203, 45, 34);
+}
+
+.links p {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: lemonchiffon;
+}
