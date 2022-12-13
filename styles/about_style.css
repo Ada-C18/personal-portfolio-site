@@ -1,0 +1,65 @@
+body {
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background: lightblue
+}
+
+h1, h2 {
+    color: deeppink;
+}
+
+div{
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
+    margin: auto;
+}
+
+aside {
+    background-color: lightpink;
+    grid-row: 2/6;
+    grid-column: 1/2;
+}
+
+main {
+    background-color: cyan;
+    grid-column: 2 / span 4;
+    grid-row: 2/6;
+}
+
+header {
+    grid-column: 1 / -1;
+    background-color: white;
+}
+
+img {
+    display: grid;
+    height: 400px;
+    grid-row-start: 1;
+    grid-column-start: 4;
+}
+
+section {
+    display: grid;
+    grid-row-start: 1;
+    grid-column: 1/4;
+    
+}
+
+#specialheader {
+    color: purple;
+    font-size: 200;
+
+}
+
+.list {
+    color: blue;
+}
+
+#bookContainer{
+    white-space: nowrap;
+    display: inline-block;
+}
