@@ -1,0 +1,121 @@
+header {
+  font-family: 'Rubik Microbe', cursive;
+  font-size: xxx-large;
+  font-weight: 500;
+  color: rgb(102, 90, 72);
+  text-align: center;
+  
+}
+
+body {
+  background-image: url("../images/flower_background.avif");
+}
+
+
+.nav_bar {   
+    font-family: 'Rubik Distressed', cursive;
+    display: flex;
+    font-size: xx-large;
+    justify-content: space-around;
+    height: 60px;
+    
+}
+
+.active {
+  background-color: rgb(206, 229, 208);
+  color: rgb(102, 90, 72);
+}
+
+.description {
+  height: 500px;
+  display: flex;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: x-large;
+  justify-content: space-around;
+  text-align: center;
+
+}
+
+.connect_info {
+  font-family: 'Noto Serif', serif;
+  display: flexbox; 
+  text-align-last: center;
+  justify-content: space-evenly;
+}
+
+
+h2 {
+  font-family: 'Marck Script', cursive;
+}
+
+main {
+  font-family: 'Noto Serif', serif;
+}
+
+.section {
+  font-family: 'Noto Serif', serif;  
+  margin: auto;
+}
+
+#title1 {
+  text-decoration: underline overline dotted rgb(159, 135, 114);
+}
+
+#title2 {
+  text-decoration: underline overline dotted rgb(102, 90, 72);
+}
+
+#title3 {
+  text-decoration: underline overline dotted rgb(95, 141, 78);
+}
+
+.grid {
+  display: grid;
+  grid-template: 30% 40% 30% / 35% 65%;
+  grid-row-gap: 50px;
+  padding: 10;
+  margin: 10ex;
+  }
+
+
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+}
+
+.slides {
+  display:flex;
+  justify-content: center;
+  align-items:stretch;
+  height: 350px;
+  width: 600px;
+  
+}
+
+footer {
+  margin: 10ex;
+  text-align: center;
+  font-family: 'Marck Script', cursive;
+}
+
+
+th, td {
+  text-align: left;
+  font-family: 'Noto Serif', serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+table {
+  border-spacing: 15px;
+}
+
+tr:hover {
+  background-color: rgb(222, 186, 206);
+}
+
+
+
