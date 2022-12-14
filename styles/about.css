@@ -1,0 +1,59 @@
+/* color bank */
+
+/* IDs */
+
+/* classes */
+.profile-contents {
+  padding: 7%;
+  display: grid;
+  grid-template: auto / 1fr 2fr;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  justify-content: center;
+  /* border: 2px solid lightpink; */
+}
+
+.profile-photo {
+  max-height: 360px;
+  margin-right: 20px;
+  grid-column: 1 / 2;
+  align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 2px solid lightpink; */
+}
+
+.profile-description {
+  grid-column: 2 / 3;
+  align-content: center;
+  text-overflow: ellipsis;
+  overflow: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  letter-spacing: 1pt;
+  word-spacing: 2pt;
+  line-height: 1.5;
+  color: var(--paragraph-t);
+  /* border: 2px solid lightpink; */
+}
+
+.contact-me-btn {
+  display: grid;
+  grid-column: 2 / 3;
+  width: 300px;
+  height: 60px;
+  color: var(--white);
+  background-color: var(--header-blue);
+  align-items: center;
+  justify-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-me-btn:hover {
+  scale: 105%;
+}
