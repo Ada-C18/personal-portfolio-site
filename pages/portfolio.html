@@ -4,9 +4,108 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href="../styles/style.css" rel="stylesheet">
+  <link href="../styles/portfolio.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Portfolio</title>
 </head>
+
 <body>
+  <header>
+    <nav>
+      <a href="index.html"><i class="fa fa-home fa-3x"></i></a>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="project-grid">
+      <img class="images" src="../images/personal-porfolio.png" alt="Image of homepage">
+      <section class="text">
+        <a href="https://github.com/sarahsanborn/personal-portfolio-site">
+          <h3>
+            Personal Portfolio Site
+          </h3>
+        </a>
+        <p>
+          A static website built using HTML and CSS to document my work and interests. The website does not incorporate website-building services.
+        </p>
+        <p>
+          <b>Technologies used:</b> HTML, CSS
+        </p>
+      </section>
+      <!-- Picture by Andrew Neel at https://unsplash.com/s/photos/task -->
+      <img class="images" src="../images/image-task-list.jpeg" alt="Computer, notepad, and coffee on a desk">
+      <section class="text">
+        <a href="https://github.com/jawarren89/task-list-api">
+          <h3>
+            Task List API
+          </h3>
+        </a>
+        <p>
+          Task List is a web API built to organize your thoughts. Through it you can create, read, update, and delete tasks and goals. Additional features include sorting tasks and goals, marking tasks and goals complete, receiving feedback on completed tasks via Slack, and more.
+        </p>
+        <p>
+          <b>Technologies used:</b> Python, Flask, SQL, SQLAlchemy, Postgres, Postman, and Heroku.
+        </p>
+      </section>
+      <img class="images" src="../images/swap-meet.jpg" alt="Clothes hung on rack outside. Photo by Artificial Photography.">
+      <!-- Photo available at: https://unsplash.com/photos/vB5qtt8X4NA-->
+      <section class="text">
+        <a href="https://github.com/sarahsanborn/swap-meet">
+          <h3>
+            Swap Items Meet
+          </h3>
+        </a>
+        <p>
+          The backend for an app where vendors can swap items like clothing, electronics, and more between different inventories. Project creates many class definitions, their attributes and instance methods, along with other cool features.       
+        </p>
+        <p>
+          <b>Technologies used:</b> Python, unit tests, code coverage
+        </p>
+      </section>
+      <img class="images" src="../images/Adagrams.jpg" alt="Set of scrabble tiles. Photo by Brett Jordan.">
+      <!-- Photo by Brett Jordan at zhttps://unsplash.com/photos/qAoV3aL6g6g -->
+      <section class="text">
+        <a href="https://github.com/sarahsanborn/adagrams-py">
+          <h3>
+            Word Game
+          </h3>
+        </a>
+        <p>
+          This game was a pair programming project. An anagram is a word or phrase formed by rearranging the letters of a different word or phrase. In this game, a player is given a random set of letters and must make an anagram using those letters. Each submitted word will score points.
+        </p>
+        <p>
+          <b>Technologies used:</b> Python, pair programming
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="flex-container">
+    <div class="footer-icon-article">
+      <a href="https://github.com/sarahsanborn" target="_blank">
+        <img class="icon" src="../images/icon-github.png" alt="Link to Sarah's Github">
+      </a>
+      <a href="https://www.linkedin.com/in/sarah-sanborn-profile/" target="_blank">
+        <img class="icon" src="../images/icon-linkedin.png" alt="Link to Sarah's LinkedIn">
+      </a>
+      <a href="mailto:sanbornsarahn@gmail.com" target="_blank">
+        <img class="icon" src="../images/icon-email.png" alt="Email Sarah">
+      </a>
+    </div>
+    <div class="copyright">
+      &copy; 2022 Sarah Sanborn
+    </div> 
+  </footer>
   
 </body>
 </html>
