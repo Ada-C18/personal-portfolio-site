@@ -1,0 +1,59 @@
+section {
+    display: grid;
+    grid-template-columns: 33% 66%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+h1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+#project1 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+[href="https://github.com/dabadabadabadaba/task-list-api"] {
+    grid-column: 1 /2;
+    grid-row: 2 / 3;
+    justify-content: center;
+    align-items: center;
+}
+
+#project2 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+[href="https://github.com/dabadabadabadaba/swap-meet"] {
+    grid-column: 1 /2;
+    grid-row: 3 / 4;
+}
+
+#project3 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+[href="https://github.com/dabadabadabadaba/adagrams-py"] {
+    grid-column: 1 /2;
+    grid-row: 4 / 5;
+}
+
+#project4 {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+[href="https://github.com/dabadabadabadaba/viewing-party"] {
+    grid-column: 1 /2;
+    grid-row: 5 / 6;
+}
+
+[href*="github"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

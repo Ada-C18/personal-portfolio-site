@@ -1,0 +1,11 @@
+img {
+    height: auto;
+    max-width: 350px; 
+}
+
+section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+

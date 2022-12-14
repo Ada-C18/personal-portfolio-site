@@ -35,32 +35,32 @@ We should only use static HTML and CSS for this project. Preprocessors (haml, er
 
 This portfolio site must have the following HTML files:
 
-- `index.html` must include your name somewhere.
+x `index.html` must include your name somewhere.
 
-- `about.html` should include some information about you, your interests, background or similar. Only post what you are comfortable sharing.
+x `about.html` should include some information about you, your interests, background or similar. Only post what you are comfortable sharing.
 
-- `portfolio.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
+x `portfolio.html` must include information about several projects you have completed at Ada (or elsewhere) with links to the GitHub repo (if available), descriptions, images, etc.
 
 ### Layout
 
 Each page in this project must comply with the following layout requirements:
 
-- Has the following tags: `<header>`, `<footer>`, and `<nav>`
-- Inside of the `<nav>`, there are links to all of the other pages
+x Has the following tags: `<header>`, `<footer>`, and `<nav>`
+x Inside of the `<nav>`, there are links to all of the other pages
 
 ## Wave 2 - Styling
 
 ### Required Content
 
-- Uses at least one CSS file (likely named `style.css`)
+x Uses at least one CSS file (likely named `style.css`)
 
 ## Wave 3 - Layout
 
 ### Required Content
 
 Present the elements on the page as you see fit by using the following at least once:
-* a grid container with a few grid items
-* a flexbox container with a few flex items
+x a grid container with a few grid items
+x a flexbox container with a few flex items
 
 Both of these containers do not need to be on the same page. Try using one for one page, and the other for another page!
 
@@ -76,10 +76,10 @@ Both of these containers do not need to be on the same page. Try using one for o
 ### Non-Functional Requirements
 
 The site should follow best practices, including:
-  - All markup should be semantic, with consideration of hierarchy and accessibility
-  - CSS should be concise and well-formatted
-  - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
-  - Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and fix all errors before submitting
+  x All markup should be semantic, with consideration of hierarchy and accessibility
+  x CSS should be concise and well-formatted
+  x Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively
+  x Run your site through an [HTML Validator](https://validator.w3.org/#validate_by_upload) and fix all errors before submitting
 
 ### Optional Enhancements
 
