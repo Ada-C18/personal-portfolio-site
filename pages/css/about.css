@@ -1,0 +1,18 @@
+main {
+    display: flex;
+}
+
+.my-pic {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    padding: 20px;
+    margin-left: 50px;
+    border: 1px;
+    border-radius: 50px;
+}
+
+.bio {
+    padding: 20px;
+    margin-right: 50px;
+}
