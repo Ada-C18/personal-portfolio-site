@@ -1,0 +1,189 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #A7D2CB;
+}
+
+/* Main */
+.main-container{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+/* Header */
+header {
+    grid-row: 1 / 2;
+    grid-column: 1 / 13;
+    color: #006E7F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2em;
+    padding-left: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.navlinks {
+    list-style: none;
+    display: flex;
+    padding-right: 2rem;
+    justify-content: flex-end;
+    gap: 30px;
+    align-self: center;
+}
+
+a {
+    font-size: 1.5em;
+    color: #874C62;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#e5e7eb;
+}
+
+/* Middle Container  */
+section {
+    grid-row: 2 / 11;
+    grid-column: 1/ 13;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Name Container  */
+.container-left{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+h2 {
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #006E7F;    
+}
+
+p {
+    font-size: 1.5em;
+    color: white;
+    width: 45ch;
+    line-height: 1.25em;
+    font-weight: 300;
+    margin-top: 0px;
+    /* border: red 1px solid; */
+}
+/* Right Container  */
+.container-right {
+    color:#FFE15D;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 3em;
+}
+
+i {
+    align-self: center;
+    padding: .5em;
+}
+
+/* Footer */
+footer {
+    grid-row: 11 / 13;
+    grid-column: 1 / 13;
+    background-color: #C98474;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.footer-list {
+    display: flex;
+    gap: 5em;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.social-media-icon {
+    list-style: none;
+    align-self: center;
+    color:#e5e7eb;
+}
+.social-media-icon:hover {
+    color: #FFD124;
+}
+
+
+/* Styling for About Page  */
+
+img {
+    width: 22em;
+    height: auto;
+    border-radius: 12%;
+    align-self: center;
+}
+
+.container-photo {
+    display: flex;
+    align-content: center;
+    justify-items: center;
+}
+
+
+/* Styling for Portfolio Page  */
+
+.container-portfolio {
+    display: flex;
+    flex-direction: column;
+}
+.container-portfolio-figures {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio-header {
+    /* border: 1px red solid; */
+    padding-left: 1em;
+    padding-top: 1.5em;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+}
+
+.project > a:hover {
+    color: #FFD124;
+}
+
+figure > img {
+    width: 200px;
+    justify-content: center;
+}
+.project-description {
+    width: 100%;
+    font-size: 1.25em;
+    text-align: center;
+}
+
