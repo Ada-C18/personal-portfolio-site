@@ -1,0 +1,141 @@
+
+#ada_class {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:small;
+  color: gray;
+}
+
+div {
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
+  display: grid;
+  grid-template-columns:20% 20% 20% 20% 20%;
+  grid-template-rows: repeat(5, 20%); 
+}
+
+.logo_as {
+  background-color: white;
+  grid-column: 1 / 2 ;
+}
+
+#as {
+  width: 220px;
+  height: 140px;
+  align-items:stretch;
+}
+
+#dotted_box {
+  grid-column: 2 / span 5;
+  grid-row: 1 / 2;
+  border: 5px dotted gainsboro;
+  padding: 15px;
+  background-clip: content-box;
+}
+
+.phrase {
+  color: orangered;
+  font-family:cursive;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+  font-size: .8cm;
+} 
+
+.my_text {
+  grid-column: 2 / span 4;
+  grid-row:  2 / span 4;
+  color: gray;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: .5cm;
+  text-align: center;
+}
+
+#seattle {
+  width: 210px;
+  height: 200px;
+}
+
+aside {
+  grid-row: 2 / 5;
+}
+
+#other_pages {
+  text-align: center;
+  align-items:stretch;
+}
+
+a {
+  color: gray;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1cm;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

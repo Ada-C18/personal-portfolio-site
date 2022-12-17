@@ -1,0 +1,22 @@
+body {
+    background-image: url("../images/4853433.jpg");
+}
+
+
+
+.contacts {
+    grid-column: 1 / 2;
+}
+
+#title_me {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .5cm;
+    text-align: left;
+    color: gray
+}
+
+a img{
+    justify-content:flex-start;
+    width: .9cm;
+    height: .7cm;
+}

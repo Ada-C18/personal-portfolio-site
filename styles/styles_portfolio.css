@@ -1,0 +1,42 @@
+
+
+header a {
+    color: gray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .8cm;
+    text-align:left;
+    font-weight: bolder;
+    font-style: normal;
+    }
+
+#title_projects {
+    grid-column: 3 / -1;
+    border: 5px dotted gainsboro;
+    padding: 15px;
+    background-clip: content-box;
+
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .8cm;
+    text-align: center;
+    }
+
+.git_projects {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        
+    }
+
+.projects {
+    width: 8cm;
+    height: 8cm;
+}
+
+p{
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: .5cm;
+    text-align: center;
+}
