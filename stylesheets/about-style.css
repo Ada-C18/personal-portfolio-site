@@ -1,0 +1,132 @@
+/* GRID LAYOUT */
+.container {
+	display: grid;
+	grid-template: 75px auto auto 60px / 1fr;
+	height: 100%;
+}
+
+nav {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+main {
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+}
+
+.profile-desc-2 {
+	grid-row: 3 / 4;
+	grid-column: 1 / 2;
+}
+
+article {
+  grid-column: 1 / 2;
+	grid-row: 4 / 5;
+}
+
+
+/* MAIN BLOCK */
+.main-block {
+  display: flex;
+  justify-content : left;  
+  height: 400px;
+}
+
+.main-block .image-block {
+	position: absolute;
+	display: flex;
+	width: 350px;
+	height: 350px;
+}
+
+.main-block .image-block .my-image {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	border-radius: 40px;
+	border-radius: 50%;
+	background: white;
+	top: 30px;
+}
+.main-block .image-block .my-image .profile-image {
+	position: absolute;
+	width: 80%;
+	height: auto;
+	margin-top: 20px;
+	margin-left: 22px;
+	filter: grayscale(100%);
+
+}
+
+.main-block .image-block .circle-outline {
+	position: absolute;
+	width: 425px;
+	top: -5px;
+	left: -40px;
+	z-index: 1;
+}
+
+.main-block .profile-block {
+	position: absolute;
+	display: flex;
+	left: 400px
+}
+
+.main-block .profile-block .profile-title {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-size: 48px;
+	padding: 50px 50px;
+}
+
+.main-block .profile-block .profile-title .name {
+	font-size: 120px;
+	font-weight: 800;
+	line-height: 100px;
+}
+
+.main-block .profile-block .profile-desc-1 {
+	font-size: 18px;
+	color: var(--ice-cold);
+	padding: 2px 5px;
+	font-weight: 200;
+}
+
+.profile-block .socials {
+	display: flex;
+	position: relative;
+	left: 0;
+}
+
+.profile-block .socials ul.social-contacts {
+	position: relative;
+	display: inline-flex;
+	gap: 10px;
+	padding-left: 5px;
+}
+
+.profile-block .socials ul.social-contacts li {
+	list-style: none;
+	font-weight: 100;
+	font-size: 20px;
+}
+
+.profile-block .socials ul.social-contacts li a:hover {
+	color: var(--purple-rain);
+}
+
+.profile-desc-2 {
+	padding: 10px 15px;
+	margin: 10px 15px;
+	display: block;
+	position: relative;
+	color: gray;
+	font-size: 16px;
+	font-weight: 250;
+	line-height: 18px;
+	text-align: justify;
+	text-justify: inter-word;
+}

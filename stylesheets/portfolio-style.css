@@ -1,0 +1,277 @@
+/* GRID LAYOUT */
+.container {
+	display: grid;
+	grid-template: 75px auto 60px / 1fr 3fr;
+	height: 100%;
+}
+
+nav {
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+}
+
+aside {
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+}
+
+main {
+	grid-row: 2 / 3;
+	grid-column: 2 / 4;
+}
+
+article {
+	grid-row: 3 / 4;
+	grid-column: 1 / 4;
+}
+
+.main-block {
+	height: 800px;
+}
+
+/* ASIDE */
+.desc-block {
+	line-height: normal;
+	max-height: 100%;
+	padding: 10px 15px;
+	margin: 10px 15px;
+}
+
+.desc-block .project-title {
+	border: none;
+	font-size: 50px;
+}
+
+.desc-block a {
+	font-weight: inherit;
+	color: inherit;
+}
+
+.desc-block .bio-title {
+	font-size: 20px;
+	font-weight: 100;
+	color: var(--medium-purple);
+}
+
+.desc-block .bio-desc {
+	display: inline-block;
+	padding-top: 15px;
+	color: var(--freeze-purple);
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0px;
+}
+
+.desc-block .bio-desc p {
+	line-height: 4px;
+	font-size: 14px;
+}
+
+.desc-block .bio-desc .bio-desc-end {
+	color: var(--ice-cold);
+	font-weight: 500;
+	font-size: 18px;
+}
+
+/* MAIN BLOCK */
+.main-block {
+  display : flex;
+  justify-content : left;  
+  min-height : 800px;
+}
+.filter-box {
+  position: relative;
+	width: 200px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.filter-box span {
+	padding: 10px;
+  background: var(--muted-dark-gray); 
+  font-size: 14px;	
+  cursor: pointer;
+  display: block;
+}
+
+.filter-box span::after {
+  float: right;
+  right: 10%;
+  content: "+";
+}
+
+.filter-box .slide {
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .4s ease;
+	padding-left: 0;
+	background-color: var(--muted-dark-gray);
+}
+
+.filter-box .slide li {
+	padding: 10px;
+	list-style: none;
+	font-size: 14px;
+}
+
+.filter-box .slide li:hover {
+	background-color: var(--muted-black);
+}
+
+#touch {
+	position: absolute; 
+	opacity: 0; 
+	height: 0px;
+}    
+
+#touch:checked + .slide {
+	height: 145px;
+	border: 1px solid white;
+}
+
+
+
+/* MAIN BLOCK */
+.card-container {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 20px;
+	overflow: hidden;
+	column-gap: 20px;
+	row-gap: 40px;
+}
+
+.card-container .card {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+  min-width: 240px;
+  min-height: 225px;
+	border: 1px solid var(--freeze-purple);
+	border-radius: 2px;
+}
+
+.card__side {
+  height: 225px;
+  transition: all 0.8s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+	right: 0;
+	bottom: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.15);
+}
+
+.card__side--front {
+  background-color: inherit;
+}
+
+.card__side--back {
+  transform: rotateY(180deg);
+}
+
+.card__side--back-1 {
+  background: linear-gradient(-45deg, var(--freeze-purple), var(--purple-rain));
+}
+.card__side--back-2 {
+  background: linear-gradient(-45deg, var(--freeze-purple), var(--ice-cold));
+}
+.card__side--back-3 {
+  background: linear-gradient(-45deg, var(--freeze-purple), var(--muted-dark-gray));
+}
+
+.card:hover .card__side--front {
+  transform: rotateY(-180deg);
+}
+.card:hover .card__side--back {
+  transform: rotateY(0);
+}
+
+.card-container .card .card-heading {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+	text-align: center;
+}
+
+.card-container .card .card-title {
+	position: relative;
+	font-size: 28px;
+  font-weight: 700;
+	text-align: center;
+	margin: 10px 0;
+	top: 15%;
+	padding: 0 5px;
+	line-height: 26px;
+}
+
+.card-container .card .card__details {
+	position: relative;
+	top: 25%;
+	font-size: 10px;
+	font-weight: 100;
+	padding: 0 10px;
+	text-align: center;
+	color: gray;
+	line-height: 1.2;
+}
+
+.card-container .card .language {
+	position: relative;
+	top: 25%;
+	font-size: 11px;
+	color: var(--medium-purple);
+}
+
+.card-github {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card-github .card-github-details {
+  text-align: center;
+  color: #fff;
+	padding: 0 10px;
+  font-size: 14px;
+}
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+	background-color: white;
+	width: 30%;
+	color: black;
+	font-weight: 500;
+}
+
+.btn:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover::after {
+	transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
