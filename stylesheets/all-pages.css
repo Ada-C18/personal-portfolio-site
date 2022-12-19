@@ -1,0 +1,28 @@
+header {
+    text-decoration: underline;
+    font-family:fantasy;
+    font-size: xx-large;
+    text-align: center;
+    background-color:cornflowerblue;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:deeppink;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color:darkorchid;
+}
+
+.top-nav {
+    display: block;
+    text-align: center;
+}

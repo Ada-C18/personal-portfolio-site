@@ -1,0 +1,20 @@
+section {
+    background-color:lightpink;
+    display: flex;
+}
+
+h2 {
+    color:antiquewhite;
+    font-family:cursive;
+    text-align: center;
+    background-color:lightcoral;
+}
+
+p {
+    background-color:palevioletred;
+    text-size-adjust: auto;
+}
+
+ul{
+    list-style-type:square;
+}

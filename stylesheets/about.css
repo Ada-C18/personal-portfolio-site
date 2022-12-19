@@ -1,0 +1,48 @@
+section {
+    background-color:lightpink;
+    height:5000px;
+    display: grid;
+    grid-template-columns: 10% 50% 40%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+h2 {
+    color:antiquewhite;
+    font-family:cursive;
+    font-size: xx-large;
+    text-align: center;
+    background-color:lightcoral;
+    grid-column: auto/span 3;
+}
+
+h3 {
+    color:aquamarine;
+    font-family: 'Comic Sans MS';
+    writing-mode: vertical-rl;
+    text-indent: 1em;
+    background-color:darkturquoise;
+    grid-column: 1;
+    grid-row: auto;
+}
+
+h4 {
+    color:blueviolet;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 2em;
+    background-color: khaki;
+    text-align: center;
+    grid-column: 2;
+    grid-row: auto;
+}
+
+p {
+    background-color:palevioletred;
+    grid-column: 3;
+    grid-row: auto;
+    text-size-adjust: auto;
+}
+
+img {
+    width: 50%;
+    grid-column: 2;
+}
