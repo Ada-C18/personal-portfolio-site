@@ -1,0 +1,29 @@
+body{
+    background-color:honeydew;
+}
+main > ul{
+    margin: 50px 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px dashed rgb(224, 167, 186);
+}
+main > ul > li{
+    width: 600px;
+    text-align: center;
+}
+main > ul > li > img{
+    width: 300px;
+}
+main a{
+    color: plum;
+    text-decoration: none;
+}
+main a:hover{
+    color:rgb(25, 111, 122);
+    text-decoration: underline;
+}
+main a:visited{
+    color: rgb(244, 120, 120);
+}

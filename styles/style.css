@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arima Madurai', cursive;
+}
+nav{
+    width: auto;
+    height: auto;
+    background-color: lavenderblush;
+}
+nav > ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavenderblush;
+
+}
+nav > ul > li{
+    border: 2px solid pink;
+}
+nav > ul > li > a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    text-decoration: 2px underline rgb(151, 101, 128);
+}
+li{
+    list-style: none;
+}
+footer{
+    margin: 40px 10px 0 0;
+}
