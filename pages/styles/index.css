@@ -1,0 +1,82 @@
+* {
+    font-family: sans-serif;
+}
+
+.links {
+    position: relative;
+    left: 430px; 
+    width: 70%;
+    height: 35vh;
+    background: white;
+    font-size: 25px;
+} 
+
+nav {
+    display: flex;
+    width: 100%;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+header a {
+    margin-left: 640px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul, li, a {
+    text-decoration: none;
+    color: #c6fbf9;
+    font-weight: bold;
+}  
+
+ul, li, a:hover{
+    color: #fbd7c6;
+}
+
+.thao {
+    margin-left: 6%;
+    margin-top: 13%;
+}
+
+.thao h1 {
+    font-size: 90px;
+    color: #c6d0fb;
+    margin-bottom: 10px;
+}
+
+span {
+    color: #c6fbce;
+    line-height: 22px;
+}
+
+p {
+    color: #f7c6fb;
+    font-size: 20px;
+}
+/* PORTFOLIO BUTTON */
+.thao a{
+    background: #c6fbf9;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #faffdb;
+    display: inline-block;
+    margin: 10px 5px;
+    border-radius: 3px;
+}
+
+.thao a:hover{
+    color: #ffebe0;
+}
+
+h4 {
+    color: rgb(188, 206, 251);
+    font-weight: bold;
+    text-align: right;
+}
