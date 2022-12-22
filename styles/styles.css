@@ -1,0 +1,62 @@
+html,body{
+    height: 100%
+}
+
+.wallpaper {
+    background-image: url("//Users/nancylee/Developer/projects/personal-portfolio-site/images/Minimalist-Background.jpg");
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    font-size:large;
+    font-family: fantasy, serif;
+}
+
+p {
+    text-align: center;
+}
+
+.page-links {
+    display: flex;
+    border: black 10px double;
+    font-family: cursive;
+    font-size: large;
+    justify-content: space-evenly;
+}
+
+#index-photos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#favorites {
+    background-color: goldenrod;
+    grid-column: 1 / 4;
+    grid-row: 3 / -1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.repos {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+footer {
+    position: static;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
