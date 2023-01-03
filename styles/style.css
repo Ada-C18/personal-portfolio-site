@@ -1,0 +1,26 @@
+body {
+    border: #0f0202;
+    background-color: #fcfdfc;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(9, 46, 196);
+    border: #0f0202;
+}
+
+h3{
+    font-family: "Bubblegum Sans";
+    text-align: center;
+}
+
+p{
+    font-family: "Comic Sans";
+    text-align: left;
+    background-color: rgb(48, 237, 237);
+    font-size: 25px;
+}
