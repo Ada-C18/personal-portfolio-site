@@ -1,0 +1,79 @@
+body {
+    background-color:beige;
+}
+
+
+h1 {
+    font-family:'Franklin Gothic Medium';
+    font-size:xx-large;
+    color: rgb(152, 175, 118);
+    text-align: center;
+    
+}
+
+
+main {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+
+[href="#"]:hover {
+    text-decoration: underline;
+    color: orange;
+    
+}
+
+[href="#about"]:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+[href="#contact"]:hover {
+    text-decoration: underline;
+    color:orange;
+}
+
+[href="pages/portfolio.html"]:hover {
+    text-decoration: underline;
+    color:orange;
+}
+
+[href="pages/about.html"]:hover {
+    text-decoration: underline;
+    color:orange;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 200px;
+    min-height: 50px;
+    text-align: center;
+    justify-content:space-around;
+    align-content: center;
+    border: rgb(100, 153, 97);
+    border-style: solid;
+    border-width: medium;
+    font-size: larger;
+    word-spacing: 4em;
+}
+
+
+
+footer nav{
+    text-align: center;
+    text-decoration: none;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin: auto;
+    
+    }
+h4 {
+    text-align: center;
+    }
+
+
