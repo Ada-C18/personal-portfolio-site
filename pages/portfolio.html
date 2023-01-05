@@ -4,9 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Projects Page</title>
+  <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <div id="logo"><a href="/pages/index.html" rel="index" class="logo">Home</a></div>
+      <ul>
+        <li><a href="/pages/portfolio.html" rel="portfolio">My Portfolio</a></li>
+        <li><a href="/pages/about.html" rel="about">About Me</a></li>
+        <li><a href="#social-footer" rel="contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="projects">
+      <h1>Projects Highlights</h1>
+      <div class="proj-container">
+        <div class="proj-grid">
+          <h3>
+            <a href="https://github.com/YLiu811/viewing-party.git">Viewing Party</a>
+          </h3>
+          <article>
+            <p>A Python program that replaces the spreadsheet method and allows users to keep track or movies watched and enjoyed.</p>
+            <p>Friends are able to share their favorite lists and watched lists. Friends can edit, delete, and add to watch list and favorite list.</p>
+          </article>
+          <img src="/imgs/viewing_party.png" alt="Viewing Party"/>
+          </div>
+        <div class="proj-grid">
+          <h3>
+            <a href="https://github.com/YLiu811/task-list-api.git">Task List API</a>
+          </h3>
+          <article>
+            <p>Create a web API that organizes tasks and goals, including one-to-many relationship, and user is able to get Slack notification when marked complete.</p>
+            <p>Conventional RESTful CRUD routes for a model were created. These routes are able to read and create/update/delete query to create custom behavior. Users can make requests in Python and to call an API inside of an API.</p>
+          </article>
+          <img src="/imgs/task_list_api.png" alt="Task List"/>
+        </div>
+        <div class="proj-grid">
+          <h3>
+            <a href="https://github.com/YLiu811/swap-meet.git">Swap Meet</a>
+          </h3>
+          <article>
+              <p>A python application that allows each person to swap one of their things with another person's things.</p>
+              <p>Applied Object-Oriented-Programming paradigm, created class definitions, and their attributes and instance methods.</p>
+          </article>
+            <img src="https://images.unsplash.com/photo-1657208190277-0ad519d6a9ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2950&q=80" alt="Swap Meet"/>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div id="social-footer">
+      <p>&copy; Copyright: 2022, Yun Liu All Rights Reserved</p>
+      <ul>
+        <li>
+          <img src="https://img.icons8.com/color/48/null/gmail--v2.png" alt=" "/>
+          <a href="mailto:ly.yun811@gmail.com">Email</a>
+        </li>
+        <li>
+          <img src="https://img.icons8.com/glyph-neue/64/null/github.png" alt=" "/>
+          <a href="https://github.com/YLiu811">GitHub</a>
+        </li>
+        <li>
+          <img src="https://img.icons8.com/fluency/48/null/linkedin.png" alt=" "/>
+          <a href="https://www.linkedin.com/in/yun-liu11/">LinkedIn</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
