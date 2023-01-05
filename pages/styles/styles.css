@@ -9,7 +9,7 @@
   }
 
 .color{
-    background-color: orange;
+    background-color: black;
     color: white;
     font-family: 'Shadows Into Light', cursive;
     font-size: 33px;
@@ -37,3 +37,8 @@
         display: flex;
         justify-content: center
     }
+
+.gifphotos{
+    height: 250px;
+    width: 250px;
+}
