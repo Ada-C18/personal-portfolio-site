@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    justify-items: flex-start;
+    text-align: justify;
+    font-size: 14px;
+}
+
+ol {
+    list-style: circle;
+}
+
+.resource {
+    color: #56957c;
+    font-style: italic;
+}
+
+#about {
+    color:#6cb391;
+    font-weight: bolder;
+}
+

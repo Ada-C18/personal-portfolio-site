@@ -4,9 +4,75 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Abby's Portfolio</title>
+  <link href="/styles/style.css" rel="stylesheet">
+  <link href="/styles/portfolio.css" rel="stylesheet">
 </head>
+
 <body>
-  
+<div class="container">
+<header>
+  <h1>Abby Choi</h1>
+  <nav>
+    <ul>
+    <li><a href="/pages/index.html">Home</a></li>
+    <li><a href="/pages/about.html">About Me</a></li>
+    <li><a id="portfolio" href="/pages/portfolio.html">Portfolio</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<div class ="project" id="viewing-party">
+  <h2 class="project-title"><a href="https://github.com/abbychoii/viewing-party">Viewing Party</a></h2>
+  <p>
+  Viewing Party aims to compare the watched, favorites, and want-to-watch lists of users to compare and recommend films based off of genre preferences or subscriptions.
+  </p>
+  <p><span class="takeaways">Takeaways:</span> Through the viewing party, I learned to work with nested data structures, and also improved my understanding of conditional logic and nested loops.</p>
+</div>
+<div class ="project" id="swap-meet">
+  <h2 class="project-title"><a href="https://github.com/abbychoii/swap-meet">Swap-Meet</a></h2>
+  <p>
+  Through the Swap Meet Project, I created various classes and instance methods that would be utilzed to allow different vendors swap items in their inventory according to condition or type. Additionally, I was able to learn more about code coverage through tests and the importance of writing thorough tests. 
+  </p>
+  <p><span class="takeaways">Takeaways:</span> I became more familiar with creating classes and instance methods, as well as the importance of DRYing up code with the usage of helper functions.</p>
+</div>
+<div class ="project" id="adagrams">
+  <h2 class="project-title"><a href="https://github.com/abbychoii/adagrams-py">Adagrams</a></h2>
+  <p>
+  Adagrams was my first peer programming project through which we built a computerized version of anagrams, where each user is given a pool of random letters and the words the user inputs will be returned as a score value.<br>
+  </p>
+  <p><span class="takeaways">Takeaways:</span> I learned the importance of active communication with my partner and the value of staying open minded when approaching how we want to code our solution. We did a lot of trial and error together, and I was able to grow immensely through it :).</p>
+</div>
+<div class ="project" id="solar-system">
+  <h2 class="project-title"><a href="https://github.com/abbychoii/solar-system-api">Solar-System</a></h2>
+  <p>The Solar System API project was our second pair programming project focused on getting more familiar with SQL databases, SQLAlchemy, and Flask. 
+  </p>
+  <p><span class="takeaways">Takeaways:</span> During this project, I learned the importance of creating RESTful endpoints for CRUD operations. </p>
+</div>
+<div class ="project" id="task-list">
+  <h2 class="project-title"><a href="https://github.com/abbychoii/task-list-api">Task-List</a></h2>
+  <p>The task-list project focuses on building an API that will also utilize other web-based APIs (like Slack). The task-list API is able to organize tasks that can be created, read, updated, and deleted, with the addtional abbility to sort tasks, mark them as complete, update in slack, and have goals overarching each task.</p>
+  <p><span class="takeaways">Takeaways:</span> I learned how to create models and instance models in SQLAlchemy, as well as create and utilize class and instance methods and higher order helper functions. Additionally, I learned how to create a test database and write tests and test data.</p>
+</div>
+<div class ="project" id="personal-portfolio">
+  <h2 class="project-title"><a href="https://github.com/abbychoii/personal-portfolio-site">Personal-Portfolio-Site</a></h2>
+  <p>
+    The Personal Portfolio Project is a project focused on building a portfolio website that can highlight all of my work throughout my time at Ada. It utilizes semantic HTML tags and css for styling.</p>
+  <p>
+    <span class="takeaways">Takeaways:</span> Through this project, I became more acclimated to the different HTML tags, as well as how to establish a framework for website through flexbox and grid.</p>
+</div>
+</main>
+
+<footer>
+  <h3>Let's Connect!</h3>
+    <nav>
+      <a href="abbychoi@gmail.com"><img class="icon" src="/assets/icons8-mail-96.png" alt="Email Icon"></a>
+      <a href="https://github.com/abbychoii"><img class="icon" src="/assets/GitHub-Mark-64px.png" alt="GitHub Icon"></a>
+      <a href="https://www.linkedin.com/in/abigail-m-choi/"><img class="icon" src="/assets/LI-In-Bug.png" alt="LinkedIn Icon"></a>
+    </nav>
+</footer>
+</div>
 </body>
+
 </html>

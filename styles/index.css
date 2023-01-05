@@ -1,0 +1,15 @@
+main {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+#index {
+    color:#6cb391;
+    font-weight: bolder;
+}

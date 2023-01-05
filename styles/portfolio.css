@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.project {
+    width: 40vw;
+    min-height:30vh;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.project p {
+    margin: 10%;
+}
+
+.project-title {
+    text-align: center;
+}
+.project-title a {
+    color: #56957c;
+}
+
+.takeaways {
+    font-weight: bold;
+}
+
+#portfolio {
+    color:#6cb391;
+    font-weight: bolder;
+}
+
+#viewing-party {
+    background-color: #d1fdfd;
+}
+#swap-meet {
+    background-color: #d2e2f8;
+}
+#solar-system {
+    background-color: #e2caf9;
+}
+#adagrams {
+    background-color: #d0f9de;
+}
+#task-list {
+    background-color: #f3e1f1;
+}
+#personal-portfolio {
+    background-color: #cfe3f2 ;
+}
