@@ -4,9 +4,110 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Portfolio - Aretta Brown</title>
 </head>
-<body>
-  
+<body id="portfolio">
+  <header id="protfolio-header">
+    <a href="./index.html">
+      <figure>
+        <img id="logo" src="images/logo.png" alt="logo">
+      </figure>
+    </a>
+    <nav>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="portfolio-main">
+    <h1 id="portfolio-title">Portfolio</h1>
+    <div id="grid">
+      <section id="project-1" class="projects">
+        <img src="images/Viewing_party.png" alt="viewing party">
+        <a href="https://github.com/arettab/viewing-party" target="_blank">
+          <h3>Viewing Party</h3>
+        </a>
+        <p>
+          This was the first project I did during the class portion of Ada. 
+          It allows you to keep up with what movies you want to watch or have watched 
+          and compares it to your friends watched list to create a recommendation 
+          list of movies to watch. I learned about list, dictionaries, nested loops, 
+          nested data structures, and conditional logic during this project.
+        </p>
+      </section>
+      <section id="project-2" class="projects">
+        <img src="images/Adagrams.png" alt="adagrams">
+        <a href="https://github.com/kalawac/adagrams-py" target="_blank">
+          <h3>Adagrams</h3>
+        </a>
+        <p>
+          Adagrams the first group project I did at Ada. This project created a 
+          game similar to scrabble or bananagrams. I learned about reading test, 
+          using git to maintain code, and pair-programming techniques during this 
+          project.
+        </p>
+      </section>
+      <section id="project-3" class="projects">
+        <img src="images/swap_meet.png" alt="swap meet">
+        <a href="https://github.com/FranklynRod/swap-meet" target="_blank">
+          <h3>Swap Meet</h3>
+        </a>
+        <p>
+          This was another group project at Ada. This project creats a way for vendors 
+          to add items to thier inventory and swap items with other vendors. 
+          I learned how to work with classes and methods, how to implement inheritance, 
+          about object oriented programming in general during this project. 
+        </p>
+      </section>
+      <section id="project-4" class="projects">
+        <img src="images/solar_system.png" alt="solar system API">
+        <a href="https://github.com/elsjeslothower/solar-system-api" target="_blank">
+          <h3>Solar System API</h3>
+        </a>
+        <p>
+          This was a group project used to introduce us to flask. We created an 
+          database of the planets. Then we created an api that used RESTful CRUD operations to
+          maintain that database. This project taught me how to use Flask, how to 
+          use SQLAchemy, and allowed me to srengthen my pair-programming skills.
+        </p>
+      </section>
+      <section id="project-5" class="projects">
+        <img src="images/task_list.png" alt="task list API">
+        <a href="https://github.com/arettab/task-list-api" target="_blank">
+          <h3>Task List API</h3>
+        </a>
+        <p>
+        This was a solo project used to cement my understanding of Flask and SQLAchemy. 
+        It created a web api that would keep track of goals and the task required 
+        to complete those goals. With this project i learned how to write test for 
+        flask apps, how to use Postman, how to read and use existing external web 
+        APIs, and how to deploy my own API.
+        </p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <h3>Contact me</h3>
+    <ul id="contact">
+      <li>
+        <a href="mailto:aretta.brown@gmail.com" target="_blank">email</a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/aretta-brown-77a2731b7/" target="_blank">linkedin</a>
+      </li>
+      <li>
+        <a href="https://github.com/arettab" target="_blank">Github</a>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>
