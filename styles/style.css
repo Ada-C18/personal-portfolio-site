@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(240, 255, 255);
+    font-family: Optima;
+}
+
+h1 {
+    color: rgb(237, 6, 141);
+    text-align: center;
+    width: 75vw;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.flexcontainer {
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    background-color: azure;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px dotted pink;
+} 
+
+.gridcontainer-index {
+    width: 75vw;
+    height: 60vw;
+    display: grid;
+    border: solid black;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-image: url("../images/pinkandblue.jpg");
+}
+
+#index-header {
+    grid-column: 1 / 4;
+    background-color: rgb(255, 192, 203, 0.8);
+}
+
+#index-nav {
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#index-footer {
+    grid-column: 1 / 4;
+    grid-row: 4 / 4;
+    justify-content: space-around;
+    display: flex; 
+    align-items: center;
+    background-color: rgba(131, 204, 243, 0.6)
+}
