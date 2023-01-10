@@ -1,0 +1,74 @@
+
+.porto
+{
+    font-size:x-large;
+    font-weight: 200;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+    
+}
+
+nav
+{
+    color: black;
+    font-size: larger;
+    font-weight: 200;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: inline;
+
+}
+
+ul
+
+{
+    list-style-type: none;
+    align-items: center;
+    font-size: larger;
+    display: inline;
+    
+}
+
+    
+
+a:link 
+{ text-decoration: none; 
+    font-size: larger;
+    display: inline;}
+
+
+header
+{
+    align-content: center;
+}
+h1
+{   
+    font-size: 700;
+    color:rgb(136, 233, 217);
+    background-color: rgb(126, 200, 250);
+}
+
+footer {
+    display: flex;
+    margin:auto ;
+    position: fixed;
+    bottom: 0px;
+    
+}
+footer img
+{ 
+    width: 16.5vw;
+    height: 14vw;
+    display: flex;
+    
+    
+
+}
+
+html
+{
+    background: rgb(117,198,227);
+background: radial-gradient(circle, rgba(117,198,227,1) 0%, rgba(171,254,217,1) 35%, rgba(181,255,252,1) 100%);
+}
