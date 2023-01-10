@@ -1,0 +1,125 @@
+
+a,
+a:visited {
+    color: #0008ff;
+    font-size: 2vh;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    background-color: #0008ff;
+    text-decoration: underline;
+}
+
+.album {
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    align-items: center;
+}
+.album {
+    border: blue 2px dotted;
+    padding: 10px;
+    align-items: center;
+} 
+
+.container {
+    width: 50%;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+em {
+    font-size: small;
+    font-weight:bold;
+}
+
+.flex-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 50px;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+    position: static;
+    padding-bottom: 30px;
+}
+#footer-index {
+    margin-top: 150px;
+}
+
+header {
+    font-family: 'VG5000', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 100px;
+}
+
+.headshot {
+    width: 40%;
+    padding-bottom: 10%;
+}
+
+html {
+    color: #0008ff;
+    font-size: 2vh;
+    font-family: 'Space Grotesk';
+    display: grid;
+    margin-top: 5%;
+    margin-left: 5%;
+} 
+
+.icons {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.side-nav ul {
+    list-style-type: none;
+    text-align: right;
+    position: fixed;
+    left: 80%;
+}
+
+.special-header {
+    font-size: 2.5rem;
+    font-family: 'VG5000', sans-serif;
+}
+
+.special-header-about {
+    font-size: 2.5rem;
+    font-family: 'VG5000', sans-serif;
+}
+.special-header-about:hover {
+    background: #0008ff;
+    color: white;
+    text-align: right;
+}
+.special-header-index {
+    text-decoration: underline;
+}
+.special-ul {
+    list-style-type: none;
+}
+
+.video {
+    height: 30%;
+    width: 31.5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.video {
+    border: blue 2px dotted;
+    height: 2.5%;
+    align-items: center;
+} 
