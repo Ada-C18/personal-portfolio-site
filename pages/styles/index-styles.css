@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(242, 169, 124);
+}
+
+h1 {
+    color: rgb(2, 97, 99); 
+    text-align: center; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    display: inline;
+    color:#0fd34a;
+    margin: 10em;
+    background:rgb(56, 205, 163);
+    padding: 10px 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 200px 0;
+    border-radius: 5px;
+    
+}
+
+p1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 1em
+}
+
+ul {
+    text-align: center;
+}
+
+
