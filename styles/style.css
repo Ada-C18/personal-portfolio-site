@@ -1,0 +1,217 @@
+/* All */
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(153, 60, 60);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(67, 30, 36);
+    font-size: 50px;
+}
+
+footer {
+    text-align: center;
+    font-size: 15 px;
+}
+
+section {
+    text-align: center;
+    padding: 1em 2em 1em 2em;
+}
+
+h1 {
+    transform: rotate(-90deg);
+    text-align: center;
+    color: rgb(67, 30, 36);
+    font-size: 80px;
+    margin-left: 5%;
+}
+
+header{
+    text-transform: uppercase;   
+}
+
+/* Home */
+#homepage_grid {
+    display:grid;
+    grid-template-areas:
+    "head nav"
+    "head main"
+    "head foot";
+    grid-template-rows: 100px 2fr 100px;
+    grid-template-columns: 200px 3fr;
+    align-items:center;
+    justify-items:center;
+}
+
+#homepage_grid > nav {
+    margin-top: 1em;
+    grid-area: nav;
+}
+
+#homepage_grid > header {
+    grid-area: head;
+}
+
+#homepage_grid > main {
+    grid-area: main;
+}
+
+#homepage_grid > footer {
+    grid-area: foot;
+}
+
+#home_text {
+    line-height: 150%;
+    color:  rgb(210, 120, 120);
+    text-align: center;
+}
+
+#me {
+    display: block;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    border-radius: 70px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1em;
+}
+
+/* About Me */
+#about {
+    line-height: 150%;
+    color: rgb(210, 120, 120);
+    text-align: justify;
+    margin-left: auto;
+    width: 100%;
+}
+
+.foot_me {
+    display: block;
+    margin: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+/* Portfolio */
+.columns {
+    display: flex;
+    align-items:flex-start;
+}
+
+.column{
+    display: block;
+    flex-basis: 0;
+    flex-grow: 5;
+    flex-shrink: 5;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    color: rgb(31, 59, 81)
+}
+
+.col_list {
+    color: rgb(31, 59, 81);
+    text-align: center;
+    list-style-type: none;
+    padding-inline-start: 0;
+
+}
+
+.col_list li {
+    line-height: 200%;
+    /* background-color: rgba(255, 255, 255, 0.25); */
+}
+
+#portfolio {
+    color: rgb(210, 120, 120);
+}
+
+a {
+    color: rgb(31, 59, 81); 
+}
+
+p {
+    text-align:center;
+}
+a:hover {
+    color: rgb(210, 120, 120);
+}
+
+/* Navigation bar */
+nav {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2px 0;
+    box-shadow: 0px 5px 0px #dedede;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #aaa;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+nav ul li a, nav ul li a:after, nav ul li a:before {
+    transition: all .5s;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+nav ul li a {
+    position:relative;
+    z-index: 1;
+}
+
+nav ul li a:hover {
+    color: rgb(75, 215, 255);
+}
+nav ul li a:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    color: transparent;
+    background: rgb(59, 112, 153);
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+nav ul li a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
