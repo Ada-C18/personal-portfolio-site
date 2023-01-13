@@ -1,0 +1,164 @@
+/* DEFAULT PAGE STYLING */
+body{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    margin: 8px 15px 0px 15px;
+    font-family: 'Times New Roman', serif;
+}
+
+/* BACKGROUND IMAGE */
+body, html {
+    height: 100%;
+}
+
+.bg {
+/* The image used */
+background-image: url("../images/image (1).jpg");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-color: rgb(99, 115, 141);
+}
+
+/* NAVIGATION BAR */
+.navlinksmain {
+font-size: 20px;
+list-style-type: none;
+float: left;
+width: 100%;
+border-bottom: 2px solid rgb(173, 169, 170);
+margin-bottom: 100px;
+}
+
+header h3 {
+float: left;
+}
+
+.navlinks {
+float: right;
+}
+
+.navlinks ul {
+list-style-type: none;
+
+}
+
+.navlinks ul li {
+display: inline-block;
+}
+
+.navlinks ul li a{
+font-family: 'Times New Roman', serif;
+text-decoration: none;
+color:rgb(255, 255, 255);
+}
+
+.navlinks ul li a:visited{
+color: rgb(255, 255, 255)
+}
+
+.navlinks ul li a:hover{
+color:rgb(173, 169, 170)
+}
+
+/* GRID BOX FOR PROJECTS */
+.container {
+    justify-content: space-between;
+    width: 1250px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0px 0px 0px 78px;
+    box-sizing: border-box;
+}
+
+.box {
+    padding:15px;
+    justify-content: center;
+    margin: 15px;
+    align-content: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+.projects h3 div{
+text-align: center;
+font-size: 6.9vw;
+font-weight: 100;
+font-family: 'Six Caps', sans-serif;
+color:rgb(255, 255, 255);
+text-shadow: 2px 2px 4px rgb(34, 21, 12);
+}
+
+p {
+    display: none;
+    margin: 0px 0px 0px 0px;
+}
+
+a{
+    text-decoration: none;
+
+}
+a:hover p {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(34, 21, 12);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.5vw;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+
+}
+
+a:hover h3 div {
+    display: none;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    left:0;
+}
+
+.copyrighttext {
+    float: right;
+    padding-right: 15px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: 1fr;
+        width: 75%;
+        margin: 0px 0px 0px 100px;
+        float: center;
+    }
+}
+
+/* @media(max-width: 1440px) {
+    p {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        color:rgb(255, 255, 255);
+        text-shadow: 2px 2px 4px rgb(34, 21, 12);
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 2.5vw;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+} */

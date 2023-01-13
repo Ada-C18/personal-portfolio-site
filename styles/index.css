@@ -1,0 +1,133 @@
+/* DEFAULT PAGE STYLING */
+body{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    margin: 0px 15px;
+    font-family: 'Times New Roman', serif;
+}
+/* BACKGROUND IMAGE */
+body, html {
+    height: 100%;
+}
+
+.bg {
+/* The image used */
+background-image: url("../images/image (1).jpg");
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-color: rgb(99, 115, 141);
+}
+
+/* NAVIGATION BAR */
+.navlinksmain {
+    font-size: 20px;
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    border-bottom: 2px solid rgb(173, 169, 170);
+    margin-bottom: 80px;
+}
+
+header h3 {
+    float: left
+}
+
+.navlinks {
+    float: right;
+}
+
+.navlinks ul {
+    list-style-type: none;
+
+}
+
+.navlinks ul li {
+    display: inline-block;
+}
+
+.navlinks ul li a{
+    font-family: 'Times New Roman', serif;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.navlinks ul li a:visited{
+    color: rgb(255, 255, 255)
+}
+
+.navlinks ul li a:hover{
+    color:rgb(173, 169, 170)
+}
+
+/* HEADER ON LEFT SIDE */
+
+.toptitle {
+    margin: 8px;
+    padding: 0;
+    border: 0;
+    font-size: 7vw;
+    font-weight: 100;
+    font-family: 'Six Caps', sans-serif;
+    vertical-align: baseline;
+    text-shadow: 2px 2px 4px rgb(34, 21, 12);
+}
+
+.midtitle {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 130px;
+    font-weight: 100;
+    font-size: 17.5vw;
+    font-family: 'Six Caps', sans-serif;
+    vertical-align: baseline;
+    text-shadow: 2px 2px 4px rgb(34, 21, 12);
+}
+
+.bottomtitle {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 150px;
+    font-weight: 100;
+    font-size: 17.5vw;
+    font-family: 'Six Caps', sans-serif;
+    vertical-align: baseline;
+    text-shadow: 2px 2px 4px rgb(34, 21, 12);
+}
+
+/* paragragh on left side */
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3.1vw;
+    margin-top: -350px;
+    float: right;
+    text-shadow: 2px 2px 4px rgb(34, 21, 12);
+}
+
+
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    left:0;
+  }
+
+.copyrighttext {
+    float: right;
+    padding-right: 15px;
+}
+
+footer span a {
+    color:rgb(255, 255, 255);
+}
