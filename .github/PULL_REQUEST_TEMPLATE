@@ -5,9 +5,28 @@ Congratulations! You're submitting your assignment!
 Question | Answer
 :------------- | :-------------
 Did you have to resolve any issues when running the HTML Validator? If so, what were they? |
+
+Yes, I had a trailing "/" when centering images for my porfolio page on the class="center" part. Also, my h1 tags are displaying ok on the webpage, but the validator is flagging it I think because the format isnt the best for when the screen reading tools that people who do not see use. I believe using h2's can help this instead of using mostly h1's for my headings.
+
 Why is it important to consider and use semantic HTML? |
+
+Semantic HTML is more readable and easier to maintain. Tags provide meaning to HTML page. Assisted technogolies depend on semantic HTML structures in order to read text to people who have visual disabilities.
+
 How did you decide to structure your CSS? |
+
+I used CSS to adjust my font type, font color, font size, webpage colors, center class, home-page-title ID, grid ID, flex ID, etc. 
+
 What was the most challenging piece of this assignment? |
+
+Knowing whether to use main, article, or section for different parts of HTML.
+
 Describe one area that you gained more clarity on when completing this assignment |
+
+Using alt text to write what an image on a webpage is so that screen reading tools can read the description of the image for people who may be blind. Keeping this in mind is helpful so we can make code more accessible. 
+
 **Optional** |
 Did you deploy to GitHub Pages? If so, what is the URL to your website? |
+
+https://github.com/sabraha0311/personal-portfolio-site
+file:///Users/sabraha0311/Developer/classroom/personal-portfolio-site/pages/index.html
+
