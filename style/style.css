@@ -1,0 +1,63 @@
+body {font-family: Helvetica;
+    background-color:rgb(47, 47, 48)}
+
+.grid {display: grid;
+    margin: auto;
+    padding-top: .8em;
+    width: 80vw;
+    height: auto;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 150px 1fr 50px;
+    }
+
+header {border-left-style: solid;
+    border-left-width: 1em;
+    border-color: rgb(99, 51, 62);
+    background-color: rgb(62, 80, 99);
+    color: rgb(214, 160, 43);
+    grid-area: 1 / 1 / 2 / -1;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 2em;
+    }
+
+h1 {font-size: 3em;}
+
+h2 {color: rgb(214, 160, 43);
+    text-align: center;
+    font-size: 2em;
+    }
+
+h3 {text-decoration: underline;} 
+
+nav {background-color: rgb(214, 160, 43);
+    grid-row: 2/-1}
+
+nav li {font-size: 1.5em;
+    line-height: 2em;
+    color:rgb(62, 80, 99)
+    }
+
+.main {background-color: rgb(99, 51, 62);
+    grid-area: 2 / 2 / -2 / -1;
+    padding: 1em;
+    }
+
+
+
+footer {grid-area: 3/ 2 / -1 / -1;
+    background-color: rgb(62, 80, 99);
+    border-right-style: solid;
+    border-right-width: 1em;
+    border-color: rgb(214, 160, 43);
+    display: flex;
+    justify-content: center;
+    color:rgb(214, 160, 43)}
+
+
+
+nav ul {list-style: none;}
+
+p {color: rgb(214, 160, 43)}
+
+a:visited, a {color:inherit}

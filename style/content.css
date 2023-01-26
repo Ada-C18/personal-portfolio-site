@@ -1,0 +1,52 @@
+.cards ul {display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    }
+
+.recipe ul {list-style: circle;}
+
+.item img {
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 150px;
+    height: auto;
+    }
+
+.item img:hover {
+    box-shadow: 0 0 2px 2px rgb(214, 160, 43);
+    }
+
+.recipe {display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "main_img ingredients"
+        "directions directions";
+    }
+
+.main_img {border: 1.5px solid rgb(47, 47, 48);
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    background-color: whitesmoke;
+    grid-area: main_img;
+    }
+
+    
+.ingredients {
+    color: rgb(214, 160, 43);
+    grid-area: ingredients;
+    }
+
+.directions {color:rgb(214, 160, 43);
+    grid-area: directions;
+    }
+
+ol > li {margin-bottom: 1em;}
+
+#about {width:33vw;
+    margin:auto;
+    display: block;
+    }
