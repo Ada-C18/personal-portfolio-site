@@ -1,0 +1,34 @@
+project-li{
+    font-size: 2em;
+}
+
+#projects-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.project-item-a{
+    background-color: lightgray;
+    grid-column:1/2;
+    grid-row: 1/2;
+}
+
+
+.project-item-b{
+    background-color: lightgray;
+    grid-column:2/3;
+    grid-row: 1/2;
+}
+
+.project-item-c{
+    background-color: lightgray;
+    grid-column:3/4;
+    grid-row: 1/2;
+}
+
+.project-item-d{
+    background-color: lightgray;
+    grid-column:1/2;
+    grid-row: 2/3;
+}
