@@ -1,0 +1,17 @@
+
+main {
+    line-height: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+div img {
+    width: 200px;
+    height: 200px; 
+} 
