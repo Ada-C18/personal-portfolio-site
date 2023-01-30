@@ -1,0 +1,24 @@
+body {
+    background-color: #FAF4D3;
+    font-family: 'Cormorant', serif;
+}
+
+header {
+    align-items: center;
+    color: #004643;
+    display: flex;
+    font-size: 1.3em;
+    font-weight: 300;
+    justify-content: space-between;
+    letter-spacing: 0em;
+    height: 2em;
+}
+
+h1 {
+}
+
+section {
+    color: black;
+    font-size: 2em;
+    line-height: 120%;
+}
