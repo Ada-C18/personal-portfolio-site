@@ -6,18 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="/stylesheets/styles.css">
+  <link rel="stylesheet" href="/stylesheets/portfolio.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- 
-  Add font awesome icons: example:
-  <a href="#" class="fa fa-facebook"></a> -->
+
 
 </head>
 
 <body>
-  <section class="navbar">
+
+  <header class="navbar">
     <section class="container">
       <h2 class="logo">Tapasya <span>Khatri</span></h2>
       <nav>
@@ -26,83 +25,17 @@
           <li><a href="about.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
-        <section class="button">
-          <a href="">Download CV</a>
-        </section>
       </nav>
     </section>
-  </section>
+  </header>
 
-  <header class="projects">
+  <main class="projects">
     <section class="title">
       <h2>My Latest Projects</h2>
   </header>
-  <section class="box">
-    <section class="card">
-      <i class="material-icons">portrait</i>
-      <h5>Capstone Project: Maze Game</h5>
-      <section class="pra">
-        <p>A maze game built using Python and Pygame. The maze is generated dynamically each time using a 
-          randomized dfs algorithm. The user can interact with the maze to navigate the maze. 
-          There are multiple levels. The maze size gets bigger at each level thereby increasing its complexity to solve.
-          The user can view the solution if needed. </p>
-        <p class="button">
-          <a href="https://github.com/takhat/front-end-inspiration-board" class="fa fa-github"> Github</a>
-        </p>
-      </section>
-    </section>
-
-    <section class="card">
-      <i class="material-icons">portrait</i>
-      <h5>Inspiration Board</h5>
-      <section class="pra">
-        <p>A full stack application that represents a whiteboard for displaying inspirational quotes. 
-          Each board can have multiple cards. The user is able to select a board and all cards with messages 
-          associated with that board. It uses Flask and Postgres for backend and React JS for frontend.</p>
-        <p class="button">
-          <a href="https://github.com/takhat/front-end-inspiration-board" class="fa fa-github"> Github</a>
-        </p>
-      </section>
-    </section>
-
-    <section class="card">
-      <i class="material-icons">portrait</i>
-      <h5>React Chatlog</h5>
-      <section class="pra">
-        <p>A chat messenger-style application built using React JS that displays a log of chat messages between two people, 
-          using static data from a JSON file. It allows user interaction with a like feature.</p>
-        <p class="button">
-          <a href="https://github.com/takhat/react-chatlog" class="fa fa-github"> Github</a>
-        </p>
-      </section>
-    </section>
 
   <section class="box">
-    <section class="card">
-      <i class="material-icons">portrait</i>
-      <h5>Weather Report</h5>
-      <section class="pra">
-        <p>A front end application that calls weather api to display weather for a selected location. 
-          It also allows setting temperature and changes the sky and landscape based on temperature.</p>
-        <p class="button">
-          <a href="https://github.com/takhat/weather-report" class="fa fa-github"> Github</a>
-        </p>
-      </section>
-    </section>
 
-    <section class="card">
-      <i class="material-icons">portrait</i>
-      <h5>JS Adagrams</h5>
-      <section class="pra">
-        <p>A backend application written in JavaScript, to maintain a watchlist of movies of a user and their friends. Uses
-          dictionary data structure for "movie" and list for "watchlist", and applies different
-          algorithms to select a movie to watch and maintain the watchlist.</p>
-        <p class="button">
-          <a href="https://github.com/takhat/js-adagrams" class="fa fa-github"> Github</a>
-        </p>
-      </section>
-    </section>
-  
     <section class="card">
       <i class="material-icons">portrait</i>
       <h5>Personal Portfolio Site</h5>
@@ -113,13 +46,13 @@
         <p class="button">
           <a href="https://github.com/takhat/personal-portfolio-site.git" class="fa fa-github"> Github</a>
         </p>
-      </section>
-    </section>
 
-    <section class="card">
-      <i class="material-icons">list</i>
-      <h5>Task List APIs</h5>
-      <section class="pra">
+      </section>
+
+      <section class="card">
+        <i class="material-icons">list</i>
+        <h5>Task List APIs</h5>
+
         <p>A task list application with RESTful apis to create, read, update
           and delete "tasks". Calls external (Slack) api to notify users on Slack
           when a task is completed. Created using Flask and SQLAlchemy, and
@@ -127,13 +60,13 @@
         <p class="button">
           <a href="https://github.com/takhat/task-list-api.git" class="fa fa-github"> Github</a>
         </p>
-      </section>
-    </section>
 
-    <section class="card">
-      <i class="material-icons">apps</i>
-      <h5>Swap-Meet App</h5>
-      <section class="pra">
+      </section>
+
+      <section class="card">
+        <i class="material-icons">apps</i>
+        <h5>Swap-Meet App</h5>
+
         <p>A backend application that allows users to host a swap-meet. Allowed users
           can register as a "vendor" and list an "inventory" of items to swap.
           Vendors will be able to swap their top item and swap items by category.</p>
@@ -141,13 +74,13 @@
         <p class="button">
           <a href="https://github.com/takhat/swap-meet.git" class="fa fa-github"> Github</a>
         </p>
-      </section>
-    </section>
 
-    <section class="card">
-      <i class="material-icons">favorite</i>
-      <h5>Adagrams Game</h5>
-      <section class="pra">
+      </section>
+
+      <section class="card">
+        <i class="material-icons">favorite</i>
+        <h5>Adagrams Game</h5>
+
         <p>A console based gaming application, where the player can draw a random set of
           letters and use them to create a word. If it is a valid word, a score is
           generated based on the game's algorithm. The player can play multiple rounds,
@@ -157,13 +90,13 @@
         <p class="button">
           <a href="https://github.com/takhat/adagrams-py.git" class="fa fa-github"> Github</a>
         </p>
-      </section>
-    </section>
 
-    <section class="card">
-      <i class="material-icons">movie</i>
-      <h5>Viewing Party</h5>
-      <section class="pra">
+      </section>
+
+      <section class="card">
+        <i class="material-icons">movie</i>
+        <h5>Viewing Party</h5>
+
         <p>A backend application to maintain a watchlist of movies of a user and their friends. Uses
           dictionary data structure for "movie" and list for "watchlist", and applies different
           algorithms to select a movie to watch and maintain the watchlist.</p>
@@ -171,10 +104,18 @@
         <p class="button">
           <a href="https://github.com/takhat/viewing-party.git" class="fa fa-github"> Github</a>
         </p>
+
       </section>
-    </section>
-  </section>
+    </div>
+  </main>
+
+  <footer class="mainpage-footer">
+    <nav class="social">
+      <a href="https://www.linkedin.com/in/tapasyakhatri/"><i class="fa fa-linkedin-square"
+          style="font-size:36px"></i></a>
+    </nav>
+  </footer>
+
 </body>
 
 </html>
-<!-- cloud,computer,local_movies,note-add -->
