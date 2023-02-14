@@ -1,0 +1,161 @@
+body {
+    background-color: black;
+    color: rgb(151, 190, 245);
+}
+
+p {
+    line-height: 150%;
+    text-align: justify;
+
+}
+
+a {
+    color: rgb(10, 67, 124);
+    text-decoration: none;
+    line-height: 2em;
+
+}
+
+.container {
+    display: grid;
+    padding: 15px;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 1fr));
+    grid-template-rows: max-content;
+    grid-template-areas:
+        "header header header header "
+        "article . . nav"
+        "article . . ."
+        "footer footer footer footer";
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    grid-area: header;
+    height: 1px;
+    width: 100%;
+    text-align: center;
+    background-color: teal;
+
+}
+
+
+article {
+    grid-area: article;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    width: 100%;
+    border-radius: 5em;
+    grid-area: footer;
+    background-color: teal;
+
+}
+
+footer p {
+    color: teal
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(151, 190, 245);
+}
+
+/* visited link */
+a:visited {
+    color: rgb(151, 190, 245);
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.nav {
+    grid-area: nav;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+li {
+    color: hotpink;
+}
+
+.image {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: .5em;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+
+.nav:hover .overlay {
+    opacity: 1;
+}
+
+/*   
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+  } */
+
+/* <h2>Fade in Overlay</h2>
+  <p>Hover over the image to see the effect.</p>
+  
+  <div class="nav">
+    <img src="img_avatar.png" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">Hello World</div>
+    </div>
+  </div>
+  
+  </body>
+  </html> */
