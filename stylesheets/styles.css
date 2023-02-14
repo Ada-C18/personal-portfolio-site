@@ -11,6 +11,7 @@ body {
     background-color:#dae1e7; 
     /* background-color: #FDF5DF;*/
     font-family:sans-serif;
+    overflow-x: hidden; 
 }
 
 .navbar {
