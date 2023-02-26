@@ -154,6 +154,7 @@ footer{
 .project-image {
     grid-row: 2/3;
     grid-column: 1/2;
+    border-radius: 50%;
 }
 
 .project-button {
@@ -167,7 +168,7 @@ footer{
     padding-right: 2em;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
     font-size: 16px;
     margin: 10px auto 10px;
 }
