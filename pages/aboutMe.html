@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="styles/jquery.multiscroll.css" rel="stylesheet"/>
+  <link href="styles/about.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+    </style>
+  <title>about me!</title>
+</head>
+
+
+<div id="multiscroll">
+	<div class="ms-left">
+		<div class="ms-section one">
+            <a href = "home.html" class = "header"> go back to home!</a>
+            <h1>about me</h1>
+            <p>I was born in the month of May on the unceded lands of the Duwamish peoples, in so-called Seattle, WA. </p>
+                <p>I grew up in the Beacon Hill neighborhood where I still live today.</p>
+                <p>This website is meant to be a living document of all of my endeavors as an avid dabbler. Below is a list of things I enjoy doing:</p>
+        </div>
+		<div class="ms-section two"></div>
+		<div class="ms-section three"><p> Listening to music and DJ assisting Monday mornings for the <a href = "https://www.kexp.org/djs/gabriel-teodros/" >Early Show with Gabriel Teodros</a></p></div>
+        <div class="ms-section four"></div>
+        <div class="ms-section five"><p>Wigging out over mushrooms!</p></div>
+        <div class="ms-section six"></div>
+	</div>
+	<div class="ms-right">
+		<div class="ms-section seven"></div>
+    <div class="ms-section eight"><p>Riding my bike for <a href = "https://en.wikipedia.org/wiki/Bicycle_touring">long periods of time</a>!</p></div>
+    <div class="ms-section nine"></div>
+		<div class="ms-section ten"> <p>Baking <a href = "https://instagram.com/bagelsxnt"> the most extra </a> bagels</p></div>
+		<div class="ms-section eleven"></div>
+    <div class="ms-section twelve"> <p>Mentoring high schoolers for a <a href = "https://www.kuow.org/radioactive">youth media program </a> at KUOW </p></div>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="jquery.easings.min.js"></script>
+<script src="jquery.multiscroll.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#multiscroll').multiscroll({
+            navigation: true,
+            navigationPosition: 'right',
+            navigationColor: '#000'
+        });
+    });
+</script>
+
+<footer>© 2022 nina-tuyen tran</footer>
+</html>

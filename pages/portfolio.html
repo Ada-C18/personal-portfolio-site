@@ -5,27 +5,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link href="styles/index.css" rel="stylesheet"/>
+  <link href="styles/portfolio.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+    </style>
 </head>
-<nav>
-  <a href="index.html"> home</a>
-  <a href = "about.html" > about</a>
-  <a href = "portfolio.html" > portfolio</a>
-</nav>
 
-<h1>A list of my projects</h1>
-  <div class="grid">  
-    <div><a href = "https://github.com/epigmeniocruz/task-list-api">Task List</a></div>
-    <div><a href = "https://github.com/AlmaDSF/adagrams-py">Adagrams</a></div>
-    <div><a href = "https://github.com/epigmeniocruz/swap-meet">Swap Meet</a></div>
-    <div><a href = "https://github.com/epigmeniocruz/viewing-party">Viewing Party</a></div>
-    <div> Built and deployed a web API for creating, modifying, and organizing a task list. This project utilizes RESTful CRUD routes, reading query parameters to create custom behavior, and a one-to-many relationship between models.</div>
-    <div>Built an app where vendors can list items and exchange items between users based on inventory needs. </div>
-    <div>A Banaagrams-inspired game where a player is given a random set of letters and must make an anagram using those letters. Each submitted word will score points based on a scoring dictionary.</div>
-    <div>Implemented a movie watching system that stores movie watching data and generates recommendations based on analysis performed on user data.</div>
+
+<body>
+  <a href = "home.html" class = "header"> go back to home!</a>
+  <div class="container"> 
+    <section><h1>portfolio</h1></section> 
+    <section class ="portfolio-container">
+      <article class ="project"> <a href = "https://github.com/marilynthai/Capstone-Colab"><h3>Gotchu</h3></a> 
+        <p>Gotchu is an iOS app that makes it easy for individuals to share and receive goods within their community. Utilizing a Google Firebase and a Swift iOS frontend, Gotchu provides a seamless and user-friendly platform for exchanging goods. Gotchu was developed from idea to full product over the course of three weeks.</p> 
+      </article>
+
+      <article class ="project"> <a href = "https://github.com/epigmeniocruz/weather-report"><h3>Inspiration Board</h3></a> 
+        <p>Built a full-stack website from scratch with a team of student developers using object-oriented design principles, created classes and class methods, and utilized test driven development. </p> 
+      </article>
+
+      <article class ="project"> <a href = "https://github.com/marilynthai/front-end-inspiration-board"><h3>Weather Report</h3></a> 
+        <p>Built a weather-reporting site in JavaScript and HTML/CSS, handled asynchronous calls using axios to make calls to third party APIs and a proxy server to manage API keys. </p> 
+      </article>
+
+
+      <article class ="project"> <a href = "https://github.com/epigmeniocruz/task-list-api"><h3>Task List</h3></a> 
+      <p> Designed a task organizing web app, built a REST API for creating, modifying, and organizing a task list created by a singler user, and handled calls to an external API to allow users to post to the app through Slack.</p> 
+    </article>
+
+      <article class ="project"> <a href = "https://github.com/epigmeniocruz/swap-meet"><h3>Swap Meet</h3></a> 
+      <p>Implemented itemshare system, collaborated through pair programming, worked with files and large amounts of data. </p>
+    </article>
+      <article class ="project"> <a href = "https://github.com/epigmeniocruz/viewing-party"><h3>Viewing Party</h3></a>
+        <p>Developed a movie watching Python program that stores movie watching data and generates recommendations based on analysis performed on user data.</p>
+      </article>
+    </section>
+  
   </div>
 
 
-
-  <footer>© 2022 nina-tuyen tran</footer>
+</body>
+<footer>© 2022 nina-tuyen tran</footer>
 </html>

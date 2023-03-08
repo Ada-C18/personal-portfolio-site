@@ -1,43 +1,17 @@
-h1 {
-    color: orangered;
-    font-size: 50px;
-    font-family: Courier, monospace;
-    text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightskyblue;
 }
 
 
-header {
-  font-family:  Courier, monospace;
-  text-align: center;
-  font-size: 50px;
-  text-decoration: underline;
-}
 
-
-nav {
-  color: blue;
-  font-family: Courier, monospace;
+.box {
+  display: flex;
   font-size: 20px;
-  margin: auto;
-  width: 30%;
-  text-align: center;
-  padding: 20px;
+  
 }
-
-p {
-  color: black;
-  font-family: Courier, monospace;
-  width: 100%;
-}
-
-body {
-  background-color: lightblue;
-  font-family: Courier, monospace;
-  text-align: center;
-
-
-}
-
 .center {
   display: block;
   margin-left: auto;
@@ -45,15 +19,144 @@ body {
   width: 50%;
 }
 
-
-img {
-  max-width: 70%;
-  height: auto;
-  padding: 10px;
+.container {
+  max-width: 960px;
+  margin: 0 auto;
   
 }
+.content {
+  width: 50%;
+}
 
-.grid {
+.content div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_title{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0!important;
+}
+
+.main_title .heading{
+  margin-top:300px;
+}
+
+#NavBar{
+  background-color: orangered;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#NavBar a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  transition: all 0.3s;
+}
+
+#NavBar a:hover {
+  background-color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.heading {
+    color: orangered;
+    font-size: 50px;
+    font-weight:bolder;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+img {
+  width: 50vw;
+  height: 100vh;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+p {
+  width: 100%;
+  text-align: center;
+  color:black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  /* position: fixed; */
+  z-index: 0;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.left {
+  left: 0;
+  background-color: lightskyblue;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+/* .grid {
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: 40px 200px;
@@ -66,24 +169,26 @@ img {
   font-size: 20px;
   width: 85%;
   height: 275px;
-}
+} */
 
-.box {
-  display: flex;
-  flex-wrap: center;
-  background-color: blanchedalmond;
-  padding: 20px;
-  font-size: 20px;
-  font-weight: bold;
+/* #portfolio-grid {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+} */
 
-}
+/* body, html {
+  height: 100%;
+  width: 90%;
+  margin: 0;
+  color: orangered
+} */
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: orangered;
-  color: white;
-  text-align: center;
-}
+/* body { */
+  /* background-color: lightblue; */
+  /* background-image: url("/Users/nt/Developer/Projects/personal-portfolio-site/assets/images/familypic.png");
+  background-size:auto;
+  max-width: 500px;
+  margin: auto;
+} */
