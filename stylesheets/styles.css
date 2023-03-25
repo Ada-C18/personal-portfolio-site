@@ -200,6 +200,9 @@ footer {
     min-height: 6em;
 }
 
+/* Project Spotlight unique styles */
 
-
+.content_list_items {
+    list-style: circle;
+}
 
