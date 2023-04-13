@@ -12,10 +12,11 @@ body {
     margin: 0;
 }
 
+
 ul {
     list-style: none;
-    margin: 0;
-    border: 0;
+    /* margin: 0;
+    border: 0; */
     min-height: 100px;
 }
 
@@ -28,13 +29,18 @@ a:hover {
     color: black;
 }
 
+#link_image {
+    size: 0.25em;
+    color:#777;
+}
+
 /* Page layout */
-.page_grid {
+/* .page_grid {
     display: grid;
     margin: auto;
     width: 100%;
     grid-template: 75px auto auto / 100%
-}
+} */
 
 
 /* Header - Grid Row 1 */
@@ -43,7 +49,7 @@ a:hover {
     background-color: #EAF4F4;
 }
 
-.menu_bar ul {
+#menu_bar ul {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -53,12 +59,12 @@ a:hover {
     font-size: 1.15em;
 }
 
-.menu_bar img {
+#menu_bar img {
     width: 1em;
     height: auto;
 }
 
-.menu_bar a.active {
+#menu_bar a.active {
     text-decoration: underline;
 }
 
@@ -76,7 +82,7 @@ a:hover {
     gap: 1em;
     margin: 0 auto;
     flex-wrap: wrap;
-    grid-row: 2;
+    /* grid-row: 2; */
 }
 
 .side_bar {
@@ -125,19 +131,19 @@ address img {
     max-width: 33em;
 }
 
-.content ul {
+/* .content ul {
     padding: 0;
-}
+} */
 
 .content p {
     font-size: 1em;
     margin-top: 0.05em;
-    text-align: justify;
+    text-align: None;
 }
 
-li {
+/* li {
     text-align: justify;
-}
+} */
 
 
 .content h1, .content h2 {
@@ -156,11 +162,35 @@ li {
 
 
 /* Home page unique styles */
+.home .content {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
 .home .content h1 {
     font-family: 'Rancho';
     font-size: 7.5em;
     color:#9ba1a6;
+    padding-top: 20px;
 }   
+
+.font-rancho {
+    font-family: 'Rancho';
+    font-family: 'Rancho';
+    font-size: 7.5em;
+    color:#9ba1a6;
+}
+
+.font-nunito {
+    font-family: 'Nunito';
+}
+
+.about-me {
+    text-align: justify;
+    padding-left: 25px;
+    font-size: 1.1em;
+    padding-top: 15px;
+}
 
 .home .content h2 {
     font-size: 3.8em;
@@ -168,16 +198,34 @@ li {
     line-height: 1em;
 }
 
+.home .content_text {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
 @media screen and (max-width: 600px) {
     .home .content {
         text-align: center;/* Apply some styles */
         line-height: .9;
     }
     .home .content h2 {
-        font-size: 3em;
+        font-size: 2em;
         margin-top: 1em;
     }
+    .about .side_bar {
+        display: None;
+    }
 }
+
+
+/* @media only screen and (min-device-width: 480px){
+    .about .side_bar {
+        display: None;
+    }
+} */
+
 
 /* Portfolio page unique styles */
 ul.portfolio {
@@ -200,9 +248,12 @@ footer {
     min-height: 6em;
 }
 
+footer p {
+    padding-top: 10px;
+}
+
 /* Project Spotlight unique styles */
 
 .content_list_items {
     list-style: circle;
 }
-
