@@ -12,11 +12,9 @@
 </head>
 
   <body>
-
-    <main class="page_grid">
-
+    <main>
       <header class="header">
-        <nav class="menu_bar">
+        <nav id="menu_bar">
           <ul>
             <li><a href="/index.html">Home</a></li>
             <li><a class="active" href="/pages/portfolio.html">Portfolio</a></li>
@@ -28,14 +26,9 @@
         </nav>
       </header>
 
-      <section class="middle_row">
-        <div class="middle_content">
-          <aside class="side_bar">
-            <img class="profile_image" src="/images/profile_pic.png" alt="Profile Picture">
-            <p>Lynn Jansheski</p>
-            <address><a href="https://www.google.com/maps/place/Seattle,+WA/@47.6131746,-122.4821491,11z/data=!3m1!4b1!4m5!3m4!1s0x5490102c93e83355:0x102565466944d59a!8m2!3d47.6062095!4d-122.3320708" target="_blank" rel="noopener noreferrer"><img src="/images/location.png" alt="location icon">Seattle, WA</a></address>
-          </aside>
-          <div class="content">
+      <section class="container content about-me"  id="portfolio">
+        <div class="row">
+          <div class="col-12">
             <h1>Learning Code</h1>
               <p>I fully committed to learning code in February of 2022 when I made it my full time job. I started by self-learning using
                 online resources, most notably "100 Days of Code" by Angela Yu on Udemy. I also dabbled with codecademy and Zed Shaw's "Learn
@@ -55,8 +48,7 @@
               </p>
               <p>
                 <a href="https://github.com/1lynnj/task-list-api" target="_blank" rel="noopener noreferrer">Task List
-                 <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
-                  </i>
+                  <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
                 </a>
                 <br>
                 A complete RESTful API created with Flask, SQLAlchemy and Postgres. I also gained some practice in learning 
