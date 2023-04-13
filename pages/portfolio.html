@@ -8,17 +8,15 @@
   <link rel="stylesheet" href="/stylesheets/styles.css">
   <link rel="stylesheet" href="/stylesheets/fonts.css">
   <link rel="stylesheet" href="/stylesheets/portfolio.css">
+  <script src="https://kit.fontawesome.com/719d960da6.js" crossorigin="anonymous"></script>
 </head>
 
   <body>
-
-    <main class="page_grid">
-
+    <main>
       <header class="header">
-        <nav class="menu_bar">
+        <nav id="menu_bar">
           <ul>
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/pages/about.html">About</a></li>
             <li><a class="active" href="/pages/portfolio.html">Portfolio</a></li>
             <li><a href="/pages/project_spotlight.html">Project Spotlight</a></li>
             <li class="contact"><a href="mailto:lynn@jansheski.com"><img src="/images/email.png" alt="email icon"></a></li>
@@ -28,14 +26,9 @@
         </nav>
       </header>
 
-      <section class="middle_row">
-        <div class="middle_content">
-          <aside class="side_bar">
-            <img class="profile_image" src="/images/profile_pic.png" alt="Profile Picture">
-            <p>Lynn Jansheski</p>
-            <address><a href="https://www.google.com/maps/place/Seattle,+WA/@47.6131746,-122.4821491,11z/data=!3m1!4b1!4m5!3m4!1s0x5490102c93e83355:0x102565466944d59a!8m2!3d47.6062095!4d-122.3320708" target="_blank" rel="noopener noreferrer"><img src="/images/location.png" alt="location icon">Seattle, WA</a></address>
-          </aside>
-          <div class="content">
+      <section class="container content about-me"  id="portfolio">
+        <div class="row">
+          <div class="col-12">
             <h1>Learning Code</h1>
               <p>I fully committed to learning code in February of 2022 when I made it my full time job. I started by self-learning using
                 online resources, most notably "100 Days of Code" by Angela Yu on Udemy. I also dabbled with codecademy and Zed Shaw's "Learn
@@ -43,44 +36,60 @@
                 development including Python, RESTful API, Flask, HTML/CSS, Javascript and React. I added Django to my tech stack with 
                 my final capstone project at Ada. Following are some of the projects I've been working on. 
               </p>
-            <nav>
-              <ul class="portfolio">
-                <li>
-                  <a href="/pages/project_spotlight.html">Ada Developers Academy Capstone Project</a>
-                  <p>For my capstone project at Ada Developers Academy, I decided to use my experience in veterinary medicine and my 
-                    newly acquired knowledge in full stack software development to build a simple yet valuable tool that can benefit 
-                    medical staff, pets and pet owners.
-                  </p>
-                </li>
-                <li>
-                  <a href="https://github.com/1lynnj/task-list-api" target="_blank" rel="noopener noreferrer">Task List</a>
-                  <p>A complete RESTful API created with Flask, SQLAlchemy and Postgres. I also gained some practice in learning 
-                    to read, interpret and implement 3rd party API documentation.</p>
-                </li>
-                <li>
-                  <a href="https://github.com/1lynnj/react-chatlog" target="_blank" rel="noopener noreferrer">Chatlog</a>
-                  <p>A fun little introduction to React project.</p>
-                </li>
-                <li>
-                  <a href="https://github.com/1lynnj/viewing_party_refactor" target="_blank" rel="noopener noreferrer">Viewing Party</a>
-                  <p>A project designed to refine skills with nested data structures.</p>
-                </li>
-                <li>
-                  <a href="https://github.com/1lynnj/adagrams-py" target="_blank" rel="noopener noreferrer">Adagrams</a>
-                  <p>A project with an emphasis on practicing git and pair-programming techniques.</p>     
-                </li>           
-                <li>
-                  <a href="https://github.com/1lynnj/swap-meet" target="_blank" rel="noopener noreferrer">Swap Meet</a>
-                  <p>An Object Oriented Programming project.</p>
-                </li>
-                <li>
-                  <a href="https://github.com/1lynnj/learning-code" target="_blank" rel="noopener noreferrer">100 Days of Code</a>
-                  <p>A repository of projects compiled while completing 100 Days of Code by Angela Yu. I had the most fun creating 
-                    and seeing the games work.
-                  </p>
-                </li>
-              </ul>
-            </nav>
+            <div>
+                <p>
+                  <a href="/pages/project_spotlight.html">Ada Developers Academy Capstone Project
+                    <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
+                  </a>
+                  <br>
+                For my capstone project at Ada Developers Academy, I decided to use my experience in veterinary medicine and my 
+                newly acquired knowledge in full stack software development to build a simple yet valuable tool that can benefit 
+                medical staff, pets and pet owners.
+              </p>
+              <p>
+                <a href="https://github.com/1lynnj/task-list-api" target="_blank" rel="noopener noreferrer">Task List
+                  <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
+                </a>
+                <br>
+                A complete RESTful API created with Flask, SQLAlchemy and Postgres. I also gained some practice in learning 
+                to read, interpret and implement 3rd party API documentation.
+              </p>
+
+              <p><a href="https://github.com/1lynnj/react-chatlog" target="_blank" rel="noopener noreferrer">Chatlog
+              <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
+              </a>
+                <br>
+                A fun little introduction to React project.
+              </p>
+
+              <p><a href="https://github.com/1lynnj/viewing_party_refactor" target="_blank" rel="noopener noreferrer">Viewing Party
+              <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
+              </a>
+                <br>  
+                A project designed to refine skills with nested data structures.
+              </p>
+
+              <p><a href="https://github.com/1lynnj/adagrams-py" target="_blank" rel="noopener noreferrer">Adagrams
+              <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
+              </a>
+                <br>
+                A project with an emphasis on practicing git and pair-programming techniques.
+              </p>     
+
+              <p><a href="https://github.com/1lynnj/swap-meet" target="_blank" rel="noopener noreferrer">Swap Meet
+                <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
+              </a>
+                <br>
+                An Object Oriented Programming project.
+              </p>
+
+              <p><a href="https://github.com/1lynnj/learning-code" target="_blank" rel="noopener noreferrer">100 Days of Code
+              <i class="fa-solid fa-arrow-up-right-from-square" style="color: #494e52; font-size: 11px;"></i>
+              </a>
+                <br>
+                A repository of projects compiled while completing 100 Days of Code by Angela Yu. I had the most fun creating and seeing the games work.
+              </p>
+            </div>
           </div>
         </div>
       </section>

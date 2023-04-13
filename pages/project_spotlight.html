@@ -8,17 +8,16 @@
   <link rel="stylesheet" href="/stylesheets/styles.css">
   <link rel="stylesheet" href="/stylesheets/fonts.css">
   <link rel="stylesheet" href="/stylesheets/portfolio.css">
+  <script src="https://kit.fontawesome.com/719d960da6.js" crossorigin="anonymous"></script>
+
 </head>
 
   <body>
-
-    <main class="page_grid">
-
+    <main>
       <header class="header">
-        <nav class="menu_bar">
+        <nav id="menu_bar">
           <ul>
             <li><a href="/index.html">Home</a></li>
-            <li><a href="/pages/about.html">About</a></li>
             <li><a href="/pages/portfolio.html">Portfolio</a></li>
             <li><a class="active" href="/pages/project_spotlight.html">Project Spotlight</a></li>
             <li class="contact"><a href="mailto:lynn@jansheski.com"><img src="/images/email.png" alt="email icon"></a></li>
@@ -28,16 +27,17 @@
         </nav>
       </header>
 
-      <section class="middle_row">
-        <div class="middle_content">
-          <aside class="side_bar">
-            <img class="profile_image" src="/images/profile_pic.png" alt="Profile Picture">
-            <p>Lynn Jansheski</p>
-            <address><a href="https://www.google.com/maps/place/Seattle,+WA/@47.6131746,-122.4821491,11z/data=!3m1!4b1!4m5!3m4!1s0x5490102c93e83355:0x102565466944d59a!8m2!3d47.6062095!4d-122.3320708" target="_blank" rel="noopener noreferrer"><img src="/images/location.png" alt="location icon">Seattle, WA</a></address>
-          </aside>
-          <div class="content">
-            <h1>Veterinary Anesthesia Protocol</h1>
-            <h2>Web Application</h2>
+      <section class="container content about-me" id="project-spotlight">
+        <div class="row">
+          <div class="col-12">
+            <h1>Veterinary Anesthesia Protocol
+              <a href="https://youtu.be/e-9BHQd_7UU" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-video fa-xs"></i>
+              </a>
+              <a href="https://vet-anes-front.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-solid fa-laptop fa-xs"></i>
+              </a>
+            </h1>
               <p>For my capstone project at Ada Developers Academy, I used my experience in veterinary medicine and my 
                 full stack software development skills to build a simple yet valuable tool that can benefit 
                 medical staff, pets and pet owners.
@@ -51,24 +51,20 @@
               <h2>Features</h2>
                 <ul>
                   <li class="content_list_items">
-                   Calculates drug dosages for anesthesia, pain continuous rate infusion, fluid rates, and emergency drugs
+                  Calculates drug dosages for anesthesia, pain continuous rate infusion, fluid rates, and emergency drugs
                   </li>
                   <li class="content_list_items">
-                     
-                    Allows custom protocols for cats and dogs by entering each required drug and the required dose individually
+                  Allows custom protocols for cats and dogs by entering each required drug and the required dose individually
                   </li>
                   <li class="content_list_items">
-                     
-                    Auto populates protocols for healthy cats and dogs with the click of a button
+                  Auto populates protocols for healthy cats and dogs with the click of a button
                   </li>
                   <li class="content_list_items">
-                     
-                    Drug Interactions check from the National Institutes Of Health API
+                  Drug Interactions check from the National Institutes Of Health API
                   </li>
                 </ul>
-                <br>
               
-                <h2>v2 in development</h2>
+                <h2>Future Enhancements</h2>
               <ul>
                 <li class="content_list_items">
                 User login and authentication
@@ -88,13 +84,7 @@
                 <li class="content_list_items">
                 Printable document with complete protocol and anesthesia monitoring grid
                 </li>
-
               </ul>
-            <br>
-            <h2><a href="https://youtu.be/e-9BHQd_7UU" target="_blank" rel="noopener noreferrer">Demo</a></h2>
-            <br>
-            <h2><a href="https://vet-anes-front.herokuapp.com" target="_blank" rel="noopener noreferrer">Try it yourself!</a></h2>
-
           </div>
         </div>
       </section>
