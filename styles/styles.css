@@ -1,0 +1,90 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    background-color: #062f4f;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+body, html {
+    height: 100vh;
+}
+
+span{
+    color: #813772
+}
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% 20% auto 10%;
+    grid-template-areas: 
+        "header header header"
+        "sect1 sect2 sect3"
+        "main main main"
+        "footer footer footer"
+}
+
+
+header{
+    text-align: center;
+    grid-area: header;
+    /* background-color: #91c8ff; */
+}
+
+.Menu ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 10px;
+    background-color: aliceblue;
+
+}
+
+
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+main{
+    grid-area: main;
+    text-align: center;
+    background-color: #7da9d5;
+}
+main img{
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+footer{
+    grid-area: footer;
+    background-color: #588ec3;
+}
+
+
+
