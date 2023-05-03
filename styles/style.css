@@ -1,0 +1,243 @@
+body {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet)
+}
+
+header {
+    height: 100vh;
+}
+
+h1 {
+    font-family: Trattatello, fantasy;
+    text-align: center;
+    color: ghostwhite;
+    font-size: 15em;
+    font-size: 15vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: Trattatello, fantasy;
+    text-align: center;
+    color: ghostwhite;
+    width: 45vw;
+    height: 10vh;
+    font-size: 3em;
+    font-size: 3vw;
+}
+
+p {
+    font-size: 1.5em;
+    font-size: 1.5vw;
+}
+
+nav {
+    width: 25vw;
+    height: 30vh;
+    text-align: center;
+    display: inline-block;
+    font-size: 3em;
+    font-size: 3vw;
+}
+
+main {
+    font-family: cursive;
+    text-align: center;
+    color: lavenderblush;
+    background-color: hotpink;
+    margin: 2em 20em;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    bottom: auto;
+    width: 45vw;
+}
+
+ul li {
+    margin: 1em;
+    list-style-type: none;
+    width: 15vw;
+    height: 10vh;
+}
+
+li [href*="github"] {
+    font-size: 1.5em;
+    font-size: 1.5vw;
+}
+
+img {
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    border: 2px solid black;
+}
+
+section {
+    text-align: center;
+    width: 45vw;
+    /* margin: 15vw 45vh; */
+}
+
+#about {
+    grid-column: 1 / 7;
+    grid-row: 1 / 7;
+}
+
+a {
+    color: lavenderblush;
+    /* background-color: hotpink; */
+    font-family: Trattatello, fantasy;
+}
+
+
+
+#index {
+    font-family: cursive;
+    /* text-align: center; */
+    color: lavenderblush;
+    background-color: hotpink;
+    grid-column: 1 / 7;
+    grid-row: 1 / 3;
+}
+
+#portfolio {
+    font-family: cursive;
+    /* text-align: center; */
+    color: lavenderblush;
+    background-color: hotpink;
+    grid-column: 1 / 7;
+    grid-row: 3 / 5;
+}
+
+#about {
+    font-family: cursive;
+    /* text-align: center; */
+    color: lavenderblush;
+    background-color: hotpink;
+    grid-column: 1 / 7;
+    grid-row: 5 / 7;
+}
+
+#meme {
+    display: inline-block;
+    width: 40vw;
+    height: 40vw;
+    grid-column: 2 / 7;
+    grid-row: 1 / 7;
+    /* vertical-align: top; */
+    /* margin-left: 2vw */
+}
+
+#toscroll {
+    display: grid;
+    width: 100vw;
+    height: 50vw;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr)
+}
+
+.home-page {
+    font-size: 75px;
+}
+
+.container {
+    background-color: aqua;
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(6 1fr);
+    grid-template-rows: repeat(6 1fr);
+    /* padding-inline-start: 0px; */
+    margin-top: 0px;
+}
+
+
+/* code below to build out arrow pulled from here: https://codeconvey.com/scroll-down-arrow-animation-css/ */
+.arrow_container {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0px auto;
+}
+
+.chevron {
+    position: absolute;
+    width: 28px;
+    height: 8px;
+    opacity: 0;
+    transform: scale3d(0.5, 0.5, 0.5);
+    animation: move 3s ease-out infinite;
+}
+
+.chevron:before,
+.chevron:after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 51%;
+    background: #fff;
+}
+
+.chevron:before {
+    left: 0;
+    transform: skew(0deg, 30deg);
+}
+
+.chevron:after {
+    right: 0;
+    width: 50%;
+    transform: skew(0deg, -30deg);
+}
+
+.chevron:first-child {
+    animation: move 3s ease-out 1s infinite;
+}
+
+.chevron:nth-child(2) {
+    animation: move 3s ease-out 2s infinite;
+}
+
+.text {
+    display: block;
+    margin-top: 75px;
+    margin-left: -30px;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
+    white-space: nowrap;
+    opacity: .25;
+    animation: pulse 2s linear alternate infinite;
+}
+
+@keyframes pulse { 
+    to {
+        opacity: 1;
+}
+    }
+@keyframes move {
+    25% {
+        opacity: 1;
+
+    }
+    33% {
+        opacity: 1;
+        transform: translateY(30px);
+    }
+    67% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
+    }
+    }
+
+html {
+        scroll-behavior: smooth;
+}
