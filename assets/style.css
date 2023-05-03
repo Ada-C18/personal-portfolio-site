@@ -1,0 +1,174 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 99vh;
+    font-family: sans-serif;
+    color: lightgray;
+    background-color: black;
+}
+
+.rainbowr {
+    z-index: 0;
+    background: repeating-radial-gradient(circle at center,
+            hsl(0, 69%, 69%),
+            hsl(45, 69%, 69%),
+            hsl(90, 69%, 69%),
+            hsl(135, 69%, 69%),
+            hsl(180, 69%, 69%),
+            hsl(225, 69%, 69%),
+            hsl(270, 69%, 69%),
+            hsl(315, 69%, 69%),
+            hsl(360, 69%, 69%) 1em);
+    animation: HueCycle 1s linear infinite reverse;
+}
+
+@keyframes HueCycle {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    25% {
+        filter: hue-rotate(90deg);
+    }
+
+    50% {
+        filter: hue-rotate(180deg);
+    }
+
+    75% {
+        filter: hue-rotate(270deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.rainbowclip {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#initials {
+    text-align: center;
+    font-family: monospace;
+    font-size: 256pt;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a #initials {
+    font-size: 96pt;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 80em;
+    min-width: 20em;
+    width: 40%;
+    font-size: larger;
+    margin-bottom: 2em;
+}
+
+
+h2 {
+    color: white;
+    padding-left: 1em;
+    margin-left: -10%;
+    max-width: 30em;
+    overflow: hidden;
+    border-width: 0 0 1pt 0;
+    border-style: solid;
+    border-image: repeating-radial-gradient(circle at center,
+            hsl(0, 69%, 69%),
+            hsl(45, 69%, 69%),
+            hsl(90, 69%, 69%),
+            hsl(135, 69%, 69%),
+            hsl(180, 69%, 69%),
+            hsl(225, 69%, 69%),
+            hsl(270, 69%, 69%),
+            hsl(315, 69%, 69%),
+            hsl(360, 69%, 69%) 100%) 1;
+    animation: HueCycle 10s linear infinite reverse;
+}
+
+article {
+    padding: 1em 0;
+}
+
+
+article h3 {
+    margin: 0;
+    display: inline-block;
+    color: white;
+}
+
+article .langs {
+    font-size: smaller;
+    display: inline-block;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    border-radius: 2em;
+    font-weight: bold;
+    color: #999;
+    text-decoration: none;
+    margin: 1em;
+    padding: 1em;
+    border-width: 0;
+    background-image: radial-gradient(circle at bottom, #333, transparent 70%);
+}
+
+nav:hover {
+    animation: HueCycle 2s linear infinite reverse;
+}
+
+nav a:hover,
+nav a:active {
+    border-radius: 2em;
+    color: white;
+    -webkit-text-stroke: none;
+    background-image: radial-gradient(circle at bottom, hsl(120, 69%, 69%), transparent 70%);
+    opacity: 100%;
+    filter: drop-shadow(0 -0.5em 0.5em hsl(30, 69%, 34%));
+    text-shadow: 0 -.25em 0.25em black;
+    animation: 0.3s LightUp ease-in;
+}
+
+@keyframes LightUp {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%
+    }
+}
+
+
+footer {
+    display: none;
+}
