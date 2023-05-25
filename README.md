@@ -31,7 +31,7 @@ We will use HTML & CSS to create a static site whose content is our personal por
 
 We should only use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any kind are not allowed. All submitted HTML needs to pass as valid HTML through an [HTML Validator](https://validator.w3.org/).
 
-## Wave 1 - Basic HTML
+## DONE Wave 1 - Basic HTML
 
 This portfolio site must have the following HTML files:
 
@@ -48,13 +48,13 @@ Each page in this project must comply with the following layout requirements:
 - Has the following tags: `<header>`, `<footer>`, and `<nav>`
 - Inside of the `<nav>`, there are links to all of the other pages
 
-## Wave 2 - Styling
+## DONE Wave 2 - Styling
 
 ### Required Content
 
 - Uses at least one CSS file (likely named `style.css`)
 
-## Wave 3 - Layout
+## DONE Wave 3 - Layout
 
 ### Required Content
 
@@ -73,7 +73,7 @@ Both of these containers do not need to be on the same page. Try using one for o
 </details>
 </br>
 
-### Non-Functional Requirements
+### TODO Non-Functional Requirements
 
 The site should follow best practices, including:
   - All markup should be semantic, with consideration of hierarchy and accessibility
