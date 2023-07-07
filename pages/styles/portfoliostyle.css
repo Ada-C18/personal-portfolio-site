@@ -22,8 +22,8 @@ li {
 }
 
 p {
-    line-height:1.5;
-    font-size: 16px;
+    line-height:1.25;
+    font-size: 26px;
 }
 
 .row {
@@ -100,7 +100,7 @@ nav {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: #1c1d25;
+    background-color: #000000;
     opacity: 0;
     transition: opacity 450ms ease;
 }
@@ -124,7 +124,7 @@ nav {
 }
 .project__description {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 90px;
     transform: translateY(-50%);
     max-width: 550px;
@@ -132,7 +132,8 @@ nav {
     opacity: 0;
 }
 
-.project__description--para {
+p.project__description--para {
+    font-size: 20px;
     margin: 16px 0;
 }
 
@@ -178,16 +179,20 @@ footer {
         font-size: 28px;
     }
 
-    .about-me__info--para {
-        font-size: 18px;
+    .project {
+        margin-bottom: 70px;
     }
 
-    .project__description--para {
-        font-size: 12px;
+    p.project__description--para {
+        font-size: 18px;
     }
 
     .project__description {
         left: 30px;
         padding-right: 30px;
+    }
+
+    .portfolio__list {
+        margin-left: -52px;
     }
 }
