@@ -22,6 +22,10 @@ h1, span {
 }
 
 li {
+    text-align: left;
+}
+
+.nav__link--list {
     list-style-type: none;
 }
 
