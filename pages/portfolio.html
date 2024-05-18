@@ -1,12 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+    <link href="styles/portfoliostyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a4c365b1d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+    <header>
+        <nav>
+            <ul class="nav__link--list">
+                <li>
+                    <a href="about.html" class="
+                    nav__link--anchor
+                    ">About Me</a>
+                </li>
+                <li>
+                    <a href="resume.html" class="nav__link--anchor
+                    ">Resume</a>
+                </li>
+                <li>
+                    <a href="mailto:reynamdiazz@gmail.com" class="
+                    nav__link--anchor
+                    nav__link--anchor-primary
+                    ">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">Check out my <span class="text--purple">work!</span></h1>
+                <ul class="portfolio__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="character standing beside a large to do list with check marks next to finished tasks" class="project__img" src="images/undraw_to_do_list_re_9nt7.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Task List</h3>
+                                <p class="project__description--para">
+                                    Task List is an application that allows users to create, read, update, and delete tasks and goals. When a task is completed, a message will be posted to a #task-notifications channel on Slack to notify all members of finished tasks via Slack Bot.
+                                    <br><br>Languages and Technologies Used: Python, Flask, SQLAlchemy, and Slack API (Back End) React (Front End) 
+                                </p>
+                                <div class="project__description--links">
+                                    <i class="fa-brands fa-square-github"></i>
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/task-list-api">Back End Link</a>
+                                    <br><i class="fa-brands fa-square-github"></i>
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/task-list-front-end">Front End Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="character standing beside an inspiration board with cards" class="project__img" src="images/undraw_design_inspiration_re_tftx.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Inspiration Board</h3>
+                                <p class="project__description--para">
+                                    A full stack group project that allows users to create, read, update, and delete inspiration boards and cards straight from the UI. Users can also like a card that resonates with them. 
+                                    <br><br>Languages and Technologies Used: Python, Flask, and SQLAlchemy (Back End) / React (Front End)
+                                </p>
+                                <div class="project__description--links">
+                                    <i class="fa-brands fa-square-github"></i>
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/SemharTes/back-end-inspiration-board">Back End Link</a>
+                                    <br><i class="fa-brands fa-square-github"></i>
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/front-end-inspiration-board">Front End Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="character standing beside a portfolio website and adding images to it" class="project__img" src="images/undraw_portfolio_update_re_jqnp.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">Personal Portfolio</h3>
+                                <p class="project__description--para">
+                                    You are here! My Personal Portfolio website allows users to discover more about me, the work I have done so far, and the work I hope to do!
+                                    <br><br>Languages and Technologies Used: HTML and CSS
+                                </p>
+                                <div class="project__description--links">
+                                    <i class="fa-brands fa-square-github"></i>
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/personal-portfolio-site">Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img alt="character sitting in a chair with their feet up on the desk in front of them with notebook in their lap and pen in hand" class="project__img" src="images/undraw_exams_re_4ios.svg">
+                            <div class="project__description">
+                                <h3 class="project__description--title">ADAGRAMS</h3>
+                                <p class="project__description--para">
+                                    ADAGRAMS is a fun game that gives the player a random set of letters from the English alphabet with which they must create an anagram. Each letter has an associated point value, which this game recognizes and keeps score of.
+                                    <br><br>Languages and Technologies Used: Python | javaScript
+                                </p>
+                                <div class="project__description--links">
+                                    <i class="fa-brands fa-square-github"></i>
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/adagrams-py">Python Link</a>
+                                    <br><i class="fa-brands fa-square-github"></i>
+                                    <a class= "project__desctiption--link" target="_blank" href="https://github.com/reynamdiaz/js-adagrams">javaScript Link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>   
+<footer>
+    <div class="footer__copyright">&copy; 2024</div>
+</footer>
 </body>
 </html>

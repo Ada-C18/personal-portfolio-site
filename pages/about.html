@@ -1,12 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href=styles/aboutmestyle.css rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a4c365b1d.js" crossorigin="anonymous"></script> 
 </head>
 <body>
-  
+    <header>
+        <nav>
+            <ul class="nav__link--list">
+                <li>
+                    <a href="portfolio.html" class="
+                    nav__link--anchor
+                    ">Portfolio</a>
+                </li>
+                <li>
+                    <a href="resume.html" class="nav__link--anchor
+                    ">Resume</a>
+                </li>
+                <li>
+                    <a href="mailto:reynamdiazz@gmail.com" class="
+                    nav__link--anchor
+                    nav__link--anchor-primary
+                    ">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about-me">
+        <div class="flex-1">
+            <div class="about-me__info--container">
+                <figure class="about-me__picture--mask">
+                    <img src="images/me2.jpeg" class="about-me__picture" alt="picture of me!">
+                </figure>
+                <h1 class="about-me__info--title">
+                    About <span class="text--purple"> Me</span>
+                </h1>
+                <p class="about-me__info--para">
+                    My name is <strong class="text--purple">Reyna Diaz</strong> ('ray-nuh dee-as') and my pronouns are <strong class="text--purple">she/her</strong>!
+                    I am a <strong class="text--purple">Ada Developers Academy graduate</strong> with experience as a <strong class="text--purple">Software Engineer Intern at Cerebral</strong>
+                    who is looking for a new role that will allow me to <strong class="text--purple">strengthen my skills</strong> gained as a student and intern. Some of these skills include:
+                    <ul>
+                        <li>logical problem-solving</li>
+                        <li>error handling</li>
+                        <li>time and space complexity analysis</li>
+                        <li>object-oriented programming</li>
+                        <li>and so much more!</li>
+                    </ul>
+                </p>
+                <p>Check out my <a href="resume.html" strong class="text--purple">resume</strong></a> to see my skills and experience in detail!</p>
+                <div class="about-me__links">
+                    <a href="https://github.com/reynamdiaz" target="_blank" class="about-me__link">
+                        <i class="fa-brands fa-square-github"></i>
+                    </a>
+                    <a href="mailto:reynamdiazz@gmail.com" target="_blank" class="about-me__link">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<footer>
+    <div class="footer__copyright">&copy; 2024</div>
+</footer>
 </body>
 </html>
