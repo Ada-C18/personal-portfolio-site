@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yael Echols</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="../stylesheets/styles.css" />
   </head>
   <body>
@@ -12,27 +12,37 @@
       <h2 id="header-title">Yael Echols</h2>
       <nav class="header-nav">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <div class="main-wrapper">
-        <section class="homepage-content">
-          <div class="left"></div>
-          <div class="right">
-            <div class="right-content">
-              <h1>Yael Echols</h1>
-              <h2>Software Development Student</h2>
-              <p>
-                Former illustrator and game-dev turned aspiring full-stack
-                engineer
-              </p>
-            </div>
-          </div>
+        <section class="main-container">
+          <div id="page-label"><h2>Let's Get in Touch</h2></div>
+          <section class="contact-form">
+            <form action="#">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Name..." />
+              <label for="email">Email</label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Email address..."
+              />
+              <label for="subject">Subject</label>
+              <textarea
+                id="subject"
+                name="subect"
+                placeholder="Your message here..."
+              ></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          </section>
         </section>
       </div>
     </main>
