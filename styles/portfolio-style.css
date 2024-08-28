@@ -1,0 +1,127 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: #00230d;
+  background-color: #cff1c5;
+  background-image: url("/images/noisy-grid.png");
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  height: 90vh;
+  border-radius: 100px;
+  background-color: #eaffe8;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, 1fr);
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+header {
+  grid-row: 1 / 2;
+  grid-column: 1 / 6;
+  justify-self: stretch;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 2em;
+}
+
+.button {
+  background-color: #91c190;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 20px;
+  color: #002d17;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.button:hover {
+  background-color: #cff1c5;
+  color: #002311;
+}
+
+.project-heading {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
+.project-info {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: auto;
+  min-width: 0;
+  width: 80vw;
+  overflow: auto;
+  border-bottom: 1px solid pink;
+  align-items: center;
+}
+
+.project-info h3 {
+  font-size: 20px;
+  grid-area: 1 / 1 / 2 / 6;
+}
+
+.project-info p {
+  text-align: justify;
+  font-size: 16px;
+  min-width: 0;
+  grid-area: 2 / 2 / 4 / 6;
+  align-self: start;
+}
+
+.project-info img {
+  max-width: 60%;
+  height: auto;
+  grid-area: 2 / 1 / 5 / 2;
+  justify-self: center;
+}
+
+.project-info a {
+  grid-area: 4 / 3 / 5 / 6;
+  justify-self: start;
+  align-self: start;
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+a {
+  color: #005802;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #91c190;
+}
+
+footer {
+  grid-row: 5 / 6;
+  grid-column: 1 / 6;
+  align-self: end;
+}
+
+#copy-right-info {
+  font-size: 100%;
+}
+
+li {
+  display: inline;
+  margin: 1em;
+  text-decoration: none;
+}

@@ -1,0 +1,159 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: #00230d;
+  background-color: #cff1c5;
+  background-image: url("/images/noisy-grid.png");
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eaffe8;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill, 1fr);
+  justify-content: space-around;
+  justify-items: center;
+  align-content: space-between;
+  overflow-y: auto;
+}
+
+header {
+  grid-area: 1 / 1 / 2 / 5;
+  justify-self: stretch;
+  align-self: start;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 2em;
+}
+
+.button {
+  background-color: #91c190;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 20px;
+  color: #002d17;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.button:hover {
+  background-color: #cff1c5;
+  color: #002311;
+}
+
+#profile-pic {
+  grid-area: 2 / 1 / 3 / 2;
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+img {
+  max-width: 70%;
+  height: auto;
+  object-fit: contain;
+}
+
+.bio {
+  grid-area: 2 / 2 / 3 / 5;
+  align-self: end;
+  font-size: 18px;
+  margin: 2em 0;
+}
+
+.bio h2 {
+  margin: 0;
+}
+
+.bio p:nth-child(2) {
+  font-size: 16px;
+  color: #c8517f;
+}
+
+.bio p:nth-child(3) {
+  margin: 1em;
+}
+
+h4 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.styled {
+  margin-top: -1px;
+}
+
+.personality {
+  grid-area: 3 / 1 / 6 / 2;
+  margin: 1em;
+}
+
+.favorites {
+  grid-area: 3 / 2 / 6 / 3;
+  margin: 1em;
+}
+
+.playlist {
+  grid-area: 3 / 3 / 6 / 5;
+  margin: 1em;
+}
+
+.playlist p {
+  font-style: italic;
+}
+
+.playlist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.playlist li {
+  padding-left: 1em;
+  text-indent: -0.75em;
+}
+
+.playlist li::before {
+  content: "🌸 ";
+}
+
+footer {
+  grid-area: 6 / 1 / 7 / 5;
+  align-self: end;
+  justify-self: stretch;
+}
+
+#copy-right-info {
+  font-size: 100%;
+}
+
+nav ul li {
+  display: inline;
+  margin: 1em;
+  text-decoration: none;
+  text-align: right;
+}
+
+a {
+  color: #005802;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #91c190;
+}

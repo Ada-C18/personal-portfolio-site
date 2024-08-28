@@ -1,0 +1,74 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: #00230d;
+  background-color: #cff1c5;
+  background-image: url("/images/noisy-grid.png");
+}
+
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eaffe8;
+  width: 90vw;
+  height: 90vh;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.button {
+  background-color: #91c190;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 20px;
+  color: #002d17;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: lowercase;
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.button:hover {
+  background-color: #cff1c5;
+  color: #002311;
+}
+
+img {
+  max-width: 35%;
+  height: auto;
+  width: auto;
+}
+
+#copy-right-info {
+  font-size: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+li {
+  display: inline;
+  margin: 1em;
+  text-decoration: none;
+}
+
+a {
+  color: #005802;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #91c190;
+}
