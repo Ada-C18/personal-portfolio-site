@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    
+}
+
+body {
+    background-color: #eee;
+    color: #434344;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+/* Page Layout */
+
+.container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+/* Header */
+
+header{
+    color: black;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-bottom: 1px solid #cfd2d2;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+header nav a, .name a {
+    text-decoration: none;
+}
+
+header nav li {
+    margin-right: 15px;
+}
+
+.name {
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
+/* Main */
+.main_header {
+    color: #9f9c9c;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #cfd2d2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238, 0.5);
+}
+
+.main_header_img {
+    width: 100px;
+    height: 120px;  
+}
+
+.main_header_text p {
+    text-align: center;
+}
+
+#name {
+    font-size: 3rem;
+    font-weight: 800;
+    color: black;
+}
+
+.circle {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgba(198, 196, 196, 0.2);
+
+}
+
+/* Main Section */
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    flex: 3;
+}
+
+.main p {
+    font-size: 0.90rem;
+    margin-bottom: .05rem;
+    margin-left: 5px;
+}
+
+/* Sidebar */
+
+.sidebar {
+    padding: 5px;
+    flex: 1;
+    margin-left: 60px;
+    border-top: 1px solid #cfd2d2;
+    background-color: #fbfbfb;
+}
+
+.sidebar_contacts, #skills {
+    padding: 20px;
+    flex: 1;
+    border-top: 1px solid #cfd2d2;
+    background-color: #fbfbfb;
+}
+
+#skills {
+    margin-right: 10px;
+}
+
+
+.sidebar ul, .sidebar_contacts ul, #skills {
+    list-style-type: none;
+    margin-top: 1rem;
+    font-size: .75rem;
+}
+
+.sidebar ul > li {
+    padding: .25rem 0;
+}
+
+/* Footer */
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    padding: 20px 0;
+    border-top: 1px solid #cfd2d2;
+}
+
+footer p {
+    color: #434344;
+    font-size: 12px;
+    padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .main, .portfolio {
+        margin-right: 0;
+        margin-bottom: 60px;
+    }
+}
+
+
