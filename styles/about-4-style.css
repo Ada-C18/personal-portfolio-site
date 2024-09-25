@@ -1,0 +1,53 @@
+.site {
+    
+    position: relative;
+    display: flexbox;
+    flex-shrink: 6;
+    display: grid;
+    
+    margin: auto auto auto auto;
+    grid-template-columns: 2fr, 1fr;
+    grid-template-rows: 2fr, 1fr;
+    grid-template-areas: 
+    "castle castle"
+    "text arrow";
+
+}
+#castle {
+    position: relative;
+    height: auto;
+    width:100%;
+    size-adjust:inherit;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    position: relative;
+    justify-content: flex-end;
+ 
+    margin-top: -9px;
+    margin-bottom: -200px;
+    text-align: end;
+    grid-area: castle;
+}
+.text {
+    display: flex;
+    position: relative;
+    padding-top: 1rem;
+    margin-top: 15%;
+    text-align: end;
+    
+    font-family: 'Acme', sans-serif;
+    grid-area: text;
+    font-size: 4em;
+}
+
+.arrow {
+    position: relative;
+
+   
+
+    grid-area: arrow;
+    text-align: end;
+    
+
+}
