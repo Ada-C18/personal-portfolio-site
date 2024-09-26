@@ -1,0 +1,114 @@
+a {
+    color: rgb(41, 74, 156);
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url('/images/background_main.png');
+    min-height: 100px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: Luminari, sans-serif;
+    font-size: 40px;;
+    color: aliceblue;
+    text-align: center;
+    margin: 20px 0px 5px 0px;
+}
+
+h2,
+p,
+li {
+    font-family: Georgia, sans-serif;
+}
+
+li {
+    display: inline;
+    margin: 1em;
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 150%
+}
+
+ul {
+    padding: 0px;
+}
+
+.text-align-ctr {
+    text-align: center;
+}
+
+
+header nav,
+footer nav {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    border: 1px solid rgb(41, 74, 156);
+    background-color: aliceblue;
+    max-width: 60vw;
+    padding: 1em;
+}
+
+.copyright-info {
+    color: aliceblue;
+    font-family: Luminari, sans-serif;
+    text-align: center;
+} 
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.container-about div p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.container-about section a:hover {
+    color: rgb(12, 127, 227);
+    text-decoration: underline;
+}
+
+.grid-portfolio {
+    display: grid;
+    grid-template: 150px 500px 100px / 100%;
+}
+
+.grid-portfolio section {
+    min-width: 40vw;
+}
+
+.grid-portfolio main section h2 {
+    text-align: center;
+}
+.grid-portfolio section li {
+    display: block;
+    margin: 1em;
+    font-size: 20px;
+}
+
+.grid-portfolio section a:hover {
+    color: rgb(12, 127, 227);
+    text-decoration: underline;
+}
