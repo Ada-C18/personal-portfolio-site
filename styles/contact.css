@@ -1,0 +1,41 @@
+
+body {
+    background-color: black;
+    color: rgb(255, 250, 223);
+    padding: 250px;
+}
+
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.email-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.linkedin-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.linkedin-container a { 
+    color:rgb(255, 250, 223);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.linkedin-container a:hover {
+    color: rgb(188, 188, 235);
+}
+
+.linkedin-container a:visited {
+    color: brown;
+}

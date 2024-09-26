@@ -1,0 +1,137 @@
+
+* {
+    background-color: black;
+}
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    color: rgb(255, 250, 223);
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#back a {
+    color:rgb(255, 250, 223);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#back a:hover {
+    color: rgb(188, 188, 235);
+}
+
+#back a:visited {
+    color: brown;
+
+}
+
+#contact a {
+    color:rgb(255, 250, 223);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: rgb(188, 188, 235);
+}
+
+#contact a:visited {
+    color: brown;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color:  rgb(255, 250, 223);
+}
+
+h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color:  rgb(255, 250, 223);
+}
+.grid-items {
+    display: grid;
+    height: 600px;
+    gap: 10%; 
+    grid-template-areas: 
+    "1 2" 
+    "3 4";
+    grid-auto-columns: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.project-1 { 
+    color: rgb(255, 250, 223);
+
+}
+.project-2 {
+    color: rgb(255, 250, 223);
+}
+
+.project-3 {
+    color: rgb(255, 250, 223);
+}
+
+.project-4 {
+    color: rgb(255, 250, 223);
+}
+
+.project-1 a { 
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(188, 188, 235);
+}
+
+.project-2 a { 
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(188, 188, 235);
+}
+
+.project-3 a { 
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(188, 188, 235);
+}
+
+.project-4 a { 
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(188, 188, 235);
+}
+
+.foot-container {
+    text-align: center;
+}
+.foot-container a {
+    color: rgb(255, 250, 223);
+    color:rgb(255, 250, 223);
+    font-size: 1em;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+
+.foot-container a:hover {
+    color:rgb(188, 188, 235)
+}
+
+.foot-container a:visited {
+    color: brown;
+}
+/* add text about projects, add images of project, add link to linkedin */
