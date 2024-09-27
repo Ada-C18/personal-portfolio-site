@@ -1,0 +1,47 @@
+a {
+    color: green;
+}
+
+a:hover {
+    color: white;
+}
+
+body {
+    font-family:monospace;
+    border-style:inset;
+    border-color: brown;
+}
+
+footer {
+    background-color:burlywood;
+}
+
+footer h2 {
+    font-size: medium;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header {
+    background-color:cornsilk;
+    color: chocolate;
+    text-align: center;
+}
+
+main {
+    background-color:blanchedalmond;
+}
+
+ul {
+    list-style: none;
+}
+
+main p {
+    font-weight: bolder;
+    color: darkred;
+    text-align: center;
+}

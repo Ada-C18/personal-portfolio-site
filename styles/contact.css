@@ -1,0 +1,22 @@
+#my-pic {
+    border-radius: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+.logos {
+    width: .3in;
+    height: .3in;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#outro {
+    font-weight: bold;
+    color: brown;
+    font-size: x-large;
+}

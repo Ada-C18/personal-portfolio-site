@@ -1,0 +1,16 @@
+blockquote {
+    font-size: large;
+    font-weight: bold;
+    color: coral;
+}
+
+img {
+width: 4in;
+height: 3in;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
