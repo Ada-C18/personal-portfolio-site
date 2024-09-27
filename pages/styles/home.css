@@ -1,0 +1,111 @@
+
+
+body { 
+    width: 80%; 
+    height: 80%; 
+    background-color: lightskyblue; 
+
+}
+
+
+
+.container {
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    
+}
+.icon {
+    /* right: 20px;
+    bottom: 40px;
+    width: 200px;
+    height: 200px; */
+    position: relative;
+}
+
+.body1 {
+
+    padding: 20px;
+    width: 700px;
+    position: relative;
+}
+
+h1 {
+    font-weight:900;
+    font-size: 50px;
+    align-content:center;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+.textlink {
+    position: relative;
+    color: orangered;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.textlink:hover {
+    font-weight:800;
+    cursor: pointer;
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+span {  
+  position: absolute;
+  line-height: 180px;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+span:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}

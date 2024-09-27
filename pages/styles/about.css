@@ -1,0 +1,142 @@
+
+.header {
+    color: orangered;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1 {
+    font-size:100px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+  }
+
+
+a {
+    position: relative;
+    color: orangered;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover{
+    cursor: pointer;
+    font-weight:800;
+}
+/* text */
+
+.one{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.one p{
+    padding: 0 15%;
+    font-size: 20px;
+}
+
+.eight{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.eight p{
+    padding: 0 15%;
+    font-size: 20px;
+}
+
+.three{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.three p{
+    padding: 0 15%;
+    font-size: 20px;
+}
+
+.ten{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.ten p{
+    padding: 0 15%;
+    font-size: 20px;
+}
+
+.five{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.five p{
+    padding: 0 15%;
+    font-size: 20px;
+}
+
+.twelve{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.twelve p{
+    padding: 0 15%;
+    font-size: 20px;
+}
+
+
+
+
+/* images */
+
+.seven{
+    background: url("/Users/nt/Developer/Projects/personal-portfolio-site/assets/images/familypic.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.nine {
+    background: url("/Users/nt/Developer/Projects/personal-portfolio-site/assets/images/Kexp_logo.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; 
+    background-color: #ffa500;
+}
+
+.two {
+    background: url("/Users/nt/Developer/Projects/personal-portfolio-site/assets/images/nina_with_bike.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.four {
+    background: url("/Users/nt/Developer/Projects/personal-portfolio-site/assets/images/bagels.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.eleven {
+    background: url("/Users/nt/Developer/Projects/personal-portfolio-site/assets/images/nina_with_mushroom.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.six {
+    background: url("/Users/nt/Developer/Projects/personal-portfolio-site/assets/images/nina_RA.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; 
+}
