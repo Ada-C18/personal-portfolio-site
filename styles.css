@@ -1,0 +1,77 @@
+.header {
+  position: absolute;
+  top: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#right {
+  position:absolute;
+  right:0;
+}
+
+body {
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.waviy {
+  position: relative;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+.text {
+  color: white;
+}
+
+header nav .button {
+  /* This HEX is the color of the button */
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  height: 30px;
+  width: 60px;
+  border-radius: 4px;
+}
+
+header nav .button:hover {
+  filter: brightness(1.05);
+}
+
+#title-page {
+  color: #FFF
+}
+
+/* .spacing {
+  line-height: 1.6;
+} */
+/* 
+a:visited{
+  color: rgb(239, 167, 95);
+}
+
+a:link {
+  color: rgb(147, 5, 114);
+} */
+
